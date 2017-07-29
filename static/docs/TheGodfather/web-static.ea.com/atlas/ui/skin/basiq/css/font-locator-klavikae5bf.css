@@ -1,0 +1,2568 @@
+/**
+ * CUSTOM FONT USAGE:
+ * 'locator-web',helvetica,arial,sans-serif: Ultra Light (200), Regular (400), Medium (500), Bold (700), Black (900)
+ * 'klavika-web',helvetica,arial,sans-serif: Regular (400), Medium (600)
+ * 
+ * <link rel="stylesheet" type="text/css" media="screen" href="/ui/skin/basiq/css/font-locator-klavika.css?v=1" />
+ * <link rel="stylesheet" type="text/css" media="screen" href="http://web-static.ea.com/font-locator-klavika.css?v=1" />
+ * <script type="text/javascript" src="http://use.typekit.com/ipn3tud.js"></script>
+ * <script type="text/javascript">(function(){try{Typekit.load();}catch(ex){var html=document.getElementsByTagName('html')[0];html.className=(html.className||'')+' wf-inactive'}})();</script>
+ */
+
+/**
+ *	global.css
+ */
+#header > .navigation > ul > li > a > span
+{
+	visibility:hidden;
+	font:700 14px/20px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase; 
+}
+.wf-active #header > .navigation > ul > li > a > span,
+.wf-inactive #header > .navigation > ul > li > a > span
+{
+	visibility:visible;
+}
+
+#header > .navigation  > ul > li > .menu > ul > li > span.title
+{
+	visibility:hidden;
+	font:500 12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #header > .navigation  > ul > li > .menu > ul > li > span.title,
+.wf-inactive #header > .navigation  > ul > li > .menu > ul > li > span.title
+{
+	visibility:visible;
+}
+
+#header > .navigation > ul > li > .menu > ul > li.item-1 > ul > li > a > span
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #header > .navigation > ul > li > .menu > ul > li.item-1 > ul > li > a > span,
+.wf-inactive #header > .navigation > ul > li > .menu > ul > li.item-1 > ul > li > a > span
+{
+	visibility:visible;
+}
+
+#header > .navigation > ul > li > .menu > ul > li.item-2 > ul > li > a > span
+{
+	visibility:hidden;
+	font:500 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #header > .navigation > ul > li > .menu > ul > li.item-2 > ul > li > a > span,
+.wf-inactive #header > .navigation > ul > li > .menu > ul > li.item-2 > ul > li > a > span
+{
+	visibility:visible;
+}
+
+#page-title
+{
+	visibility:hidden;
+	font-weight:900; font-family:'locator-web',helvetica,arial,sans-serif; line-height:100%; text-transform:uppercase;
+}
+.wf-active #page-title,
+.wf-inactive #page-title
+{
+	visibility:visible;
+}
+
+#footer > .footer-top > .footer-content ul.links > li > .title
+{
+	visibility:hidden;
+	font:700 13px/13px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #footer > .footer-top > .footer-content ul.links > li > .title,
+.wf-inactive #footer > .footer-top > .footer-content ul.links > li > .title
+{
+	visibility:visible;
+}
+
+.featured-badge
+{
+	visibility:hidden;
+	font:500 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active .featured-badge,
+.wf-inactive .featured-badge
+{
+	visibility:visible;
+}
+
+.tags > ul > li > a
+{
+	visibility:hidden;
+	font:500 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+body#filter .mod-content > ul > li > .tags > ul > li > a
+{
+	visibility:hidden;
+	font:500 0 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .tags > ul > li > a,
+.wf-inactive .tags > ul > li > a,
+.wf-active body#filter .mod-content > ul > li > .tags > ul > li > a,
+.wf-inactive body#filter .mod-content > ul > li > .tags > ul > li > a
+{
+	visibility:visible;
+}
+
+
+/**
+ *	control/button.css
+ */
+.btn-action > span,
+.btn-external > span,
+.btn-pulldown > span
+{
+	visibility:hidden;
+	font:700 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active .btn-action > span,
+.wf-active .btn-external > span,
+.wf-active .btn-pulldown > span,
+.wf-inactive .btn-action > span,
+.wf-inactive .btn-external > span,
+.wf-inactive .btn-pulldown > span
+{
+	visibility:visible;
+}
+
+
+/**
+ *	control/selectmenu.css
+ */
+.select-1.ui-selectmenu > .ui-selectmenu-status
+{
+	visibility:hidden;
+	font:500 12px/38px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active .select-1.ui-selectmenu > .ui-selectmenu-status,
+.wf-inactive .select-1.ui-selectmenu > .ui-selectmenu-status
+{
+	visibility:visible;
+}
+.select-2.ui-selectmenu > .ui-selectmenu-status
+{
+	visibility:hidden;
+	font:500 12px/21px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active .select-2.ui-selectmenu > .ui-selectmenu-status,
+.wf-inactive .select-2.ui-selectmenu > .ui-selectmenu-status
+{
+	visibility:visible;
+}
+
+
+/**
+ *	control/tooltip.css
+ */
+.ui-tooltip.instructions > .ui-tooltip-content > p
+{
+	visibility:hidden;
+	font:500 16px/18px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .ui-tooltip.instructions > .ui-tooltip-content > p,
+.wf-inactive .ui-tooltip.instructions > .ui-tooltip-content > p
+{
+	visibility:visible;
+}
+
+
+/**
+ *	control/video.css
+ */
+.video-container > .controls > .time
+{
+	visibility:hidden;
+	font:500 12px/56px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .video-container > .controls > .time,
+.wf-inactive .video-container > .controls > .time
+{
+	visibility:visible;
+}
+.video-container > .age-gate > form > h3
+{
+	visibility:hidden;
+	font:500 16px/17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-inactive .video-container > .age-gate > form > h3,
+.wf-active .video-container > .age-gate > form > h3
+{
+	visibility:visible; 
+}
+.video-container > .embed > form > label,
+.video-container > .embed > form > p
+{
+	visibility:hidden;
+	font:500 14px/15px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-inactive .video-container > .embed > form > label,
+.wf-inactive .video-container > .embed > form > p,
+.wf-active .video-container > .embed > form > label,
+.wf-active .video-container > .embed > form > p
+{
+	visibility:visible; 
+}
+
+
+/**
+ * module/404.css
+ */
+#mod-404 > .mod-content h1
+{
+	visibility:hidden;
+	font:900 100px/100px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-inactive #mod-404 > .mod-content h1,
+.wf-active #mod-404 > .mod-content h1
+{
+	visibility:visible;
+}
+#mod-404 > .mod-content h2
+{
+	visibility:hidden;
+	font:700 26px/26px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-inactive #mod-404 > .mod-content h2,
+.wf-active #mod-404 > .mod-content h2
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/article-links.css
+ */
+#mod-article-links > .mod-content > ul > li > .title
+{
+	visibility:hidden;
+	font:500 16px/16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-inactive #mod-article-links > .mod-content > ul > li > .title,
+.wf-active #mod-article-links > .mod-content > ul > li > .title
+{
+	visibility:visible;
+}
+#mod-article-links > .mod-content > ul > li > ul > li > a
+{
+	visibility:hidden;
+	font:500 14px/15px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-inactive #mod-article-links > .mod-content > ul > li > ul > li > a,
+.wf-active #mod-article-links > .mod-content > ul > li > ul > li > a
+{
+	visibility:visible;
+}
+#mod-article-links > .mod-content > ul > li > ul > li > .date
+{
+	visibility:hidden;
+	font:400 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-inactive #mod-article-links > .mod-content > ul > li > ul > li > .date,
+.wf-active #mod-article-links > .mod-content > ul > li > ul > li > .date
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/article-promo.css
+ */
+#mod-article-promo > .mod-content > ul > li > .title
+{
+	visibility:hidden;
+	font:900 24px/25px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-article-promo > .mod-content > ul > li > .title,
+.wf-inactive #mod-article-promo > .mod-content > ul > li > .title
+{
+	visibility:visible;
+}
+#mod-article-promo > .mod-content > ul > li > a.more-info
+{
+	visibility:hidden;
+	font:500 12px 'locator-web',helvetica,arial,sans-serif; text-decoration:none; text-transform:uppercase; letter-spacing:0.5px;
+}
+.wf-active #mod-article-promo > .mod-content > ul > li > a.more-info,
+.wf-inactive #mod-article-promo > .mod-content > ul > li > a.more-info
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/article.css
+ */
+#mod-article > .mod-header > .article-details
+{
+	visibility:hidden;
+	font:500 12px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-article > .mod-header > .article-details,
+.wf-inactive #mod-article > .mod-header > .article-details
+{
+	visibility:visible;
+}
+#mod-article > .mod-header > h1
+{
+	visibility:hidden;
+	font:900 30px/28px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-article > .mod-header > h1,
+.wf-inactive #mod-article > .mod-header > h1
+{
+	visibility:visible;
+}
+#mod-article > .mod-header > h2
+{
+	visibility:hidden;
+	font:200 17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-article > .mod-header > h2,
+.wf-inactive #mod-article > .mod-header > h2
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/buy-now.css
+ */
+#mod-buy-now > .mod-content > .sub > ul > li > a > .title
+{
+	visibility:hidden;
+	font:700 11px/11px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-buy-now > .mod-content > .sub > ul > li > a > .title,
+.wf-inactive #mod-buy-now > .mod-content > .sub > ul > li > a > .title
+{
+	visibility:visible;
+}
+#mod-buy-now > .mod-content > .sub > ul > li > a > .price
+{
+	visibility:hidden;
+	font:900 15px/16px 'locator-web',helvetica,arial,sans-serif; 
+}
+.wf-active #mod-buy-now > .mod-content > .sub > ul > li > a > .price,
+.wf-inactive #mod-buy-now > .mod-content > .sub > ul > li > a > .price
+{
+	visibility:visible;
+}
+#mod-buy-now > .mod-content > .buy-now-text,
+#mod-buy-now > .mod-content > .out-now-text
+{
+	visibility:hidden;
+	font:700 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-inactive #mod-buy-now > .mod-content > .buy-now-text,
+.wf-active #mod-buy-now > .mod-content > .buy-now-text,
+.wf-inactive #mod-buy-now > .mod-content > .out-now-text,
+.wf-active #mod-buy-now > .mod-content > .out-now-text
+{
+	visibility:visible;
+}
+.wf-inactive #mod-buy-now > .mod-content > .no-text,
+.wf-active #mod-buy-now > .mod-content > .no-text
+
+{
+	visibility:hidden;
+}
+
+
+/**
+ * module/comments.css
+ */
+#mod-comments > .mod-header > h3
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-comments > .mod-header > h3,
+.wf-inactive #mod-comments > .mod-header > h3
+{
+	visibility:visible;
+}
+#mod-comments > .mod-header > a
+{
+	visibility:hidden;
+	font:500 14px/15px 'locator-web',helvetica,arial,sans-serif; text-decoration:none;
+}
+.wf-active #mod-comments > .mod-header > a,
+.wf-inactive #mod-comments > .mod-header > a
+{
+	visibility:visible;
+}
+#mod-comments >  .mod-content > form > .no-comments
+{
+	visibility:hidden;
+	font:400 15px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-comments > .mod-content > form > .no-comments,
+.wf-inactive #mod-comments > .mod-content > form > .no-comments
+{
+	visibility:visible;
+}
+#mod-comments li > .body > .user-info > .level
+{
+	visibility:hidden;
+	font:500 12px/12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-comments li > .body > .user-info > .level,
+.wf-inactive #mod-comments li > .body > .user-info > .level
+{
+	visibility:visible;
+}
+#mod-comments li > .body > .ratings
+{
+	visibility:hidden;
+	font:500 12px/24px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-comments li > .body > .ratings,
+.wf-inactive #mod-comments li > .body > .ratings
+{
+	visibility:visible;
+}
+#mod-comments > .mod-footer > .more
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-comments > .mod-footer > .more,
+.wf-inactive #mod-comments > .mod-footer > .more
+{
+	visibility:visible;
+}
+#mod-comments .post > .title
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-comments .post > .title,
+.wf-inactive #mod-comments .post > .title
+{
+	visibility:visible;
+}
+#mod-comments .post > .info > .action > .user-info > .label
+{
+	visibility:hidden;
+	font:500 12px/12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-comments .post > .info > .action > .user-info > .label,
+.wf-inactive #mod-comments .post > .info > .action > .user-info > .label
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/country-selector.css
+ */
+#country-selector > .current-country > .opener
+{
+	visibility:hidden;
+	font:500 12px/12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-inactive #country-selector > .current-country > .opener,
+.wf-active #country-selector > .current-country > .opener
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/filter-hero.css
+ */
+#mod-filter-hero.game > .mod-content > .content > h1,
+#mod-filter-hero.game > .mod-content > .content > h2
+{
+	visibility:hidden;
+	font:900 70px/58px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase; letter-spacing:-1px;
+}
+.wf-active #mod-filter-hero.game > .mod-content > .content > h1,
+.wf-inactive #mod-filter-hero.game > .mod-content > .content > h1,
+.wf-active #mod-filter-hero.game > .mod-content > .content > h2,
+.wf-inactive #mod-filter-hero.game > .mod-content > .content > h2
+{
+	visibility:visible;
+}
+#mod-filter-hero.game > .mod-content > .content > h3
+{
+	visibility:hidden;
+	font:400 20px/20px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-filter-hero.game > .mod-content > .content > h3,
+.wf-inactive #mod-filter-hero.game > .mod-content > .content > h3
+{
+	visibility:visible;
+}
+#mod-filter-hero.article > .mod-content > .content > .date
+{
+	visibility:hidden;
+	font:700 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-filter-hero > .mod-content > .content > .date,
+.wf-inactive #mod-filter-hero > .mod-content > .content > .date
+{
+	visibility:visible;
+}
+#mod-filter-hero.article > .mod-content > .content > h1,
+#mod-filter-hero.article > .mod-content > .content > h2
+{
+	visibility:hidden;
+	font:700 42px/42px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-filter-hero.article > .mod-content > .content > h1,
+.wf-inactive #mod-filter-hero.article > .mod-content > .content > h1,
+.wf-active #mod-filter-hero.article > .mod-content > .content > h2,
+.wf-inactive #mod-filter-hero.article > .mod-content > .content > h2
+{
+	visibility:visible;
+}
+#mod-filter-hero > .mod-content > .content > a
+{
+	visibility:hidden;
+	font:500 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-filter-hero > .mod-content > .content > a,
+.wf-inactive #mod-filter-hero > .mod-content > .content > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/filter-menu.css
+ */
+#mod-filter-menu > .mod-content > ul > li > a > .label
+{
+	visibility:hidden;
+	font:500 13px/13px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-filter-menu > .mod-content > ul > li > a > .label,
+.wf-inactive #mod-filter-menu > .mod-content > ul > li > a > .label
+{
+	visibility:visible;
+}
+#mod-filter-menu > .mod-content > ul > li > a > .value
+{
+	visibility:hidden;
+	font:700 18px/19px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-filter-menu > .mod-content > ul > li > a > .value,
+.wf-inactive #mod-filter-menu > .mod-content > ul > li > a > .value
+{
+	visibility:visible;
+}
+#mod-filter-menu > .mod-content > ul > li > ul > li > a
+{
+	visibility:hidden;
+	font:500 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-filter-menu > .mod-content > ul > li > ul > li > a,
+.wf-inactive #mod-filter-menu > .mod-content > ul > li > ul > li > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/filter-results.css
+ */
+#mod-filter-results > .mod-header > h2
+{
+	visibility:hidden;
+	font:900 27px/27px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-filter-results > .mod-header > h2,
+.wf-inactive #mod-filter-results > .mod-header > h2
+{
+	visibility:visible;
+}
+#mod-filter-results > .mod-header > form > fieldset > .field > label
+{
+	visibility:hidden;
+	font:500 12px/12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-filter-results > .mod-header > form > fieldset > .field > label,
+.wf-inactive #mod-filter-results > .mod-header > form > fieldset > .field > label
+{
+	visibility:visible;
+}
+#mod-filter-results > .mod-content > ul > li > a > .title
+{
+	visibility:hidden;
+	font:700 16px/20px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-filter-results > .mod-content > ul > li > a > .title,
+.wf-inactive #mod-filter-results > .mod-content > ul > li > a > .title
+{
+	visibility:visible;
+}
+#mod-filter-results > .mod-footer > .more
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-filter-results > .mod-footer > .more,
+.wf-inactive #mod-filter-results > .mod-footer > .more
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/game-all-media.css
+ */
+#mod-game-all-media > .mod-header > h2,
+#mod-game-videos > .mod-header > h2,
+#mod-game-images > .mod-header > h2,
+#mod-game-downloads > .mod-header > h2
+{
+	visibility:hidden;
+	font:900 27px/28px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-inactive #mod-game-all-media > .mod-header > h2,
+.wf-inactive #mod-game-videos > .mod-header > h2,
+.wf-inactive #mod-game-images > .mod-header > h2,
+.wf-inactive #mod-game-downloads > .mod-header > h2,
+.wf-active #mod-game-all-media > .mod-header > h2,
+.wf-active #mod-game-videos > .mod-header > h2,
+.wf-active #mod-game-images > .mod-header > h2,
+.wf-active #mod-game-downloads > .mod-header > h2
+{
+	visibility:visible;
+}
+#mod-game-all-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .title,
+#mod-game-videos > .mod-content > ul > li > a > .title,
+#mod-game-images > .mod-content > ul > li > a > .title,
+#mod-game-downloads > .mod-content > ul > li > a > .title
+{
+	visibility:hidden;
+	font:500 15px/28px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-game-all-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .title,
+.wf-inactive #mod-game-all-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .title,
+.wf-active #mod-game-videos > .mod-content > ul > li > a > .title,
+.wf-inactive #mod-game-videos > .mod-content > ul > li > a > .title,
+.wf-active #mod-game-images > .mod-content > ul > li > a > .title,
+.wf-inactive #mod-game-images > .mod-content > ul > li > a > .title,
+.wf-active #mod-game-downloads > .mod-content > ul > li > a > .title,
+.wf-inactive #mod-game-downloads > .mod-content > ul > li > a > .title
+{
+	visibility:visible;
+}
+#mod-game-all-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .details,
+#mod-game-videos > .mod-content > ul > li > a > .details,
+#mod-game-images > .mod-content > ul > li > a > .details,
+#mod-game-downloads > .mod-content > ul > li > a > .details
+{
+	visibility:hidden;
+	font:500 12px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-game-all-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .details,
+.wf-inactive #mod-game-all-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .details,
+.wf-active #mod-game-videos > .mod-content > ul > li > a > .details,
+.wf-inactive #mod-game-videos > .mod-content > ul > li > a > .details,
+.wf-active #mod-game-images > .mod-content > ul > li > a > .details,
+.wf-inactive #mod-game-images > .mod-content > ul > li > a > .details,
+.wf-active #mod-game-downloads > .mod-content > ul > li > a > .details,
+.wf-inactive #mod-game-downloads > .mod-content > ul > li > a > .details
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/game-content.css
+ */
+#mod-game-content > .mod-header > h1
+{
+	visibility:hidden;
+	font:900 40px/41px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-game-content > .mod-header > h1,
+.wf-inactive #mod-game-content > .mod-header > h1
+{
+	visibility:visible;
+}
+#mod-game-content > .mod-content > h2
+{
+	visibility:hidden;
+	font:700 17px/18px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-game-content > .mod-content > h2,
+.wf-inactive #mod-game-content > .mod-content > h2
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/game-features.css
+ */
+#mod-game-features > .mod-header > .title
+{
+	visibility:hidden;
+	font:700 17px/17px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-game-features > .mod-header > .title,
+.wf-inactive #mod-game-features > .mod-header > .title
+{
+	visibility:visible;
+}
+#mod-game-features > .mod-content > ul > li > a
+{
+	visibility:hidden;
+	font:500 12px/12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-game-features > .mod-content > ul > li > a,
+.wf-inactive #mod-game-features > .mod-content > ul > li > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/game-media.css
+ */
+#mod-game-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .title
+{
+	visibility:hidden;
+	font:500 15px/18px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-game-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .title,
+.wf-inactive #mod-game-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .title
+{
+	visibility:visible;
+}
+#mod-game-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .details
+{
+	visibility:hidden;
+	font:500 12px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-game-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .details,
+.wf-inactive #mod-game-media > .mod-content > .tabs > .ui-tabs-panel > ul > li > a > .details
+{
+	visibility:visible;
+}
+#mod-game-media > .mod-content > .tabs > .ui-tabs-panel > .paginaton
+{
+	visibility:hidden;
+	font:500 14px/15px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-game-media > .mod-content > .tabs > .ui-tabs-panel > .paginaton,
+.wf-inactive #mod-game-media > .mod-content > .tabs > .ui-tabs-panel > .paginaton
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/game-menu.css
+ */
+#mod-game-menu > .mod-content > ul > li > a
+{
+	visibility:hidden;
+	font:700 13px/13px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-game-menu > .mod-content > ul > li > a,
+.wf-inactive #mod-game-menu > .mod-content > ul > li > a
+{
+	visibility:visible;
+}
+#mod-game-menu > .mod-content > ul > li.has-sub > .sub > ul > li > a
+{
+	visibility:hidden;
+	font:700 11px/11px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-game-menu > .mod-content > ul > li.has-sub > .sub > ul > li > a,
+.wf-inactive #mod-game-menu > .mod-content > ul > li.has-sub > .sub > ul > li > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/home-accouncements.css
+ */
+#mod-home-announcements > .mod-content > ul > li > span > .label
+{
+	visibility:hidden;
+	font:500 16px/11px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-announcements > .mod-content > ul > li > span > .label,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > span > .label
+{
+	visibility:visible;
+}
+#mod-home-announcements > .mod-content > ul > li > ol > li > a > .idx
+{
+	visibility:hidden;
+	font:400 16px/32px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-home-announcements > .mod-content > ul > li > ol > li > a > .idx,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > ol > li > a > .idx
+{
+	visibility:visible;
+}
+
+#mod-home-announcements > .mod-content > ul > li > ul > li > a > .info > .caption,
+#mod-home-announcements > .mod-content > ul > li > ol > li > a > .info > .caption
+{
+	visibility:hidden;
+	font:700 11px/11px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-announcements > .mod-content > ul > li > ul > li > a > .info > .caption,
+.wf-active #mod-home-announcements > .mod-content > ul > li > ol > li > a > .info > .caption,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > ul > li > a > .info > .caption,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > ol > li > a > .info > .caption
+{
+	visibility:visible;
+}
+#mod-home-announcements > .mod-content > ul > li > ul > li > a > .info > .title,
+#mod-home-announcements > .mod-content > ul > li > ol > li > a > .info > .title
+{
+	visibility:hidden;
+	font:500 14px/13px 'locator-web',helvetica,arial,sans-serif; text-transform:capitalize;
+}
+.wf-active #mod-home-announcements > .mod-content > ul > li > ul > li > a > .info > .title,
+.wf-active #mod-home-announcements > .mod-content > ul > li > ol > li > a > .info > .title,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > ul > li > a > .info > .title,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > ol > li > a > .info > .title
+{
+	visibility:visible;
+}
+#mod-home-announcements > .mod-content > ul > li > ul > li.last > a.link > span,
+#mod-home-announcements > .mod-content > ul > li > ol > li.last > a.link > span
+{
+	visibility:hidden;
+	font:500 13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-home-announcements > .mod-content > ul > li > ul > li.last > a.link > span,
+.wf-active #mod-home-announcements > .mod-content > ul > li > ol > li.last > a.link > span,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > ul > li.last > a.link > span,
+.wf-inactive #mod-home-announcements > .mod-content > ul > li > ol > li.last > a.link > span
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/home-hero.css
+ */
+#mod-home-hero > .mod-content > .title
+{
+	visibility:hidden;
+	font:400 24px/18px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-hero > .mod-content > .title,
+.wf-inactive #mod-home-hero > .mod-content > .title
+{
+	visibility:visible;
+}
+#mod-home-hero > .mod-content > .title > strong
+{
+	visibility:hidden;
+	font:900 80px/75px 'locator-web',helvetica,arial,sans-serif; letter-spacing:-5px;
+}
+.wf-active #mod-home-hero > .mod-content > .title > strong,
+.wf-inactive #mod-home-hero > .mod-content > .title > strong
+{
+	visibility:visible;
+}
+#home.JP #mod-home-hero > .mod-content > .title > strong
+{
+	font-size:75px;
+}
+.ie7 #mod-home-hero > .mod-content > .title > strong
+{
+	letter-spacing:-2px;
+}
+#mod-home-hero > .mod-content > .btn-hero > span
+{
+	visibility:hidden;
+	font:500 12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-hero > .mod-content > .btn-hero > span,
+.wf-inactive #mod-home-hero > .mod-content > .btn-hero > span
+{
+	visibility:visible;
+}
+#mod-home-hero > .mod-content > .btn-hero > span > strong
+{
+	visibility:hidden;
+	font:900 19px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-home-hero > .mod-content > .btn-hero > span > strong,
+.wf-inactive #mod-home-hero > .mod-content > .btn-hero > span > strong
+{
+	visibility:visible;
+}
+
+/**
+ * module/home-takeover.css
+ */
+#mod-home-takeover > .mod-content > .title
+{
+	visibility:hidden;
+	font:400 26px/26px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-takeover > .mod-content > .title,
+.wf-inactive #mod-home-takeover > .mod-content > .title
+{
+	visibility:visible;
+}
+#mod-home-takeover > .mod-content > .title > strong
+{
+	visibility:hidden;
+	font:900 92px/92px 'locator-web',helvetica,arial,sans-serif; letter-spacing:0px;
+}
+.wf-active #mod-home-takeover > .mod-content > .title > strong,
+.wf-inactive #mod-home-takeover > .mod-content > .title > strong
+{
+	visibility:visible;
+}
+#home.JP #mod-home-takeover > .mod-content > .title > strong
+{
+	font-size:75px;
+}
+.ie7 #mod-home-takeover > .mod-content > .title > strong
+{
+	letter-spacing:-2px;
+}
+#mod-home-takeover > .mod-content > .takeover-links > .takeover-link
+{
+	visibility:hidden;
+	font:400 18px/18px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-takeover > .mod-content > .takeover-links > .takeover-link,
+.wf-inactive #mod-home-takeover > .mod-content > .takeover-links > .takeover-link
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/home-origin.css
+ */
+#mod-home-origin > .mod-header > a > .title
+{
+	visibility:hidden;
+	font:400 22px/22px 'klavika-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-origin > .mod-header > a >.title,
+.wf-inactive #mod-home-origin > .mod-header > a >.title
+{
+	visibility:visible;
+}
+#mod-home-origin > .mod-content > ul > li > a > .details
+{
+	visibility:hidden;
+	font:600 14px/16px 'klavika-web',helvetica,arial,sans-serif; letter-spacing:0;
+}
+.wf-inactive #mod-home-origin > .mod-content > ul > li > a > .details,
+.wf-active #mod-home-origin > .mod-content > ul > li > a > .details
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/home-promos.css
+ */
+#mod-home-promos > .mod-header > h2 > span
+{
+	visibility:hidden;
+	font:500 16px/15px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-home-promos > .mod-header > h2 > span,
+.wf-inactive #mod-home-promos > .mod-header > h2 > span
+{
+	visibility:visible;
+}
+#mod-home-promos > .mod-content > ul > li > a > span.info
+{
+	visibility:hidden;
+	font-weight:700; font-family:'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-home-promos > .mod-content > ul > li > a > span.info,
+.wf-inactive #mod-home-promos > .mod-content > ul > li > a > span.info
+{
+	visibility:visible;
+}
+#mod-home-promos > .mod-content > ul > li > a > span.info > .type
+{
+	visibility:hidden;
+	font:700 11px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase; letter-spacing:0;
+}
+.wf-active #mod-home-promos > .mod-content > ul > li > a > span.info > .type,
+.wf-inactive #mod-home-promos > .mod-content > ul > li > a > span.info > .type
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/media-content.css
+ */
+#mod-media-content > .mod-content > h1
+{
+	visibility:hidden;
+	font:900 27px/28px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-media-content > .mod-content > h1,
+.wf-inactive #mod-media-content > .mod-content > h1
+{
+	visibility:visible;
+}
+#mod-media-content > .mod-content > .details
+{
+	visibility:hidden;
+	font:500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-media-content > .mod-content > .details,
+.wf-inactive #mod-media-content > .mod-content > .details
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/more-media.css
+ */
+#mod-more-media > .mod-header > .title
+{
+	visibility:hidden;
+	font:500 16px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-more-media > .mod-header > .title,
+.wf-inactive #mod-more-media > .mod-header > .title
+{
+	visibility:visible;
+}
+#mod-more-media > .mod-content > ul > li > a > .title
+{
+	visibility:hidden;
+	font:500 15px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-more-media > .mod-content > ul > li > a > .title,
+.wf-inactive #mod-more-media > .mod-content > ul > li > a > .title
+{
+	visibility:visible;
+}
+#mod-more-media > .mod-content > ul > li > a > .details
+{
+	visibility:hidden;
+	font:500 12px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-more-media > .mod-content > ul > li > a > .details,
+.wf-inactive #mod-more-media > .mod-content > ul > li > a > .details
+{
+	visibility:visible;
+}
+#mod-more-media > .mod-footer > span > a
+{
+	visibility:hidden;
+	font:500 12px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-more-media > .mod-footer > span > a,
+.wf-inactive #mod-more-media > .mod-footer > span > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/news-content.css
+ */
+#mod-news-content > .mod-content > ul > li > .content > .info > .author,
+#mod-news-content > .mod-content > ul > li > .content > .info > .comment-counter,
+#mod-news-content > .mod-content > ul > li > .content > .info > .date
+{
+	visibility:hidden;
+	font:500 12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-news-content > .mod-content > ul > li > .content > .info > .author,
+.wf-active #mod-news-content > .mod-content > ul > li > .content > .info > .date,
+.wf-active #mod-news-content > .mod-content > ul > li > .content > .info > .comment-counter,
+.wf-inactive #mod-news-content > .mod-content > ul > li > .content > .info > .author,
+.wf-inactive #mod-news-content > .mod-content > ul > li > .content > .info > .date,
+.wf-inactive #mod-news-content > .mod-content > ul > li > .content > .info > .comment-counter
+{
+	visibility:visible;
+}
+#mod-news-content > .mod-content > ul > li > .content > h2
+{
+	visibility:hidden;
+	font:700 30px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-news-content > .mod-content > ul > li > .content > h2,
+.wf-inactive #mod-news-content > .mod-content > ul > li > .content > h2
+{
+	visibility:visible;
+}
+#mod-news-content > .mod-footer > .more > span
+{
+	visibility:hidden;
+	font:700 16px 'locator-web',helvetica,arial,sans-serif; line-height:16px; text-transform:uppercase;
+}
+.wf-active #mod-news-content > .mod-footer > .more > span,
+.wf-inactive #mod-news-content > .mod-footer > .more > span
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/news-features.css
+ */
+#mod-news-features > .mod-content > ul > li > a > .type
+{
+	visibility:hidden;
+	font:500 12px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-news-features > .mod-content > ul > li > a > .type,
+.wf-inactive #mod-news-features > .mod-content > ul > li > a > .type
+{
+	visibility:visible;
+}
+#mod-news-features > .mod-content > ul > li > a > .title
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-news-features > .mod-content > ul > li > a > .title,
+.wf-inactive #mod-news-features > .mod-content > ul > li > a > .title
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/news-filters.css
+ */
+#mod-news-filters > .mod-content > .filter-group > h3
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-news-filters > .mod-content > .filter-group > h3,
+.wf-inactive #mod-news-filters > .mod-content > .filter-group > h3
+{
+	visibility:visible;
+}
+#mod-news-filters > .mod-content > .filter-group.popular-tags > p,
+#mod-news-filters > .mod-content > .filter-group.game-site-blogs > p
+{
+	visibility:hidden;
+	font:400 12px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-news-filters > .mod-content > .filter-group.popular-tags > p,
+.wf-active #mod-news-filters > .mod-content > .filter-group.game-site-blogs > p,
+.wf-inactive #mod-news-filters > .mod-content > .filter-group.popular-tags > p,
+.wf-inactive #mod-news-filters > .mod-content > .filter-group.game-site-blogs > p
+{
+	visibility:visible;
+}
+#mod-news-filters > .mod-content > .filter-group.popular-tags > ul > li > a,
+#mod-news-filters > .mod-content > .filter-group.game-site-blogs > ul > li > a
+{
+	visibility:hidden;
+	font:500 13px/14px 'locator-web',helvetica,arial,sans-serif; text-decoration:none;
+}
+.wf-active #mod-news-filters > .mod-content > .filter-group.popular-tags > ul > li > a,
+.wf-active #mod-news-filters > .mod-content > .filter-group.game-site-blogs > ul > li > a,
+.wf-inactive #mod-news-filters > .mod-content > .filter-group.popular-tags > ul > li > a,
+.wf-inactive #mod-news-filters > .mod-content > .filter-group.game-site-blogs > ul > li > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/related-games.css
+ */
+#mod-related-games > .mod-header > .title
+{
+	visibility:hidden;
+	font:700 17px/17px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-related-games > .mod-header > .title,
+.wf-inactive #mod-related-games > .mod-header > .title
+{
+	visibility:visible;
+}
+#mod-related-games > .mod-content > ul > li > a > .title
+{
+	visibility:hidden;
+	font:700 16px/17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-related-games > .mod-content > ul > li > a > .title,
+.wf-inactive #mod-related-games > .mod-content > ul > li > a > .title
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/search-incorrect-spelling.css
+ */
+#mod-search-incorrect-spelling > .mod-content > p
+{
+	visibility:hidden;
+	font:500 15px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-incorrect-spelling > .mod-content > p,
+.wf-inactive #mod-search-incorrect-spelling > .mod-content > p
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/search-noresults.css
+ */
+#mod-search-noresults > .mod-header > h3
+{
+	visibility:hidden;
+	font:700 16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-noresults > .mod-header > h3,
+.wf-inactive #mod-search-noresults > .mod-header > h3
+{
+	visibility:visible;
+}
+#mod-search-noresults > .mod-content > ul > li
+{
+	visibility:hidden;
+	font:400 15px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-noresults > .mod-content > ul > li,
+.wf-inactive #mod-search-noresults > .mod-content > ul > li
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/search-results-filter.css
+ */
+#mod-search-results-filter > .mod-content > ul > li > a
+{
+	visibility:hidden;
+	font:500 15px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results-filter > .mod-content > ul > li > a,
+.wf-inactive #mod-search-results-filter > .mod-content > ul > li > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/search-results.css
+ */
+#mod-search-results > .mod-header > .featured-info > h2
+{
+	visibility:hidden;
+	font:900 22px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-header > .featured-info > h2,
+.wf-inactive #mod-search-results > .mod-header > .featured-info > h2
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-header > .featured-info > a > span
+{
+	visibility:hidden;
+	font:500 14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-header > .featured-info > a > span,
+.wf-inactive #mod-search-results > .mod-header > .featured-info > a > span
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-header > h3
+{
+	visibility:hidden;
+	font:900 27px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-header > h3,
+.wf-inactive #mod-search-results > .mod-header > h3
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.page > ul > li > h4
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.page > ul > li > h4,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.page > ul > li > h4
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.page > h4
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.page > h4,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.page > h4
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.videos > h4
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.videos > h4,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.videos > h4
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.videos > ul > li > h3,
+#mod-search-results > .mod-content > .videos > ul > li > h3
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.videos > ul > li > h3,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.videos > ul > li > h3,
+.wf-active #mod-search-results > .mod-content > .videos > ul > li > h3,
+.wf-inactive #mod-search-results > .mod-content > .videos > ul > li > h3
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.images > h4
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.images > h4,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.images > h4
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.images > ul > li > h3,
+#mod-search-results > .mod-content > .images > ul > li > h3
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.images > ul > li > h3,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.images > ul > li > h3,
+.wf-active #mod-search-results > .mod-content > .images > ul > li > h3,
+.wf-inactive #mod-search-results > .mod-content > .images > ul > li > h3
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.images > ul > li > .info,
+#mod-search-results > .mod-content > .images > ul > li > .info
+{
+	visibility:hidden;
+	font:500 13px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.images.list > ul > li > .info > .description,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.images.list > ul > li > .info > .description,
+.wf-active #mod-search-results > .mod-content > .images.list > ul > li > .info > .description,
+.wf-inactive #mod-search-results > .mod-content > .images.list > ul > li > .info > .description
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > .info,
+#mod-search-results > .mod-content > .news > ul > li > .content > .info
+{
+	visibility:hidden;
+	font:500 13px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > .info,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > .info,
+.wf-active #mod-search-results > .mod-content > .news > ul > li > .content > .info,
+.wf-inactive #mod-search-results > .mod-content > .news > ul > li > .content > .info
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > h4
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > h4,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > h4
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > h4 > a
+{
+	visibility:hidden;
+	font:500 16px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > h4 > a,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.news > ul > li > .content > h4 > a
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.news > h4
+{
+	visibility:hidden;
+	font:500 16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.news > h4,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.news > h4
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .news > ul > li > .content > h4
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .news > ul > li > .content > h4,
+.wf-inactive #mod-search-results > .mod-content > .news > ul > li > .content > h4
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .news > ul > li > .info > .date,
+#mod-search-results > .mod-content > .all > ul > li > ul > li > .info > .date,
+#mod-search-results > .mod-content > .news > ul > li > .info > .date
+{
+	visibility:hidden;
+	font:500 13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li > ul > li > .info > .date,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li > ul > li > .info > .date,
+.wf-active #mod-search-results > .mod-content > .news > ul > li > .info > .date,
+.wf-inactive #mod-search-results > .mod-content > .news > ul > li > .info > .date
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-content > .all > ul > li.pagination-results > .paginaton
+{
+	visibility:hidden;
+	font:500 14px/15px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-search-results > .mod-content > .all > ul > li.pagination-results > .paginaton,
+.wf-inactive #mod-search-results > .mod-content > .all > ul > li.pagination-results > .paginaton
+{
+	visibility:visible;
+}
+#mod-search-results > .mod-footer > .more
+{
+	visibility:hidden;
+	font:700 16px/16px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-search-results > .mod-footer > .more,
+.wf-inactive #mod-search-results > .mod-footer > .more
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/user-menu.css
+ */
+#mod-user-menu > .mod-content > .content > .username
+{
+	visibility:hidden;
+	font:500 14px/14px 'locator-web',helvetica,arial,sans-serif; line-height:14px; text-transform:uppercase;
+}
+.wf-active #mod-user-menu > .mod-content > .content > .username,
+.wf-inactive #mod-user-menu > .mod-content > .content > .username
+{
+	visibility:visible;
+}
+#mod-user-menu > .mod-content > .content > ul > li.login > a,
+#mod-user-menu > .mod-content > .content > ul > li.register > a
+{
+	visibility:hidden;
+	font:500 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-user-menu > .mod-content > .content > ul > li.login > a,
+.wf-inactive #mod-user-menu > .mod-content > .content > ul > li.login > a,
+.wf-active #mod-user-menu > .mod-content > .content > ul > li.register > a,
+.wf-inactive #mod-user-menu > .mod-content > .content > ul > li.register > a
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/redirect-modal.css
+ */
+#mod-redirect-modal > .mod-header > h2
+{
+	visibility:hidden;
+	font:700 50px/40px 'klavika-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #mod-redirect-modal > .mod-header > h2,
+.wf-inactive #mod-redirect-modal > .mod-header > h2
+{
+	visibility:visible;
+}
+#mod-redirect-modal > .mod-header > span
+{
+	visibility:hidden;
+	font:400 18px/18px 'klavika-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-redirect-modal > .mod-header > span,
+.wf-inactive #mod-redirect-modal > .mod-header > span
+{
+	visibility:visible;
+}
+#mod-redirect-modal > .mod-content > span.text
+{
+	visibility:hidden;
+	font:600 24px/29px 'klavika-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-redirect-modal > .mod-content > span.text,
+.wf-inactive #mod-redirect-modal > .mod-content > span.text
+{
+	visibility:visible;
+}
+#mod-redirect-modal > .mod-content > div > div > a > span > span
+{
+	visibility:hidden;
+	font:600 28px/28px 'klavika-web',helvetica,arial,sans-serif;
+}
+.wf-active #mod-redirect-modal > .mod-content > div > div > a > span > span,
+.wf-inactive #mod-redirect-modal > .mod-content > div > div > a > span > span
+{
+	visibility:visible;
+}
+
+
+
+
+/**
+ * module/### START: NETWORK STANDARDS MODULES ###
+ */
+
+
+/**
+ * module/ns-anchor-menu.css
+ */
+
+.mod-ns-anchor-menu > .mod-content > ul > li > a > span
+{
+	visibility:hidden;
+	font: 500 16px/16px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-anchor-menu > .mod-content > ul > li > a > span,
+.wf-inactive .mod-ns-anchor-menu > .mod-content > ul > li > a > span
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-breadcrumb-menu.css
+ */
+
+.mod-ns-breadcrumb-menu > .mod-content > ul > li > .title
+{
+	visibility:hidden;
+	font: 700 10px/12px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-breadcrumb-menu > .mod-content > ul > li > .title,
+.wf-inactive .mod-ns-breadcrumb-menu > .mod-content > ul > li > .title
+{
+	visibility:visible;
+}
+
+.mod-ns-breadcrumb-menu > .mod-content > ul > li > .menu > ul > li > a > .title
+{
+	visibility:hidden;
+	font: 500 15px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-breadcrumb-menu > .mod-content > ul > li > .menu > ul > li > a > .title,
+.wf-inactive .mod-ns-breadcrumb-menu > .mod-content > ul > li > .menu > ul > li > a > .title
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-carousel.css
+ */
+
+.mod-ns-carousel > .mod-content > .call-to-action > a > .title 
+{
+	visibility:hidden;
+	font: 700 24px/23px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-carousel > .mod-content > .call-to-action > a > .title ,
+.wf-inactive .mod-ns-carousel > .mod-content > .call-to-action > a > .title 
+{
+	visibility:visible;
+}
+
+.mod-ns-carousel > .mod-content > .call-to-action > a > .description 
+{
+	font: 500 14px/14px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-carousel > .mod-content > .call-to-action > a > .description,
+.wf-inactive .mod-ns-carousel > .mod-content > .call-to-action > a > .description 
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-comments.css
+ */
+
+/**
+ * module/ns-content-tabs.css
+ */
+
+/**
+ * module/ns-download-list.css
+ */
+
+.mod-ns-download-list > .mod-content > ul > li > h3
+{
+	visibility:hidden;
+	font: 900 27px/34px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -1.5px;
+}
+.wf-active .mod-ns-download-list > .mod-content > ul > li > h3,
+.wf-inactive .mod-ns-download-list > .mod-content > ul > li > h3
+{
+	visibility:visible;
+}
+
+.mod-ns-download-list > .mod-content > ul > li > ul > li > a > .title
+{
+	visibility:hidden;
+	font: 700 16px/17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-download-list > .mod-content > ul > li > ul > li > a > .title,
+.wf-inactive .mod-ns-download-list > .mod-content > ul > li > ul > li > a > .title
+{
+	visibility:visible;
+}
+
+.mod-ns-download-list > .mod-content > ul > li > ul > li > a > .tag
+{
+	visibility:hidden;
+	font: 500 14px/14px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-download-list > .mod-content > ul > li > ul > li > a > .tag,
+.wf-inactive .mod-ns-download-list > .mod-content > ul > li > ul > li > a > .tag
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-email-newsletter.css
+ */
+
+.mod-ns-email-newsletter > .mod-content > form > fieldset > .input-grp.item-1 > h2 
+{
+	visibility:hidden;
+	font: 500 16px/16px 'locator-web',helvetica,arial,sans-serif;
+    text-transform: uppercase;
+}
+.wf-active .mod-ns-email-newsletter > .mod-content > form > fieldset > .input-grp.item-1 > h2,
+.wf-inactive .mod-ns-email-newsletter > .mod-content > form > fieldset > .input-grp.item-1 > h2 
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-expansion-features.css
+ */
+
+.mod-ns-expansion-features > .mod-header > h2 > span
+{
+	visibility:hidden;
+	font: 700 27px/20px 'locator-web',helvetica,arial,sans-serif;
+	letter-spacing: -1px;
+}
+.wf-active .mod-ns-expansion-features > .mod-header > h2 > span,
+.wf-inactive .mod-ns-expansion-features > .mod-header > h2 > span
+{
+	visibility:visible;
+}
+
+.mod-ns-expansion-features > .mod-footer > .back-to-top 
+{
+	visibility:hidden;
+	font: 500 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-expansion-features > .mod-footer > .back-to-top,
+.wf-inactive .mod-ns-expansion-features > .mod-footer > .back-to-top 
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-expansion-overview.css
+ */
+
+.mod-ns-expansion-overview > .mod-header > h2 > span
+{
+	visibility:hidden;
+	font: 900 18px/18px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-expansion-overview > .mod-header > h2 > span,
+.wf-inactive .mod-ns-expansion-overview > .mod-header > h2 > span
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/ns-expansion-video.css
+ */
+
+.mod-ns-expansion-video > .mod-header > h2 > span
+{
+	visibility:hidden;
+	font: 700 27px/19px 'locator-web',helvetica,arial,sans-serif;
+	letter-spacing: -1px;
+}
+.wf-active .mod-ns-expansion-video > .mod-header > h2 > span,
+.wf-inactive .mod-ns-expansion-video > .mod-header > h2 > span
+{
+	visibility:visible;
+}
+
+.mod-ns-expansion-video > .mod-content > h3
+{
+	visibility:hidden;
+	font: 700 22px/23px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-expansion-video > .mod-content > h3,
+.wf-inactive .mod-ns-expansion-video > .mod-content > h3
+{
+	visibility:visible;
+}
+
+.mod-ns-expansion-video > .mod-content > .views
+{
+	visibility:hidden;
+	font: 400 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-expansion-video > .mod-content > .views,
+.wf-inactive .mod-ns-expansion-video > .mod-content > .views
+{
+	visibility:visible;
+}
+
+.mod-ns-expansion-video > .mod-footer > .back-to-top 
+{
+	visibility:hidden;
+	font: 500 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-expansion-video > .mod-footer > .back-to-top,
+.wf-inactive .mod-ns-expansion-video > .mod-footer > .back-to-top 
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-facebook-feed.css
+ */
+
+.mod-ns-facebook-feed > .mod-footer > .link
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-facebook-feed > .mod-footer > .link,
+.wf-inactive .mod-ns-facebook-feed > .mod-footer > .link
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-feature.css
+ */
+
+.mod-ns-feature > .mod-content > .info > h2 > span
+{
+	visibility:hidden;
+	font:700 22px/34px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-feature > .mod-content > .info > h2 > span,
+.wf-inactive .mod-ns-feature > .mod-content > .info > h2 > span
+{
+	visibility:visible;
+}
+
+.row.column-count-3 > .row-in > .col.column-span-1 > .mod-ns-feature.min > .mod-content > .info > h2 > span
+{
+	visibility:hidden;
+	font:700 22px/26px 'locator-web',helvetica,arial,sans-serif;
+}
+.row.column-count-3 > .row-in > .col.column-span-1 > .mod-ns-feature.min > .mod-content > .info > h2 > span,
+.row.column-count-3 > .row-in > .col.column-span-1 > .mod-ns-feature.min > .mod-content > .info > h2 > span
+{
+	visibility:visible;
+}
+
+.mod-ns-feature > .mod-content > .specs > .title
+{
+	visibility:hidden;
+	font:700 18px/19px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-feature > .mod-content > .specs > .title,
+.wf-inactive .mod-ns-feature > .mod-content > .specs > .title
+{
+	visibility:visible;
+}
+
+.row.column-count-3  > .row-in > .col.column-span-3 > .mod-ns-feature.expanded > .mod-content > .info > h2 > span
+{
+	visibility:hidden;
+	font:700 27px/34px 'locator-web',helvetica,arial,sans-serif;
+	text-transform:uppercase;
+}
+.wf-active .row.column-count-3  > .row-in > .col.column-span-3 > .mod-ns-feature.expanded > .mod-content > .info > h2 > span,
+.wf-inactive .row.column-count-3  > .row-in > .col.column-span-3 > .mod-ns-feature.expanded > .mod-content > .info > h2 > span
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/s-franchise-image.css
+ */
+
+.row.column-count-3 .col.column-span-1 > .mod-ns-franchise-image > .mod-content > a > .info > .title
+{
+	visibility:hidden;
+	font: 700 16px/17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .row.column-count-3 .col.column-span-1 > .mod-ns-franchise-image > .mod-content > a > .info > .title,
+.wf-inactive .row.column-count-3 .col.column-span-1 > .mod-ns-franchise-image > .mod-content > a > .info > .title
+{
+	visibility:visible;
+}
+
+.row.column-count-3 .col.column-span-3 > .mod-ns-franchise-image > .mod-content > a > .info > .title
+{
+	visibility:hidden;
+	font: 500 20px/20px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .row.column-count-3 .col.column-span-3 > .mod-ns-franchise-image > .mod-content > a > .info > .title,
+.wf-inactive .row.column-count-3 .col.column-span-3 > .mod-ns-franchise-image > .mod-content > a > .info > .title
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-franchise-menu.css
+ */
+
+.mod-ns-franchise-menu > .mod-content > ul > li > span > span
+{
+	visibility:hidden;
+	font: 700 14px/14px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-franchise-menu > .mod-content > ul > li > span > span,
+.wf-inactive .mod-ns-franchise-menu > .mod-content > ul > li > span > span
+{
+	visibility:visible;
+}
+
+.mod-ns-franchise-menu > .mod-content > ul > li > ul > li > a
+{
+	visibility:hidden;
+	font: 500 15px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-franchise-menu > .mod-content > ul > li > ul > li > a,
+.wf-inactive .mod-ns-franchise-menu > .mod-content > ul > li > ul > li > a
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-friends-who-play.css
+ */
+
+.mod-ns-friends-who-play > .mod-footer > span
+{
+	visibility:hidden;
+	font: 700 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-friends-who-play > .mod-footer > span,
+.wf-inactive .mod-ns-friends-who-play > .mod-footer > span
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-game-list.css
+ */
+
+/**
+ * module/ns-game-ratings.css
+ */
+
+/**
+ * module/ns-html-block.css
+ */
+
+/**
+ * module/ns-image-content.css
+ */
+
+.mod-image-content > .mod-content > h1
+{
+	visibility:hidden;
+	font: 900 27px/28px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-image-content > .mod-content > h1,
+.wf-inactive .mod-image-content > .mod-content > h1
+{
+	visibility:visible;
+}
+
+.mod-image-content > .mod-content > .details
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-image-content > .mod-content > .details,
+.wf-inactive .mod-image-content > .mod-content > .details
+{
+	visibility:visible;
+}
+
+.mod-image-content > .mod-content > .paginate > span
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-image-content > .mod-content > .paginate > span,
+.wf-inactive .mod-image-content > .mod-content > .paginate > span
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-internal-ad.css
+ */
+
+.mod-ns-internal-ad > .mod-content > a > .info 
+{
+	visibility:hidden;
+	font-family: 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-internal-ad > .mod-content > a > .info ,
+.wf-inactive .mod-ns-internal-ad > .mod-content > a > .info 
+{
+	visibility:visible;
+}
+
+.row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-internal-ad > .mod-content > a > .info 
+{
+	visibility:hidden;
+	font-family: 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-internal-ad > .mod-content > a > .info ,
+.wf-inactive .row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-internal-ad > .mod-content > a > .info 
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-leaderboard.css
+ */
+
+.mod-ns-leaderboard > .mod-content > ol > li
+{
+	visibility:hidden;
+	font: 500 14px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-leaderboard > .mod-content > ol > li,
+.wf-inactive .mod-ns-leaderboard > .mod-content > ol > li
+{
+	visibility:visible;
+}
+
+.mod-ns-leaderboard > .mod-footer > .link
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-leaderboard > .mod-footer > .link,
+.wf-inactive .mod-ns-leaderboard > .mod-footer > .link
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-media-gallery.css
+ */
+
+.mod-ns-media-gallery > .mod-header > h2 > span
+{
+	visibility:hidden;
+	font: 700 30px/30px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-media-gallery > .mod-header > h2 > span,
+.wf-inactive .mod-ns-media-gallery > .mod-header > h2 > span
+{
+	visibility:visible;
+}
+
+.mod-ns-media-gallery > .mod-content > .panel > ul > li > a > .title
+{
+	visibility:hidden;
+	font: 700 16px/17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-media-gallery > .mod-content > .panel > ul > li > a > .title,
+.wf-inactive .mod-ns-media-gallery > .mod-content > .panel > ul > li > a > .title
+{
+	visibility:visible;
+}
+	
+.mod-ns-media-gallery > .mod-content > .panel > ul > li > a > .views
+{
+	visibility:hidden;
+	font: 500 13px/20px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-media-gallery > .mod-content > .panel > ul > li > a > .views,
+.wf-inactive .mod-ns-media-gallery > .mod-content > .panel > ul > li > a > .views
+{
+	visibility:visible;
+}
+
+.mod-ns-media-gallery > .mod-footer > .back-to-top 
+{
+	visibility:hidden;
+	font: 500 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-media-gallery > .mod-footer > .back-to-top,
+.wf-inactive .mod-ns-media-gallery > .mod-footer > .back-to-top 
+{
+	visibility:visible;
+}
+
+.mod-ns-media-gallery > .mod-footer > .paginaton > .status
+{
+	visibility:hidden;
+	font: 500 12px/12px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-media-gallery > .mod-footer > .paginaton > .status,
+.wf-inactive .mod-ns-media-gallery > .mod-footer > .paginaton > .status
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/ns-more-media.css
+ */
+
+.mod-more-media > .mod-header > .title
+{
+	visibility:hidden;
+	font: 500 16px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-more-media > .mod-header > .title,
+.wf-inactive .mod-more-media > .mod-header > .title
+{
+	visibility:visible;
+}
+
+.mod-more-media > .mod-content > ul > li > a > .title
+{
+	visibility:hidden;
+	font: 500 15px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-more-media > .mod-content > ul > li > a > .title,
+.wf-inactive .mod-more-media > .mod-content > ul > li > a > .title
+{
+	visibility:visible;
+}
+
+.mod-more-media > .mod-content > ul > li > a > .details
+{
+	visibility:hidden;
+	font: 500 12px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-more-media > .mod-content > ul > li > a > .details,
+.wf-inactive .mod-more-media > .mod-content > ul > li > a > .details
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-news-feed.css
+ */
+
+.wf-inactive .mod-ns-news-feed > .mod-footer > .link
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-news-feed > .mod-footer > .link,
+.wf-inactive .mod-ns-news-feed > .mod-footer > .link
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-page-logo.css
+ */
+
+/**
+ * module/ns-page-media.css
+ */
+
+
+.mod-ns-page-media > .mod-content > .tabs > .ui-tabs-nav > .ui-state-default > a > span
+{
+	visibility:hidden;
+	font: 500 12px/8px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+
+.wf-active .mod-ns-page-media > .mod-content > .tabs > .ui-tabs-nav > .ui-state-default > a > span,
+.wf-inactive .mod-ns-page-media > .mod-content > .tabs > .ui-tabs-nav > .ui-state-default > a > span
+{
+	visibility:visible;
+}
+
+.mod-ns-page-media > .mod-content > .tabs > .ui-tabs-nav > .ui-tabs-selected > a > span
+{
+	visibility:hidden;
+	font: 500 14px/13px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+
+.wf-active .mod-ns-page-media > .mod-content > .tabs > .ui-tabs-nav > .ui-tabs-selected > a > span,
+.wf-inactive .mod-ns-page-media > .mod-content > .tabs > .ui-tabs-nav > .ui-tabs-selected > a > span
+{
+	visibility:visible;
+}
+
+.mod-ns-page-media > .mod-content > .tabs > div > ul > li > a > .title
+{
+	visibility:hidden;
+	font: 700 16px/17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-page-media > .mod-content > .tabs > div > ul > li > a > .title,
+.wf-inactive .mod-ns-page-media > .mod-content > .tabs > div > ul > li > a > .title
+{
+	visibility:visible;
+}
+
+.mod-ns-page-media > .mod-content > .tabs > div > ul > li > a > .details
+{
+	visibility:hidden;
+	font: 500 13px/18px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-page-media > .mod-content > .tabs > div > ul > li > a > .details,
+.wf-inactive .mod-ns-page-media > .mod-content > .tabs > div > ul > li > a > .details
+{
+	visibility:visible;
+}
+
+.mod-ns-page-media.minimized > .mod-content > .tabs > div > .paginaton > .status
+{
+	visibility:hidden;
+	font:500 14px/15px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-page-media.minimized > .mod-content > .tabs > div > .paginaton > .status,
+.wf-inactive .mod-ns-page-media.minimized > .mod-content > .tabs > div > .paginaton > .status
+{
+	visibility:visible;
+}
+
+.mod-ns-page-media.expanded > .mod-content > .tabs > div > .paginaton > .more
+{
+	visibility:hidden;
+	font: 700 16px/16px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-page-media.expanded > .mod-content > .tabs > div > .paginaton > .more,
+.wf-inactive .mod-ns-page-media.expanded > .mod-content > .tabs > div > .paginaton > .more
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-reviews-menu.css
+ */
+
+.mod-ns-reviews-menu > .mod-content > ul > li > span,
+.mod-ns-reviews-menu > .mod-content > ul > li > a
+{
+	visibility:hidden;
+	font: 700 16px/18px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-reviews-menu > .mod-content > ul > li > span,
+.wf-inactive .mod-ns-reviews-menu > .mod-content > ul > li > span,
+.wf-active .mod-ns-reviews-menu > .mod-content > ul > li > a,
+.wf-inactive .mod-ns-reviews-menu > .mod-content > ul > li > a
+{
+	visibility:visible;
+}
+
+.mod-ns-reviews-menu > .mod-content > ul > li > ul > li > a > span
+{
+	visibility:hidden;
+	font: 500 13px/14px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-reviews-menu > .mod-content > ul > li > ul > li > a > span,
+.wf-inactive .mod-ns-reviews-menu > .mod-content > ul > li > ul > li > a > span
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-reviews.css
+ */
+
+.mod-ns-reviews > .mod-content > ul > li > .headline
+{
+	visibility:hidden;
+	font: 900 70px/60px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -5px;
+}
+.wf-active .mod-ns-reviews > .mod-content > ul > li > .headline,
+.wf-inactive .mod-ns-reviews > .mod-content > ul > li > .headline
+{
+	visibility:visible;
+}
+
+.mod-ns-reviews > .mod-content > ul > li > .summary
+{
+	visibility:hidden;
+	font: 500 26px/28px 'locator-web',helvetica,arial,sans-serif;
+	letter-spacing: -1px;
+}
+.wf-active .mod-ns-reviews > .mod-content > ul > li > .summary,
+.wf-inactive .mod-ns-reviews > .mod-content > ul > li > .summary
+{
+	visibility:visible;
+}
+
+.mod-ns-reviews > .mod-content > ul > li > .author
+{
+	visibility:hidden;
+	font: 500 16px/17px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-reviews > .mod-content > ul > li > .author,
+.wf-inactive .mod-ns-reviews > .mod-content > ul > li > .author
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-seo-copy.css
+ */
+
+/**
+ * module/ns-site-menu.css
+ */
+
+.mod-ns-site-menu > .mod-content > ul > li > a
+{
+	visibility:hidden;
+	font: 700 13px/13px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-site-menu > .mod-content > ul > li > a,
+.wf-inactive .mod-ns-site-menu > .mod-content > ul > li > a
+{
+	visibility:visible;
+}
+
+.mod-ns-site-menu > .mod-content > ul > li.has-sub > .sub > ul > li > a
+{
+	visibility:hidden;
+	font: 400 15px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-site-menu > .mod-content > ul > li.has-sub > .sub > ul > li > a,
+.wf-inactive .mod-ns-site-menu > .mod-content > ul > li.has-sub > .sub > ul > li > a
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-small-site-detail.css
+ */
+
+.mod-ns-small-site-detail > .mod-header > h2 > span
+{
+	visibility:hidden;
+	font: 700 40px/40px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: none;
+	letter-spacing: -1px;
+}
+.wf-active .mod-ns-small-site-detail > .mod-header > h2 > span,
+.wf-inactive .mod-ns-small-site-detail > .mod-header > h2 > span
+{
+	visibility:visible;
+}
+
+.mod-ns-small-site-detail > .mod-header > .caption
+{
+	visibility:hidden;
+	font: 700 17px/17px 'locator-web',helvetica,arial,sans-serif;
+	letter-spacing: -.75px;
+}
+.wf-active .mod-ns-small-site-detail > .mod-header > .caption,
+.wf-inactive .mod-ns-small-site-detail > .mod-header > .caption
+{
+	visibility:visible;
+}
+
+.mod-ns-small-site-detail > .mod-content > .content > h3
+{
+	visibility:hidden;
+	font: 700 27px/27px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-small-site-detail > .mod-content > .content > h3,
+.wf-inactive .mod-ns-small-site-detail > .mod-content > .content > h3
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-soundtrack.css
+ */
+
+.mod-ns-soundtrack > .mod-content > .playlist > ol > li > a > span.now-playing
+{
+	visibility:hidden;
+	font: 500 12px/12px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-soundtrack > .mod-content > .playlist > ol > li > a > span.now-playing,
+.wf-inactive .mod-ns-soundtrack > .mod-content > .playlist > ol > li > a > span.now-playing
+{
+	visibility:visible;
+}
+
+.mod-ns-soundtrack > .mod-content > .info > .caption
+{
+	visibility:hidden;
+	font: 500 13px/11px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-soundtrack > .mod-content > .info > .caption,
+.wf-inactive .mod-ns-soundtrack > .mod-content > .info > .caption
+{
+	visibility:visible;
+}
+
+.row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.min > .mod-content > .info > .headline
+{
+	visibility:hidden;
+	font: 700 30px/31px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.min > .mod-content > .info > .headline,
+.wf-inactive .row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.min > .mod-content > .info > .headline
+{
+	visibility:visible;
+}
+
+.row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.expanded > .mod-content > .info > .headline
+{
+	visibility:hidden;
+	font: 700 18px/19px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.expanded > .mod-content > .info > .headline,
+.wf-inactive .row.column-count-4 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.expanded > .mod-content > .info > .headline
+{
+	visibility:visible;
+}
+
+.row.column-count-3 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.min > .mod-content > .info > .headline
+{
+	visibility:hidden;
+	font: 700 30px/31px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .row.column-count-3 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.min > .mod-content > .info > .headline,
+.wf-inactive .row.column-count-3 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.min > .mod-content > .info > .headline
+{
+	visibility:visible;
+}
+
+.row.column-count-3 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.expanded > .mod-content > .info > .headline
+{
+	visibility:hidden;
+	font: 700 30px/38px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .row.column-count-3 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.expanded > .mod-content > .info > .headline,
+.wf-inactive .row.column-count-3 > .row-in > .col.column-span-3 > .mod-ns-soundtrack.expanded > .mod-content > .info > .headline
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-twitter-feed.css
+ */
+
+.mod-ns-twitter-feed > .mod-footer > .link
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-twitter-feed > .mod-footer > .link,
+.wf-inactive .mod-ns-twitter-feed > .mod-footer > .link
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-video-ad.css
+ */
+
+.mod-ns-video-ad > .mod-content > a > .info > .headline
+{
+	visibility:hidden;
+	font: 700 12px/12px 'locator-web',helvetica,arial,sans-serif;
+	text-transform: uppercase;
+}
+.wf-active .mod-ns-video-ad > .mod-content > a > .info > .headline,
+.wf-inactive .mod-ns-video-ad > .mod-content > a > .info > .headline
+{
+	visibility:visible;
+}
+
+.mod-ns-video-ad > .mod-content > a > .info > .text
+
+{
+	visibility:hidden;
+	font: 500 15px/16px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-ns-video-ad > .mod-content > a > .info > .text,
+.wf-inactive .mod-ns-video-ad > .mod-content > a > .info > .text
+
+{
+	visibility:visible;
+}
+
+/**
+ * module/ns-video-content.css
+ */
+
+.mod-video-content > .mod-content > .paginate > span
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-video-content > .mod-content > .paginate > span,
+.wf-inactive .mod-video-content > .mod-content > .paginate > span
+{
+	visibility:visible;
+}
+
+.mod-video-content > .mod-content > h1
+{
+	visibility:hidden;
+	font: 900 27px/28px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-video-content > .mod-content > h1,
+.wf-inactive .mod-video-content > .mod-content > h1
+{
+	visibility:visible;
+}
+
+.mod-video-content > .mod-content > .details
+{
+	visibility:hidden;
+	font: 500 13px/13px 'locator-web',helvetica,arial,sans-serif;
+}
+.wf-active .mod-video-content > .mod-content > .details,
+.wf-inactive .mod-video-content > .mod-content > .details
+{
+	visibility:visible;
+}
+
+
+/**
+ * module/### END: NETWORK STANDARDS MODULES ###
+ */
+
+
+
+/**
+ * page/article.css
+ */
+#content > .row-1 h2
+{
+	visibility:hidden;
+	font:900 30px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #content > .row-1 h2,
+.wf-inactive #content > .row-1 h2
+{
+	visibility:visible;
+}
+
+
+/**
+ * page/filter.css
+ */
+#content > .row-1 > .row-in > .col-1 > .label
+{
+	visibility:hidden;
+	font:500 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #content > .row-1 > .row-in > .col-1 > .label,
+.wf-inactive #content > .row-1 > .row-in > .col-1 > .label
+{
+	visibility:visible;
+}
+
+
+/**
+ * page/search.css
+ */
+#content .row-1 > .row-in > .col-1 > .label
+{
+	visibility:hidden;
+	font:500 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #content > .row-1 > .row-in > .col-1 > .label,
+.wf-inactive #content > .row-1 > .row-in > .col-1 > .label
+{
+	visibility:visible;
+}
+
+
+/**
+ * page/sitemap.css
+ */
+#content > .row-1 > .row-in > .col-1 > .label
+{
+	visibility:hidden;
+	font:500 14px/14px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-active #content > .row-1 > .row-in > .col-1 > .label,
+.wf-inactive #content > .row-1 > .row-in > .col-1 > .label
+{
+	visibility:visible;
+}
+#content > .row > .row-in > .col > .mod > .mod-header > h2
+{
+	visibility:hidden;
+	font:700 17px/17px 'locator-web',helvetica,arial,sans-serif; text-transform:uppercase;
+}
+.wf-inactive #content > .row > .row-in > .col > .mod > .mod-header > h2,
+.wf-active #content > .row > .row-in > .col > .mod > .mod-header > h2
+{
+	visibility:visible;
+}
