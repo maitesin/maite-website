@@ -1,0 +1,5 @@
+Maite Clausell - Professional Website
+Flask>=0.12.2
+Flask-Babel>=0.11.2
+jinja2>=2.9.6
+Babel>=2.4.0
