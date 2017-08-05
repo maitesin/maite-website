@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Maite Clausell Menero - Professional website">
-    <meta name="author" content="Oscar Forner Martinez">
+    <meta name="description" content="{{ gettext('Maite Clausell Menero - Professional Website') }}">
+    <meta name="author" content="{{ gettext('Oscar Forner Martinez') }}">
 
-    <title>Maite Clausell - Website</title>
+    <title>{{ gettext('Maite Clausell - Website') }}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -39,9 +39,9 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                    <span class="sr-only">{{ gettext('Toggle navigation') }}</span><i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Maite Clausell</a>
+                <a class="navbar-brand" href="#page-top">{{ gettext('Maite Clausell') }}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,16 +51,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">{{ gettext('Portfolio') }}</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#services">Skills</a>
+                        <a href="#services">{{ gettext('Skills') }}</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about">{{ gettext('About') }}</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">{{ gettext('Contact') }}</a>
                     </li>
                 </ul>
             </div>
@@ -76,9 +76,9 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="{{ url_for('static', filename='img/profile.png') }}" alt="">
                     <div class="intro-text">
-                        <span class="name">Maite Clausell</span>
+                        <span class="name">{{ gettext('Maite Clausell') }}</span>
                         <hr class="star-light">
-                        <span class="skills">Translator - Subtitler - Localiser</span>
+                        <span class="skills">{{ gettext('Translator - Subtitler - Localiser') }}</span>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>{{ gettext('Portfolio') }}</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -164,7 +164,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
+                    <h2>{{ gettext('Skills') }}</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -172,48 +172,48 @@
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-video-camera"></i>
-                        <h3>Subtitling</h3>
-                        <p>English into Spanish and Catalan subtitles for films, series and others.</p>
+                        <h3>{{ gettext('Subtitling') }}</h3>
+                        <p>{{ gettext('English into Spanish and Catalan subtitles for films, series and others.') }}</p>
                         <p><br></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-deaf"></i>
-                        <h3>SDH</h3>
-                        <p>English into Spanish and Catalan subtitles for Deaf and Hard of Hearing.</p>
+                        <h3>{{ gettext('SDH') }}</h3>
+                        <p>{{ gettext('English into Spanish and Catalan subtitles for Deaf and Hard of Hearing.') }}</p>
                         <p><br></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-check"></i>
-                        <h3>Editing</h3>
-                        <p>Edition of Spanish and Catalan texts after translation.</p>
+                        <h3>{{ gettext('Editing') }}</h3>
+                        <p>{{ gettext('Edition of Spanish and Catalan texts after translation.') }}</p>
                         <p><br></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-mobile"></i>
-                        <h3>App localisation</h3>
-                        <p>English into Spanish and Catalan website localisation.</p>
+                        <h3>{{ gettext('App localisation') }}</h3>
+                        <p>{{ gettext('English into Spanish and Catalan website localisation.') }}</p>
                         <p><br></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gamepad"></i>
-                        <h3>Game Localisation</h3>
-                        <p>English into Spanish and Catalan game and video game localisation.</p>
+                        <h3>{{ gettext('Game Localisation') }}</h3>
+                        <p>{{ gettext('English into Spanish and Catalan game and video game localisation.') }}</p>
                         <p><br></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-desktop"></i>
-                        <h3>Web Localisation</h3>
-                        <p>English into Spanish and Catalan website localisation.</p>
+                        <h3>{{ gettext('Web Localisation') }}</h3>
+                        <p>{{ gettext('English into Spanish and Catalan website localisation.') }}</p>
                         <p><br></p>
                     </div>
                 </div>
@@ -226,16 +226,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>{{ gettext('About') }}</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2 text-justify">
-                    <p>In 2013 I graduated in English Philology and moved to London (England) to study a MA in Audiovisual Translation. After finishing my MA I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London.</p>
+                    <p>{{ gettext('In 2013 I graduated in English Philology and moved to London (England) to study a MA in Audiovisual Translation. After finishing my MA I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London.') }}</p>
                 </div>
                 <div class="col-lg-4 text-justify">
-                    <p>I have recently finished a MA in Translation and New Technologies: Translation of Software and Multimedia Products. And I am currently working at the translation team of a marketing company as Spanish Language Lead and Junior Translation Project Manager. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series.</p>
+                    <p>{{ gettext('I have recently finished a MA in Translation and New Technologies: Translation of Software and Multimedia Products. And I am currently working at the translation team of a marketing company as Spanish Language Lead and Junior Translation Project Manager. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series.') }}</p>
                 </div>
             </div>
         </div>
@@ -249,7 +249,7 @@
                     <div class="footer-col col-md-4">
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Contact</h3>
+                        <h3>{{ gettext('Contact') }}</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="mailto:mcm.tradu@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
@@ -269,7 +269,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Maite Clausell 2017
+                        {{ gettext('Copyright &copy; Maite Clausell 2017') }}
                     </div>
                 </div>
             </div>
@@ -296,27 +296,27 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Beto</h2>
+                            <h2>{{ gettext('Beto') }}</h2>
                             <hr class="star-primary">
                             <img src="{{ url_for('static', filename='img/portfolio/Beto.png') }}" class="img-responsive img-centered" alt="">
-                            <p class="text-justify">Beto is a Spanish web series about a young adult with no job and little friends. His life is a chaos and even with his parents help, he struggles to make ends meet. People usually take advantage of him, in special, his psychiatrist who scams him continuously.</p>
-                            <p class="text-justify">This web series - produced and filmed in my hometown - has been nominated in several web series festivals and has won two prices.</p>
-                            <p class="text-justify">In September 2015, I decided that I wanted to help the people who created this web series. Since then, in my free time, I have been working on providing the Spanish subtitles, as well as translating the script into English, in order to provide English subtitles. If you want to see my job and have a good laugh, click <a href="https://www.youtube.com/watch?v=bsBvztx_BV8" target="_blank">here</a>.</p>
+                            <p class="text-justify">{{ gettext('Beto is a Spanish web series about a young adult with no job and little friends. His life is a chaos and even with his parents help, he struggles to make ends meet. People usually take advantage of him, in special, his psychiatrist who scams him continuously.') }}</p>
+                            <p class="text-justify">{{ gettext('This web series - produced and filmed in my hometown - has been nominated in several web series festivals and has won two prices.') }}</p>
+                            <p class="text-justify">{{ gettext('In September 2015, I decided that I wanted to help the people who created this web series. Since then, in my free time, I have been working on providing the Spanish subtitles, as well as translating the script into English, in order to provide English subtitles. If you want to see my job and have a good laugh, click <a href="https://www.youtube.com/watch?v=bsBvztx_BV8" target="_blank">here</a>.') }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="https://www.facebook.com/Sal-de-la-fila-349500041886691" target="_blank"/>Sal de la fila</a>
+                                <li>{{ gettext('Client:') }}
+                                    <strong>{{ gettext('<a href="https://www.facebook.com/Sal-de-la-fila-349500041886691" target="_blank"/>Sal de la fila') }}</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong>Ongoing
+                                <li>{{ gettext('Date:') }}
+                                    <strong>{{ gettext('Ongoing') }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong>Spanish and English Subtitles
+                                <li>{{ gettext('Service:') }}
+                                    <strong>{{ gettext('Spanish and English Subtitles') }}
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{ gettext('Close') }}</button>
                         </div>
                     </div>
                 </div>
@@ -335,27 +335,27 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>La Panderola</h2>
+                            <h2>{{ gettext('La Panderola') }}</h2>
                             <hr class="star-primary">
                             <img src="{{ url_for('static', filename='img/portfolio/Panderola.png') }}" class="img-responsive img-centered" alt="">
-                            <p class="text-justify"><em>La Panderola</em> was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from.</p>
-                            <p class="text-justify">We found this documentary on the Internet by chance and it was narrated in English. As my grandparents used <em>La Panderola</em> when they were young, I decided to create Spanish subtitles for the video. Therefore, they were able to enjoy this documentary which brought back really good memories.</p>
-                            <p class="text-justify"><strong>Note:</strong> I am currently working on this project and I will provide the link to the video soon.</p>
+                            <p class="text-justify">{{ gettext('<em>La Panderola</em> was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from.') }}</p>
+                            <p class="text-justify">{{ gettext('We found this documentary on the Internet by chance and it was narrated in English. As my grandparents used <em>La Panderola</em> when they were young, I decided to create Spanish subtitles for the video. Therefore, they were able to enjoy this documentary which brought back really good memories.') }}</p>
+                            <p class="text-justify">{{ gettext('<strong>Note:</strong> I am currently working on this project and I will provide the link to the video soon.') }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong>Grandparents
+                                <li>{{ gettext('Client:') }}
+                                    <strong>{{ gettext('Grandparents') }}
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong>In progress
+                                <li>{{ gettext('Date:') }}
+                                    <strong>{{ gettext('In progress') }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong>Spanish Subtitles
+                                <li>{{ gettext('Service:') }}
+                                    <strong>{{ gettext('Spanish Subtitles') }}
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{ gettext('Close') }}</button>
                         </div>
                     </div>
                 </div>
@@ -374,38 +374,38 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>TED Talks</h2>
+                            <h2>{{ gettext('TED Talks') }}</h2>
                             <hr class="star-primary">
                             <img src="{{ url_for('static', filename='img/portfolio/TED.png') }}" class="img-responsive img-centered" alt="">
-                            <p class="text-justify">TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution. It is widely known for its annual conference (TED Conference) and for its talks (TED Talks), which deal with several topics such as science, education, arts, culture, among others.</p>
-                            <p class="text-justify">In January 2014 I began collaborating with the creation of subtitles of some of their talks both into Spanish and Catalan. You can find them following the links below.</p>
+                            <p class="text-justify">{{ gettext('TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution. It is widely known for its annual conference (TED Conference) and for its talks (TED Talks), which deal with several topics such as science, education, arts, culture, among others.') }}</p>
+                            <p class="text-justify">{{ gettext('In January 2014 I began collaborating with the creation of subtitles of some of their talks both into Spanish and Catalan. You can find them following the links below.') }}</p>
                             <ul class="text-left">
-                            	<li>Spanish
+                            	<li>{{ gettext('Spanish') }}
                             		<ul>
-                            			<li><a href="https://www.youtube.com/watch?v=xfjZ-tWFxpA" target="_blank">Using Sports for Social Change</a></li>
+                            			<li><a href="https://www.youtube.com/watch?v=xfjZ-tWFxpA" target="_blank">{{ gettext('Using Sports for Social Change') }}</a></li>
                             		</ul>
                             	</li>
-                            	<li>Catalan
+                            	<li>{{ gettext('Catalan') }}
                             		<ul>
-                            			<li><a href="https://www.youtube.com/watch?v=PhVP1tNeGyY" target="_blank">Social maps that reveal a city's intersections — and separations</a></li>
+                            			<li><a href="https://www.youtube.com/watch?v=PhVP1tNeGyY" target="_blank">{{ gettext("Social maps that reveal a city's intersections — and separations") }}</a></li>
                             		</ul>
                             	</li>
                             </ul>		
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="https://www.ted.com/talks" target="_blank">TED Talks</a>
+                                <li>{{ gettext('Client:') }}
+                                    <strong><a href="https://www.ted.com/talks" target="_blank">{{ gettext('TED Talks') }}</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong>January 2014 - Nowadays
+                                <li>{{ gettext('Date:') }}
+                                    <strong>{{ gettext('January 2014 - Nowadays') }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong>Spanish and Catalan Subtitles
+                                <li>{{ gettext('Service:') }}
+                                    <strong>{{ gettext('Spanish and Catalan Subtitles') }}
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{ gettext('Close') }}</button>
                         </div>
                     </div>
                 </div>
@@ -424,27 +424,27 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Skins</h2>
+                            <h2>{{ gettext('Skins') }}</h2>
                             <hr class="star-primary">
                             <img src="{{ url_for('static', filename='img/portfolio/Skins.png') }}" class="img-responsive img-centered" alt="">
-                            <p class="text-justify"><em>Skins</em> is a British TV series created by Bryan Elsey and Jamie Brittain, which was first broadcasted on television on channel E4 on 25 January 2007.</p>
-                            <p class="text-justify">The series deals with the story of a group of teenagers who suffer different problems such as drug and alcohol abuse, homosexuality, mental illness, teen pregnancy, etc.</p>
-                            <p class="text-justify">As part of my dissertation for my MA in Audiovisual Translation, I provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing) of five scenes from episode 1 series 3 named "Everyone". You can see the results by clicking <a href="https://www.youtube.com/watch?v=17_y4-zTWdc" target="_blank">here</a>.</p>
+                            <p class="text-justify">{{ gettext('<em>Skins</em> is a British TV series created by Bryan Elsey and Jamie Brittain, which was first broadcasted on television on channel E4 on 25 January 2007.') }}</p>
+                            <p class="text-justify">{{ gettext('The series deals with the story of a group of teenagers who suffer different problems such as drug and alcohol abuse, homosexuality, mental illness, teen pregnancy, etc.') }}</p>
+                            <p class="text-justify">{{ gettext('As part of my dissertation for my MA in Audiovisual Translation, I provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing) of five scenes from episode 1 series 3 named "Everyone". You can see the results by clicking <a href="https://www.youtube.com/watch?v=17_y4-zTWdc" target="_blank">here</a>.') }}</p>
                             <ul class="list-inline item-details">
-                                <li>Course:
-                                    <strong>MA in Audiovisual Translation
+                                <li>{{ gettext('Course:') }}
+                                    <strong>{{ gettext('MA in Audiovisual Translation') }}
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong>September 2014
+                                <li>{{ gettext('Date:') }}
+                                    <strong>{{ gettext('September 2014') }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong>English into Spanish SDH
+                                <li>{{ gettext('Service:') }}
+                                    <strong>{{ gettext('English into Spanish SDH') }}
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{ gettext('Close') }}</button>
                         </div>
                     </div>
                 </div>
@@ -463,35 +463,35 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>The Godfather II</h2>
+                            <h2>{{ gettext('The Godfather II') }}</h2>
                             <hr class="star-primary">
                             <img src="{{ url_for('static', filename='img/portfolio/Godfather.png') }}" class="img-responsive img-centered" alt="">
-                            <p class="text-justify">As part of the dissertation of the <em>MA in Translation and New Technologies: Translation of Software and Multimedia Products</em> I had to localise several parts of the materials of the video game <strong>The Godfather II</strong> from English into Spanish.</p>
-                            <p class="text-justify">This video game is based on the film <em>The Godfather II</em> by Francis Ford Coppola, and was developed by EA Redwood Shores and distributed by Electronic Arts, Paramount Digital Entertainment.</p>
-                            <p class="text-justify">These are the materials that I localised:</p>
+                            <p class="text-justify">{{ gettext('As part of the dissertation of the <em>MA in Translation and New Technologies: Translation of Software and Multimedia Products</em> I had to localise several parts of the materials of the video game <strong>The Godfather II</strong> from English into Spanish.') }}</p>
+                            <p class="text-justify">{{ gettext('This video game is based on the film <em>The Godfather II</em> by Francis Ford Coppola, and was developed by EA Redwood Shores and distributed by Electronic Arts, Paramount Digital Entertainment.') }}</p>
+                            <p class="text-justify">{{ gettext('These are the materials that I localised:') }}</p>
                             <ul class="text-left">
-                            	<li><a href="{{ url_for('static', filename='docs/Guide.pdf') }}" target="_blank">Guide</a>
+                            	<li><a href="{{ url_for('static', filename='docs/Guide.pdf') }}" target="_blank">{{ gettext('Guide') }}</a>
                             	</li>
-                            	<li><a href="https://youtu.be/VdxgUg_Pdco" target="_blank">Video Game trailer</a>
+                            	<li><a href="https://youtu.be/VdxgUg_Pdco" target="_blank">{{ gettext('Video Game trailer') }}</a>
                             	</li>
-                            	<li><a href="{{ url_for('static', filename='docs/TheGodfather/www.ea.com/the-godfather-2.html') }}" target="_blank">Website</a>
+                            	<li><a href="{{ url_for('static', filename='docs/TheGodfather/www.ea.com/the-godfather-2.html') }}" target="_blank">{{ gettext('Website') }}</a>
                             	</li>
                             </ul>
                             <ul class="list-inline item-details">
-                                <li>Course:
-                                    <strong>MA in Translation and New Technologies: Translation of Software and Multimedia Products
+                                <li>{{ gettext('Course:') }}
+                                    <strong>{{ gettext('MA in Translation and New Technologies: Translation of Software and Multimedia Products') }}
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong>June 2017
+                                <li>{{ gettext('Date:') }}
+                                    <strong>{{ gettext('June 2017') }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong>Video game localisation English into Spanish
+                                <li>{{ gettext('Service:') }}
+                                    <strong>{{ gettext('Video game localisation English into Spanish') }}
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{ gettext('Close') }}</button>
                         </div>
                     </div>
                 </div>
@@ -510,27 +510,27 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Grandpa</h2>
+                            <h2>{{ gettext('Grandpa') }}</h2>
                             <hr class="star-primary">
                             <img src="{{ url_for('static', filename='img/portfolio/Grandpa.png') }}" class="img-responsive img-centered" alt="">
-                            <p class="text-justify">LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.</p>
-                            <p class="text-justify">The first time I read about this contest was in 2015, when LocJAM 2 took place. That year they chose a video game for translation and as my passion for video game localisation was beginning to develop, I decided to take part in the contest.</p>
-                            <p class="text-justify">The video game chosen for that year was <em>Grandpa</em>, created by Omar Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons License (CC BY 3.0)</a>. If you would like to play this short game in the Spanish version that I provided, click <a href="{{ url_for('static', filename='grandpa/index.html') }}">here</a>.</p>
+                            <p class="text-justify">{{ gettext('LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.') }}</p>
+                            <p class="text-justify">{{ gettext('The first time I read about this contest was in 2015, when LocJAM 2 took place. That year they chose a video game for translation and as my passion for video game localisation was beginning to develop, I decided to take part in the contest.') }}</p>
+                            <p class="text-justify">{{ gettext('The video game chosen for that year was <em>Grandpa</em>, created by Omar Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons License (CC BY 3.0)</a>. If you would like to play this short game in the Spanish version that I provided, click <a href="{{ url_for('static', filename='grandpa/index.html') }}">here</a>.') }}</p>
                             <ul class="list-inline item-details">
-                                <li>Contest:
-                                    <strong><a href= "http://www.locjam.org/" target="_blank">LocJAM 2</a>
+                                <li>{{ gettext('Contest:') }}
+                                    <strong><a href= "http://www.locjam.org/" target="_blank">{{ gettext('LocJAM 2') }}</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong>February 2015
+                                <li>{{ gettext('Date:') }}
+                                    <strong>{{ gettext('February 2015') }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong>Video game localisation English into Spanish
+                                <li>{{ gettext('Service:') }}
+                                    <strong>{{ gettext('Video game localisation English into Spanish') }}
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{ gettext('Close') }}</button>
                         </div>
                     </div>
                 </div>
