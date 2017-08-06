@@ -1,0 +1,402 @@
+# Catalan translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-08-06 16:20+0100\n"
+"PO-Revision-Date: 2017-08-06 16:32+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ca\n"
+"Language-Team: ca <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: templates/index.html:9
+msgid "Maite Clausell Menero - Professional Website"
+msgstr ""
+
+#: templates/index.html:10
+msgid "Oscar Forner Martinez"
+msgstr ""
+
+#: templates/index.html:12
+msgid "Maite Clausell - Website"
+msgstr ""
+
+#: templates/index.html:42
+msgid "Toggle navigation"
+msgstr ""
+
+#: templates/index.html:44 templates/index.html:79
+msgid "Maite Clausell"
+msgstr ""
+
+#: templates/index.html:54 templates/index.html:93
+msgid "Portfolio"
+msgstr ""
+
+#: templates/index.html:57 templates/index.html:167
+msgid "Skills"
+msgstr ""
+
+#: templates/index.html:60 templates/index.html:229
+msgid "About"
+msgstr ""
+
+#: templates/index.html:63 templates/index.html:252
+msgid "Contact"
+msgstr ""
+
+#: templates/index.html:81
+msgid "Translator - Subtitler - Localiser"
+msgstr ""
+
+#: templates/index.html:175
+msgid "Subtitling"
+msgstr ""
+
+#: templates/index.html:176
+msgid "English into Spanish and Catalan subtitles for films, series and others."
+msgstr ""
+
+#: templates/index.html:183
+msgid "SDH"
+msgstr ""
+
+#: templates/index.html:184
+msgid "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
+msgstr ""
+
+#: templates/index.html:191
+msgid "Editing"
+msgstr ""
+
+#: templates/index.html:192
+msgid "Edition of Spanish and Catalan texts after translation."
+msgstr ""
+
+#: templates/index.html:199
+msgid "App localisation"
+msgstr ""
+
+#: templates/index.html:200 templates/index.html:216
+msgid "English into Spanish and Catalan website localisation."
+msgstr ""
+
+#: templates/index.html:207
+msgid "Game Localisation"
+msgstr ""
+
+#: templates/index.html:208
+msgid "English into Spanish and Catalan game and video game localisation."
+msgstr ""
+
+#: templates/index.html:215
+msgid "Web Localisation"
+msgstr ""
+
+#: templates/index.html:235
+msgid ""
+"In 2013 I graduated in English Philology and moved to London (England) to"
+" study a MA in Audiovisual Translation. After finishing my MA I decided "
+"to stay in England, though I was born and had always lived near the "
+"Mediterranean Sea in Spain. In the years I have lived in England, I have "
+"moved around and lived in different places: London, Cambridge and Surrey,"
+" to move back to London."
+msgstr ""
+
+#: templates/index.html:238
+msgid ""
+"I have recently finished a MA in Translation and New Technologies: "
+"Translation of Software and Multimedia Products. And I currently work at "
+"the translation team of a marketing company as Spanish Language Lead and "
+"Junior Translation Project Manager. In my free time I like to read, knit,"
+" play video games and create subtitles for a Spanish web series."
+msgstr ""
+
+#: templates/index.html:272
+msgid "Copyright &copy; Maite Clausell 2017"
+msgstr ""
+
+#: templates/index.html:299
+msgid "Beto"
+msgstr ""
+
+#: templates/index.html:302
+msgid ""
+"Beto is a Spanish web series about a youg adult with no job and little "
+"friends. His life is a chaos and even with his parents help, he struggles"
+" to make ends meet. People usually take advantage of him, in special, his"
+" psychiatrist who scams him continuously."
+msgstr ""
+
+#: templates/index.html:303
+msgid ""
+"This web series - produced and filmed in my hometown - has been nominated"
+" in several web series festivals and has won two prices."
+msgstr ""
+
+#: templates/index.html:304
+msgid ""
+"In September 2015, I decided that I wanted to help the people who created"
+" this web series. Since then, in my free time, I have been working on "
+"providing the Spanish subtitles, as well as translating the script into "
+"English, in order to provide English subtitles. If you want to see my job"
+" and have a good laugh, click <a "
+"href=\"https://www.youtube.com/watch?v=bsBvztx_BV8\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: templates/index.html:306 templates/index.html:345 templates/index.html:395
+msgid "Client:"
+msgstr ""
+
+#: templates/index.html:307
+msgid ""
+"<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" "
+"target=\"_blank\"/>Sal de la fila"
+msgstr ""
+
+#: templates/index.html:310 templates/index.html:349 templates/index.html:399
+#: templates/index.html:438 templates/index.html:485 templates/index.html:524
+msgid "Date:"
+msgstr ""
+
+#: templates/index.html:311
+msgid "Ongoing"
+msgstr ""
+
+#: templates/index.html:314 templates/index.html:353 templates/index.html:403
+#: templates/index.html:442 templates/index.html:489 templates/index.html:528
+msgid "Service:"
+msgstr ""
+
+#: templates/index.html:315
+msgid "Spanish and English Subtitles"
+msgstr ""
+
+#: templates/index.html:319 templates/index.html:358 templates/index.html:408
+#: templates/index.html:447 templates/index.html:494 templates/index.html:533
+msgid "Close"
+msgstr ""
+
+#: templates/index.html:338
+msgid "La Panderola"
+msgstr ""
+
+#: templates/index.html:341
+msgid ""
+"<em>La Panderola</em> was a kind of tram that run between the years 1888 "
+"- 1963 in the area of Castellón de la Plana (Spain), where my family and "
+"myself originally come from."
+msgstr ""
+
+#: templates/index.html:342
+msgid ""
+"We found this documentary on the Internet by chance and it was narrated "
+"in English. As my grandparents used <em>La Panderola</em> when they were "
+"young, I decided to create Spanish subtitles for the video. Therefore, "
+"they were able to enjoy this documentary which brought back really good "
+"memories."
+msgstr ""
+
+#: templates/index.html:343
+msgid ""
+"<strong>Note:</strong> I am currently working on this project and I will "
+"provide the link to the video soon."
+msgstr ""
+
+#: templates/index.html:346
+msgid "Grandparents"
+msgstr ""
+
+#: templates/index.html:350
+msgid "In progress"
+msgstr ""
+
+#: templates/index.html:354
+msgid "Spanish Subtitles"
+msgstr ""
+
+#: templates/index.html:377 templates/index.html:396
+msgid "TED Talks"
+msgstr ""
+
+#: templates/index.html:380
+msgid ""
+"TED (Technology, Entertainment, Design) is an organisation that posts "
+"talks online for free distribution. It is widely known for its anual "
+"conference (TED Conference) and for its talks (TED Talks), which deal "
+"with several topics such as science, education, arts, culture, among "
+"others."
+msgstr ""
+
+#: templates/index.html:381
+msgid ""
+"In January 2014 I began collaborating with the creation of subtitles of "
+"some of their talks both into Spanish and Catalan. You can find them "
+"following the links below."
+msgstr ""
+
+#: templates/index.html:383
+msgid "Spanish"
+msgstr ""
+
+#: templates/index.html:385
+msgid "Using Sports for Social Change"
+msgstr ""
+
+#: templates/index.html:388
+msgid "Catalan"
+msgstr ""
+
+#: templates/index.html:390
+msgid "Social maps that reveal a city's intersections — and separations"
+msgstr ""
+
+#: templates/index.html:400
+msgid "January 2014 - Nowadays"
+msgstr ""
+
+#: templates/index.html:404
+msgid "Spanish and Catalan Subtitles"
+msgstr ""
+
+#: templates/index.html:427
+msgid "Skins"
+msgstr ""
+
+#: templates/index.html:430
+msgid ""
+"<em>Skins</em> is a British TV series created by Bryan Elsey and Jamie "
+"Brittain, which was first broadcasted on television on channel E4 on 25 "
+"January 2007."
+msgstr ""
+
+#: templates/index.html:431
+msgid ""
+"The series deals with the story of a group of teenagers who suffer "
+"different problems such as drug and alcohol abuse, homosexuality, mental "
+"illness, teen pregnancy, etc."
+msgstr ""
+
+#: templates/index.html:432
+msgid ""
+"As part of my dissertation for my MA in Audiovisual Translation, I "
+"provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing)"
+" of five scenes from episode 1 series 3 named \"Everyone\". You can see "
+"the results by clicking <a "
+"href=\"https://www.youtube.com/watch?v=17_y4-zTWdc\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: templates/index.html:434 templates/index.html:481
+msgid "Course:"
+msgstr ""
+
+#: templates/index.html:435
+msgid "MA in Audiovisual Translation"
+msgstr ""
+
+#: templates/index.html:439
+msgid "September 2014"
+msgstr ""
+
+#: templates/index.html:443
+msgid "English into Spanish SDH"
+msgstr ""
+
+#: templates/index.html:466
+msgid "The Godfather II"
+msgstr ""
+
+#: templates/index.html:469
+msgid ""
+"As part of the dissertation of the <em>MA in Translation and New "
+"Technologies: Translation of Software and Multimedia Products</em> I had "
+"to localise several parts of the materials of the video game <strong>The "
+"Godfather II</strong> from English into Spanish."
+msgstr ""
+
+#: templates/index.html:470
+msgid ""
+"This video game is based on the film <em>The Godfather II</em> by Francis"
+" Ford Coppola, and was developed by EA Redwood Shores and distributed by "
+"Electronic Arts, Paramount Digital Entertainment."
+msgstr ""
+
+#: templates/index.html:471
+msgid "These are the materials that I localised:"
+msgstr ""
+
+#: templates/index.html:473
+msgid "Guide"
+msgstr ""
+
+#: templates/index.html:475
+msgid "Video Game trailer"
+msgstr ""
+
+#: templates/index.html:477
+msgid "Website"
+msgstr ""
+
+#: templates/index.html:482
+msgid ""
+"MA in Translation and New Technologies: Translation of Software and "
+"Multimedia Products"
+msgstr ""
+
+#: templates/index.html:486
+msgid "June 2017"
+msgstr ""
+
+#: templates/index.html:490 templates/index.html:529
+msgid "Video game localisation English into Spanish"
+msgstr ""
+
+#: templates/index.html:513
+msgid "Grandpa"
+msgstr ""
+
+#: templates/index.html:516
+msgid ""
+"LocJAM is an online contest for game translators. Each year a short open "
+"source game in English is chosen for translation."
+msgstr ""
+
+#: templates/index.html:517
+msgid ""
+"The first time I read about this contest was in 2015, when LocJAM 2 took "
+"place. That year they chose a vide game for translation and as my passion"
+" for video game localisation was beginning to develop, I decided to take "
+"part in the contest."
+msgstr ""
+
+#: templates/index.html:518
+msgid ""
+"The video game chosen for that year was <em>Grandpa</em>, created by Omar"
+" Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a "
+"href=\"https://creativecommons.org/licenses/by/3.0/\" "
+"target=\"_blank\">Creative Commons License (CC BY 3.0)</a>."
+msgstr ""
+
+#: templates/index.html:520
+msgid "Contest:"
+msgstr ""
+
+#: templates/index.html:521
+msgid "LocJAM 2"
+msgstr ""
+
+#: templates/index.html:525
+msgid "February 2015"
+msgstr ""
+
