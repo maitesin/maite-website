@@ -1,4 +1,3 @@
-Maite Clausell - Professional Website
 Flask>=0.12.2
 Flask-Babel>=0.11.2
 Flask-Assets>=0.12
