@@ -158,6 +158,16 @@ header .intro-text .skills {
   color: white;
   border-color: #8F76A5;
 }
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: white;
+  background-color: #8F76A5;
+}
+.navbar-nav > li > .dropdown-menu {
+  color: white;
+  background-color: #2C3E50;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
