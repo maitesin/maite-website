@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-08-20 14:49+0100\n"
-"PO-Revision-Date: 2017-08-20 15:09+0100\n"
+"PO-Revision-Date: 2017-08-20 15:17+0100\n"
 "Last-Translator: \n"
 "Language-Team: es <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -81,7 +81,7 @@ msgstr "Subtitulado"
 
 #: templates/index.html:184
 msgid "English into Spanish and Catalan subtitles for films, series and others."
-msgstr "Subtítulos de inglés a español y catalán."
+msgstr "Subtítulos de inglés a español y catalán para películas, series, etc."
 
 #: templates/index.html:191
 msgid "SDH"
@@ -89,7 +89,7 @@ msgstr "Subtítulos para sordos"
 
 #: templates/index.html:192
 msgid "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
-msgstr "SPS de inglés a español y catalán."
+msgstr "Subtítulos para sordos de inglés a español y catalán."
 
 #: templates/index.html:199
 msgid "Editing"
@@ -97,7 +97,7 @@ msgstr "Edición de textos"
 
 #: templates/index.html:200
 msgid "Edition of Spanish and Catalan texts after translation."
-msgstr "Edición de textos en español y catalán."
+msgstr "Edición de textos traducidos a español y catalán."
 
 #: templates/index.html:207
 msgid "App localisation"
