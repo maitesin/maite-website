@@ -8,271 +8,307 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-08-06 20:06+0100\n"
-"PO-Revision-Date: 2017-08-06 20:06+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-08-20 14:18+0100\n"
 "Language: es\n"
 "Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: templates/index.html:9
 msgid "Maite Clausell Menero - Professional Website"
-msgstr ""
+msgstr "Maite Clausell Menero - Professional Website"
 
 #: templates/index.html:10
 msgid "Oscar Forner Martinez"
-msgstr ""
+msgstr "Oscar Forner Martinez"
 
 #: templates/index.html:12
 msgid "Maite Clausell - Website"
-msgstr ""
+msgstr "Maite Clausell - Página web"
 
 #: templates/index.html:42
 msgid "Toggle navigation"
-msgstr ""
+msgstr "Alternar navegación"
 
 #: templates/index.html:44 templates/index.html:79
 msgid "Maite Clausell"
-msgstr ""
+msgstr "Maite Clausell"
 
 #: templates/index.html:54 templates/index.html:93
 msgid "Portfolio"
-msgstr ""
+msgstr "Porfolio"
 
 #: templates/index.html:57 templates/index.html:167
 msgid "Skills"
-msgstr ""
+msgstr "Aptitudes"
 
 #: templates/index.html:60 templates/index.html:229
 msgid "About"
-msgstr ""
+msgstr "Acerca de mí"
 
 #: templates/index.html:63 templates/index.html:252
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #: templates/index.html:81
 msgid "Translator - Subtitler - Localiser"
-msgstr ""
+msgstr "Traductora - Subtituladora - Localizadora"
 
 #: templates/index.html:175
 msgid "Subtitling"
-msgstr ""
+msgstr "Subtitulado"
 
 #: templates/index.html:176
 msgid "English into Spanish and Catalan subtitles for films, series and others."
-msgstr ""
+msgstr "Subtítulos de inglés a español y catalán para películas, series, etc."
 
 #: templates/index.html:183
 msgid "SDH"
-msgstr ""
+msgstr "Subtítulos para sordos"
 
 #: templates/index.html:184
 msgid "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
-msgstr ""
+msgstr "Subtítulos para sordos de inglés a español y catalán."
 
 #: templates/index.html:191
 msgid "Editing"
-msgstr ""
+msgstr "Edición"
 
 #: templates/index.html:192
 msgid "Edition of Spanish and Catalan texts after translation."
-msgstr ""
+msgstr "Edición de textos en español y catalán."
 
 #: templates/index.html:199
 msgid "App localisation"
-msgstr ""
+msgstr "Localización de aplicaciones"
 
 #: templates/index.html:200 templates/index.html:216
 msgid "English into Spanish and Catalan website localisation."
-msgstr ""
+msgstr "Localización de sitios web de inglés a español y catalán."
 
 #: templates/index.html:207
 msgid "Game Localisation"
-msgstr ""
+msgstr "Localización de videojuegos"
 
 #: templates/index.html:208
 msgid "English into Spanish and Catalan game and video game localisation."
-msgstr ""
+msgstr "Localización de videojuegos de inglés a español y catalán."
 
 #: templates/index.html:215
 msgid "Web Localisation"
-msgstr ""
+msgstr "Localización de sitios web"
 
 #: templates/index.html:235
 msgid ""
-"In 2013 I graduated in English Philology and moved to London (England) to"
-" study a MA in Audiovisual Translation. After finishing my MA I decided "
-"to stay in England, though I was born and raised near the Mediterranean "
-"Sea in Spain. In the years I have lived in England, I have moved around "
-"and lived in different places: London, Cambridge and Surrey, to move back"
-" to London."
+"In 2013 I graduated in English Philology and moved to London (England) to "
+"study a MA in Audiovisual Translation. After finishing my MA I decided to "
+"stay in England, though I was born and raised near the Mediterranean Sea in "
+"Spain. In the years I have lived in England, I have moved around and lived in "
+"different places: London, Cambridge and Surrey, to move back to London."
 msgstr ""
+"En 2013 me licencié en Filología Inglesa y me mudé a Londres (Inglaterra) "
+"para estudiar un máster en Traducción Audiovisual. Tras terminar el máster "
+"decidí quedarme en Inglaterra, a pesar de haber nacido y haberme criado en "
+"España, cerca del mar Mediterráneo. En el tiempo que he vivido en Inglaterra, "
+"he vivido en varios municipios: Londres, Cambridge y Surrey, para finalmente "
+"volver a Londres."
 
 #: templates/index.html:238
 msgid ""
 "I have recently finished a MA in Translation and New Technologies: "
-"Translation of Software and Multimedia Products. And I am currently "
-"working at the translation team of a marketing company as Spanish "
-"Language Lead and Junior Translation Project Manager. In my free time I "
-"like to read, knit, play video games and create subtitles for a Spanish "
-"web series."
+"Translation of Software and Multimedia Products. And I am currently working "
+"at the translation team of a marketing company as Spanish Language Lead and "
+"Junior Translation Project Manager. In my free time I like to read, knit, "
+"play video games and create subtitles for a Spanish web series."
 msgstr ""
+"Hace unos meses que terminé el Máster en Traducción y Nuevas Tecnologías: "
+"Traducción de Software y Productos Multimedia. Actualmente trabajo como "
+"<em>Language Lead</em> de español y gestora de proyectos en el equipo de "
+"traducción de una empresa de mercadotecnia. Aprovecho mi tiempo libre para "
+"leer, tejer, jugar a videojuegos y crear subtítulos para web series españolas."
 
 #: templates/index.html:272
 msgid "Copyright &copy; Maite Clausell 2017"
-msgstr ""
+msgstr "Copyright &copy; Maite Clausell 2017"
 
 #: templates/index.html:299
 msgid "Beto"
-msgstr ""
+msgstr "Beto"
 
 #: templates/index.html:302
 msgid ""
 "Beto is a Spanish web series about a youg adult with no job and little "
-"friends. His life is a chaos and even with his parents help, he struggles"
-" to make ends meet. People usually take advantage of him, in special, his"
-" psychiatrist who scams him continuously."
+"friends. His life is a chaos and even with his parents help, he struggles to "
+"make ends meet. People usually take advantage of him, in special, his "
+"psychiatrist who scams him continuously."
 msgstr ""
+"Beto es una web serie española sobre un adulto joven desempleado y con pocos "
+"amigos. Su vida es caótica y le cuesta llegar a fin de mes incluso con la "
+"ayuda de sus padres. La gente se aprovecha de él, especialmente su "
+"psiquiatra, que le estafa continuamente."
 
 #: templates/index.html:303
 msgid ""
-"This web series - produced and filmed in my hometown - has been nominated"
-" in several web series festivals and has won two prices."
+"This web series - produced and filmed in my hometown - has been nominated in "
+"several web series festivals and has won two prices."
 msgstr ""
+"Esta web serie, producida y filmada en mi ciudad natal, ha sido nominada en "
+"varios festivales de web series y ha ganado dos premios."
 
 #: templates/index.html:304
 msgid ""
-"In September 2015, I decided that I wanted to help the people who created"
-" this web series. Since then, in my free time, I have been working on "
+"In September 2015, I decided that I wanted to help the people who created "
+"this web series. Since then, in my free time, I have been working on "
 "providing the Spanish subtitles, as well as translating the script into "
-"English, in order to provide English subtitles. If you want to see my job"
-" and have a good laugh, click <a "
-"href=\"https://www.youtube.com/watch?v=bsBvztx_BV8\" "
-"target=\"_blank\">here</a>."
+"English, in order to provide English subtitles. If you want to see my job and "
+"have a good laugh, click <a href=\"https://www.youtube.com/watch?"
+"v=bsBvztx_BV8\" target=\"_blank\">here</a>."
 msgstr ""
+"En septiembre de 2015, me decidí a ayudar a los creadores de esta web serie y "
+"desde entonces, en mi tiempo libre, he realizado los subtítulos en español, "
+"así como la traducción al inglés de los mismos, para crear los subtítulos en "
+"inglés. Si quieres ver mi trabajo y echarte unas risas, haz clic <a href="
+"\"https://www.youtube.com/watch?v=bsBvztx_BV8\" target=\"_blank\">aquí</a>."
 
 #: templates/index.html:306 templates/index.html:345 templates/index.html:395
 msgid "Client:"
-msgstr ""
+msgstr "Cliente:"
 
 #: templates/index.html:307
 msgid ""
-"<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" "
-"target=\"_blank\"/>Sal de la fila"
+"<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" target="
+"\"_blank\"/>Sal de la fila"
 msgstr ""
+"<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" target="
+"\"_blank\"/>Sal de la fila"
 
 #: templates/index.html:310 templates/index.html:349 templates/index.html:399
 #: templates/index.html:438 templates/index.html:485 templates/index.html:524
 msgid "Date:"
-msgstr ""
+msgstr "Fecha:"
 
 #: templates/index.html:311
 msgid "Ongoing"
-msgstr ""
+msgstr "en curso"
 
 #: templates/index.html:314 templates/index.html:353 templates/index.html:403
 #: templates/index.html:442 templates/index.html:489 templates/index.html:528
 msgid "Service:"
-msgstr ""
+msgstr "Servicio:"
 
 #: templates/index.html:315
 msgid "Spanish and English Subtitles"
-msgstr ""
+msgstr "Subtítulos en inglés y español"
 
 #: templates/index.html:319 templates/index.html:358 templates/index.html:408
 #: templates/index.html:447 templates/index.html:494 templates/index.html:533
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: templates/index.html:338
 msgid "La Panderola"
-msgstr ""
+msgstr "La Panderola"
 
 #: templates/index.html:341
 msgid ""
-"<em>La Panderola</em> was a kind of tram that run between the years 1888 "
-"- 1963 in the area of Castellón de la Plana (Spain), where my family and "
-"myself originally come from."
+"<em>La Panderola</em> was a kind of tram that run between the years 1888 - "
+"1963 in the area of Castellón de la Plana (Spain), where my family and myself "
+"originally come from."
 msgstr ""
+"<em>La Panderola</em> era una especie de tranvía que explotó una línea desde "
+"1888 hasta 1963 en la zona de Castellón de la Plana (España), provincia en la "
+"que se sitúa mi ciudad natal."
 
 #: templates/index.html:342
 msgid ""
-"We found this documentary on the Internet by chance and it was narrated "
-"in English. As my grandparents used <em>La Panderola</em> when they were "
-"young, I decided to create Spanish subtitles for the video. Therefore, "
-"they were able to enjoy this documentary which brought back really good "
-"memories."
+"We found this documentary on the Internet by chance and it was narrated in "
+"English. As my grandparents used <em>La Panderola</em> when they were young, "
+"I decided to create Spanish subtitles for the video. Therefore, they were "
+"able to enjoy this documentary which brought back really good memories."
 msgstr ""
+"Nos encontramos con este documental en Internet por casualidad, narrado en "
+"inglés y puesto que mis abuelos solían viajar en <em>La Panderola</em> cuando "
+"eran jóvenes, quise subtitular el documental en español para que pudiesen "
+"disfrutar del mismo, que les traería buenos recuerdos."
 
 #: templates/index.html:343
 msgid ""
 "<strong>Note:</strong> I am currently working on this project and I will "
 "provide the link to the video soon."
 msgstr ""
+"<strong>Nota:</strong> Estoy trabajando en este proyecto y subiré el vídeo "
+"pronto."
 
 #: templates/index.html:346
 msgid "Grandparents"
-msgstr ""
+msgstr "abuelos"
 
 #: templates/index.html:350
 msgid "In progress"
-msgstr ""
+msgstr "en curso"
 
 #: templates/index.html:354
 msgid "Spanish Subtitles"
-msgstr ""
+msgstr "subtítulos en español"
 
 #: templates/index.html:377 templates/index.html:396
 msgid "TED Talks"
-msgstr ""
+msgstr "TED Talks"
 
 #: templates/index.html:380
 msgid ""
-"TED (Technology, Entertainment, Design) is an organisation that posts "
-"talks online for free distribution. It is widely known for its anual "
-"conference (TED Conference) and for its talks (TED Talks), which deal "
-"with several topics such as science, education, arts, culture, among "
-"others."
+"TED (Technology, Entertainment, Design) is an organisation that posts talks "
+"online for free distribution. It is widely known for its anual conference "
+"(TED Conference) and for its talks (TED Talks), which deal with several "
+"topics such as science, education, arts, culture, among others."
 msgstr ""
+"TED (Tecnología, Entretenimiento, Diseño) es una organización que publica "
+"charlas en línea. Es ampliamente conocida por su congreso anual (TED "
+"Conference) y por sus charlas (TED Talks), que tratan varios temas, como "
+"ciencias, educación, arte, cultura, etc."
 
 #: templates/index.html:381
 msgid ""
-"In January 2014 I began collaborating with the creation of subtitles of "
-"some of their talks both into Spanish and Catalan. You can find them "
-"following the links below."
+"In January 2014 I began collaborating with the creation of subtitles of some "
+"of their talks both into Spanish and Catalan. You can find them following the "
+"links below."
 msgstr ""
+"En enero de 2014 empecé a colaborar creando subtítulos para algunas de sus "
+"charlas en español y catalán. Puedes verlas haciendo clic en los siguientes "
+"enlaces:"
 
 #: templates/index.html:383
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
 
 #: templates/index.html:385
 msgid "Using Sports for Social Change"
-msgstr ""
+msgstr "Using Sports for Social Change"
 
 #: templates/index.html:388
 msgid "Catalan"
-msgstr ""
+msgstr "Catalán"
 
 #: templates/index.html:390
 msgid "Social maps that reveal a city's intersections — and separations"
-msgstr ""
+msgstr "Social maps that reveal a city's intersections — and separations"
 
 #: templates/index.html:400
 msgid "January 2014 - Nowadays"
-msgstr ""
+msgstr "enero de 2014 - Actualmente"
 
 #: templates/index.html:404
 msgid "Spanish and Catalan Subtitles"
-msgstr ""
+msgstr "subtítulos en español y catalán"
 
 #: templates/index.html:427
 msgid "Skins"
-msgstr ""
+msgstr "Skins"
 
 #: templates/index.html:430
 msgid ""
@@ -280,130 +316,158 @@ msgid ""
 "Brittain, which was first broadcasted on television on channel E4 on 25 "
 "January 2007."
 msgstr ""
+"<em>Skins</em> es una serie de televisión británica creada por Bryan Elsey y "
+"Jamie Brittain, emitida por primera vez en televisión el 25 de enero de 2017 "
+"en el canal E4."
 
 #: templates/index.html:431
 msgid ""
-"The series deals with the story of a group of teenagers who suffer "
-"different problems such as drug and alcohol abuse, homosexuality, mental "
-"illness, teen pregnancy, etc."
+"The series deals with the story of a group of teenagers who suffer different "
+"problems such as drug and alcohol abuse, homosexuality, mental illness, teen "
+"pregnancy, etc."
 msgstr ""
+"La serie trata de un grupo de adolescentes que se enfrentan a diversos "
+"problemas como alcoholismo, adicción a las drogas, homosexualidad, "
+"enfermedades mentales, embarazo adolescente, etc."
 
 #: templates/index.html:432
 msgid ""
-"As part of my dissertation for my MA in Audiovisual Translation, I "
-"provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing)"
-" of five scenes from episode 1 series 3 named \"Everyone\". You can see "
-"the results by clicking <a "
-"href=\"https://www.youtube.com/watch?v=17_y4-zTWdc\" "
-"target=\"_blank\">here</a>."
+"As part of my dissertation for my MA in Audiovisual Translation, I provided "
+"the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing) of five "
+"scenes from episode 1 series 3 named \"Everyone\". You can see the results by "
+"clicking <a href=\"https://www.youtube.com/watch?v=17_y4-zTWdc\" target="
+"\"_blank\">here</a>."
 msgstr ""
+"Como parte de la tesina del máster en Traducción Audiovisual, creé subtítulos "
+"para sordos en español para cinco escenas del primer episodio de la tercera "
+"temporada, titulado \"Everyone\" (Todos). Puedes ver el resultado haciendo "
+"clic <a href=\"https://www.youtube.com/watch?v=17_y4-zTWdc\" target=\"_blank"
+"\">aquí</a>."
 
 #: templates/index.html:434 templates/index.html:481
 msgid "Course:"
-msgstr ""
+msgstr "Titulación:"
 
 #: templates/index.html:435
 msgid "MA in Audiovisual Translation"
-msgstr ""
+msgstr "Máster en Traducción Audiovisual"
 
 #: templates/index.html:439
 msgid "September 2014"
-msgstr ""
+msgstr "septiembre de 2014"
 
 #: templates/index.html:443
 msgid "English into Spanish SDH"
-msgstr ""
+msgstr "Subtítulos para sordos de inglés a español"
 
 #: templates/index.html:466
 msgid "The Godfather II"
-msgstr ""
+msgstr "El Padrino II"
 
 #: templates/index.html:469
 msgid ""
 "As part of the dissertation of the <em>MA in Translation and New "
-"Technologies: Translation of Software and Multimedia Products</em> I had "
-"to localise several parts of the materials of the video game <strong>The "
+"Technologies: Translation of Software and Multimedia Products</em> I had to "
+"localise several parts of the materials of the video game <strong>The "
 "Godfather II</strong> from English into Spanish."
 msgstr ""
+"Como parte de la tesina del <em>Máster en Traducción y Nuevas Tecnologías: "
+"Traducción de Software y Productos Multimedia</em> tuve que localizar de "
+"inglés a español varias partes de los materiales que componen el videojuego "
+"<strong>El Padrino II</strong>."
 
 #: templates/index.html:470
 msgid ""
-"This video game is based on the film <em>The Godfather II</em> by Francis"
-" Ford Coppola, and was developed by EA Redwood Shores and distributed by "
+"This video game is based on the film <em>The Godfather II</em> by Francis "
+"Ford Coppola, and was developed by EA Redwood Shores and distributed by "
 "Electronic Arts, Paramount Digital Entertainment."
 msgstr ""
+"Este videojuego está basado en la película <em>El Padrino II</em> de Francis "
+"Ford Coppola. Fue desarrollado por EA Redwood Shotes y distribuido por "
+"Electronic Arts, Paramount Digital Entertainment."
 
 #: templates/index.html:471
 msgid "These are the materials that I localised:"
-msgstr ""
+msgstr "Los materiales que localicé fueron:"
 
 #: templates/index.html:473
 msgid "Guide"
-msgstr ""
+msgstr "Guía"
 
 #: templates/index.html:475
 msgid "Video Game trailer"
-msgstr ""
+msgstr "Tráiler del videojuego"
 
 #: templates/index.html:477
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: templates/index.html:482
 msgid ""
 "MA in Translation and New Technologies: Translation of Software and "
 "Multimedia Products"
 msgstr ""
+"Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos "
+"Multimedia"
 
 #: templates/index.html:486
 msgid "June 2017"
-msgstr ""
+msgstr "junio de 2017"
 
 #: templates/index.html:490 templates/index.html:529
 msgid "Video game localisation English into Spanish"
-msgstr ""
+msgstr "Localización de videojuegos de inglés a español"
 
 #: templates/index.html:513
 msgid "Grandpa"
-msgstr ""
+msgstr "Grandpa"
 
 #: templates/index.html:516
 msgid ""
 "LocJAM is an online contest for game translators. Each year a short open "
 "source game in English is chosen for translation."
 msgstr ""
+"LocJAM es un concurso en línea para traductores de juegos. Cada año se "
+"selecciona un juego breve de código abierto en inglés."
 
 #: templates/index.html:517
 msgid ""
 "The first time I read about this contest was in 2015, when LocJAM 2 took "
-"place. That year they chose a vide game for translation and as my passion"
-" for video game localisation was beginning to develop, I decided to take "
-"part in the contest."
+"place. That year they chose a vide game for translation and as my passion for "
+"video game localisation was beginning to develop, I decided to take part in "
+"the contest."
 msgstr ""
+"La primera vez que leí sobre este concurso fue en 2015, cuando se llevó a "
+"cabo LocJAM 2. Ese año decidieron que se iba a traducir un videojuego y "
+"puesto que por aquella época se empezaba a desarrollar mi pasión por la "
+"localización de videojuegos, decidí participar en el concurso."
 
 #: templates/index.html:518
 msgid ""
-"The video game chosen for that year was <em>Grandpa</em>, created by Omar"
-" Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a "
-"href=\"https://creativecommons.org/licenses/by/3.0/\" "
-"target=\"_blank\">Creative Commons License (CC BY 3.0)</a>. If you would "
-"like to play this short game in the Spanish version that I provided, "
-"click"
+"The video game chosen for that year was <em>Grandpa</em>, created by Omar "
+"Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a href=\"https://"
+"creativecommons.org/licenses/by/3.0/\" target=\"_blank\">Creative Commons "
+"License (CC BY 3.0)</a>. If you would like to play this short game in the "
+"Spanish version that I provided, click"
 msgstr ""
+"El videojuego que eligieron fue <em>Grandpa</em>, createdo por Omar Enezi, "
+"Abdullah Hamed and Basma Mariki, bajo la licencia <a href=\"https://"
+"creativecommons.org/licenses/by/3.0/\" target=\"_blank\">Creative Commons "
+"License (CC BY 3.0)</a>. Si te apetece jugar a este juego en la versión en "
+"español que presenté, haz clic"
 
 #: templates/index.html:518
 msgid "here</a>."
-msgstr ""
+msgstr "aquí</a>."
 
 #: templates/index.html:520
 msgid "Contest:"
-msgstr ""
+msgstr "Concurso:"
 
 #: templates/index.html:521
 msgid "LocJAM 2"
-msgstr ""
+msgstr "LocJAM 2"
 
 #: templates/index.html:525
 msgid "February 2015"
-msgstr ""
-
+msgstr "febrero de 2015"
