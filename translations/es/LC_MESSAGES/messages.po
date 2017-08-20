@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-20 14:34+0100\n"
-"PO-Revision-Date: 2017-08-20 14:39+0100\n"
+"POT-Creation-Date: 2017-08-20 14:49+0100\n"
+"PO-Revision-Date: 2017-08-20 15:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: es <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -81,7 +81,7 @@ msgstr "Subtitulado"
 
 #: templates/index.html:184
 msgid "English into Spanish and Catalan subtitles for films, series and others."
-msgstr "Subtítulos de inglés a español y catalán para películas, series, etc."
+msgstr "Subtítulos de inglés a español y catalán."
 
 #: templates/index.html:191
 msgid "SDH"
@@ -89,11 +89,11 @@ msgstr "Subtítulos para sordos"
 
 #: templates/index.html:192
 msgid "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
-msgstr "Subtítulos para sordos de inglés a español y catalán."
+msgstr "SPS de inglés a español y catalán."
 
 #: templates/index.html:199
 msgid "Editing"
-msgstr "Edición"
+msgstr "Edición de textos"
 
 #: templates/index.html:200
 msgid "Edition of Spanish and Catalan texts after translation."
@@ -130,8 +130,8 @@ msgstr ""
 "En 2013 me licencié en Filología Inglesa y me mudé a Londres (Inglaterra) "
 "para estudiar un máster en Traducción Audiovisual. Tras terminar el máster "
 "decidí quedarme en Inglaterra, a pesar de haber nacido y haberme criado en "
-"España, cerca del mar Mediterráneo. En el tiempo que he vivido en Inglaterra, "
-"he vivido en varios municipios: Londres, Cambridge y Surrey, para finalmente "
+"España, cerca del mar Mediterráneo. En el tiempo que llevo en Inglaterra, he "
+"vivido en varios municipios: Londres, Cambridge y Surrey, para finalmente "
 "volver a Londres."
 
 #: templates/index.html:246
@@ -158,7 +158,7 @@ msgstr "Beto"
 
 #: templates/index.html:310
 msgid ""
-"Beto is a Spanish web series about a youg adult with no job and little "
+"Beto is a Spanish web series about a young adult with no job and little "
 "friends. His life is a chaos and even with his parents help, he struggles to "
 "make ends meet. People usually take advantage of him, in special, his "
 "psychiatrist who scams him continuously."
@@ -219,7 +219,7 @@ msgstr "Servicio:"
 
 #: templates/index.html:323
 msgid "Spanish and English Subtitles"
-msgstr "Subtítulos en inglés y español"
+msgstr "subtítulos en inglés y español"
 
 #: templates/index.html:327 templates/index.html:366 templates/index.html:416
 #: templates/index.html:455 templates/index.html:502 templates/index.html:541
@@ -279,7 +279,7 @@ msgstr "TED Talks"
 #: templates/index.html:388
 msgid ""
 "TED (Technology, Entertainment, Design) is an organisation that posts talks "
-"online for free distribution. It is widely known for its anual conference "
+"online for free distribution. It is widely known for its annual conference "
 "(TED Conference) and for its talks (TED Talks), which deal with several "
 "topics such as science, education, arts, culture, among others."
 msgstr ""
@@ -308,7 +308,7 @@ msgstr "Social maps that reveal a city's intersections — and separations"
 
 #: templates/index.html:408
 msgid "January 2014 - Nowadays"
-msgstr "enero de 2014 - Actualmente"
+msgstr "enero de 2014 - actualmente"
 
 #: templates/index.html:412
 msgid "Spanish and Catalan Subtitles"
@@ -366,7 +366,7 @@ msgstr "septiembre de 2014"
 
 #: templates/index.html:451
 msgid "English into Spanish SDH"
-msgstr "Subtítulos para sordos de inglés a español"
+msgstr "subtítulos para sordos de inglés a español"
 
 #: templates/index.html:474
 msgid "The Godfather II"
@@ -424,7 +424,7 @@ msgstr "junio de 2017"
 
 #: templates/index.html:498 templates/index.html:537
 msgid "Video game localisation English into Spanish"
-msgstr "Localización de videojuegos de inglés a español"
+msgstr "localización de videojuegos de inglés a español"
 
 #: templates/index.html:521
 msgid "Grandpa"
