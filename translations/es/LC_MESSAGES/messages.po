@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-28 19:28+0100\n"
-"PO-Revision-Date: 2017-08-28 19:32+0100\n"
+"POT-Creation-Date: 2017-08-28 19:55+0100\n"
+"PO-Revision-Date: 2017-08-28 19:56+0100\n"
 "Last-Translator: \n"
 "Language-Team: es <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -97,7 +97,7 @@ msgstr "Edición de textos"
 
 #: templates/index.html:200
 msgid "Edition of Spanish and Catalan texts after translation."
-msgstr "Edición de textos traducidos a español y catalán."
+msgstr "Edición de textos traducidos al español y al catalán."
 
 #: templates/index.html:207
 msgid "App localisation"
@@ -171,7 +171,7 @@ msgstr ""
 #: templates/index.html:311
 msgid ""
 "This web series - produced and filmed in my hometown - has been nominated in "
-"several web series festivals and has won two prices."
+"several web series festivals and has won two awards."
 msgstr ""
 "Esta web serie, producida y filmada en mi ciudad natal, ha sido nominada en "
 "varios festivales de web series y ha ganado dos premios."
