@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-28 19:55+0100\n"
-"PO-Revision-Date: 2017-08-28 19:56+0100\n"
+"POT-Creation-Date: 2017-10-29 10:12+0000\n"
+"PO-Revision-Date: 2017-10-29 10:14+0000\n"
 "Last-Translator: \n"
+"Language: es\n"
 "Language-Team: es <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
-"Language: es\n"
+"Generated-By: Babel 2.5.0\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
 #: templates/index.html:9
@@ -59,15 +59,15 @@ msgstr "Contacto"
 msgid "Language"
 msgstr "Idioma"
 
-#: templates/index.html:68
+#: templates/index.html:68 templates/index.html:353
 msgid "English"
 msgstr "Inglés"
 
-#: templates/index.html:69 templates/index.html:391
+#: templates/index.html:69 templates/index.html:355 templates/index.html:397
 msgid "Spanish"
 msgstr "Español"
 
-#: templates/index.html:70 templates/index.html:396
+#: templates/index.html:70 templates/index.html:402
 msgid "Catalan"
 msgstr "Catalán"
 
@@ -191,7 +191,7 @@ msgstr ""
 "inglés. Si quieres ver mi trabajo y echarte unas risas, haz clic <a href="
 "\"https://www.youtube.com/watch?v=bsBvztx_BV8\" target=\"_blank\">aquí</a>."
 
-#: templates/index.html:314 templates/index.html:353 templates/index.html:403
+#: templates/index.html:314 templates/index.html:359 templates/index.html:409
 msgid "Client:"
 msgstr "Cliente:"
 
@@ -203,8 +203,8 @@ msgstr ""
 "<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" target="
 "\"_blank\"/>Sal de la fila"
 
-#: templates/index.html:318 templates/index.html:357 templates/index.html:407
-#: templates/index.html:446 templates/index.html:493 templates/index.html:532
+#: templates/index.html:318 templates/index.html:363 templates/index.html:413
+#: templates/index.html:452 templates/index.html:499 templates/index.html:538
 msgid "Date:"
 msgstr "Fecha:"
 
@@ -212,8 +212,8 @@ msgstr "Fecha:"
 msgid "Ongoing"
 msgstr "en curso"
 
-#: templates/index.html:322 templates/index.html:361 templates/index.html:411
-#: templates/index.html:450 templates/index.html:497 templates/index.html:536
+#: templates/index.html:322 templates/index.html:367 templates/index.html:417
+#: templates/index.html:456 templates/index.html:503 templates/index.html:542
 msgid "Service:"
 msgstr "Servicio:"
 
@@ -221,8 +221,8 @@ msgstr "Servicio:"
 msgid "Spanish and English Subtitles"
 msgstr "subtítulos en inglés y español"
 
-#: templates/index.html:327 templates/index.html:366 templates/index.html:416
-#: templates/index.html:455 templates/index.html:502 templates/index.html:541
+#: templates/index.html:327 templates/index.html:372 templates/index.html:422
+#: templates/index.html:461 templates/index.html:508 templates/index.html:547
 msgid "Close"
 msgstr "Cerrar"
 
@@ -253,30 +253,28 @@ msgstr ""
 "disfrutar del mismo, lo cual les traería buenos recuerdos."
 
 #: templates/index.html:351
-msgid ""
-"<strong>Note:</strong> I am currently working on this project and I will "
-"provide the link to the video soon."
+msgid "You can find the videos with my subtitles in the links below:"
 msgstr ""
-"<strong>Nota:</strong> Estoy trabajando en este proyecto y subiré el vídeo "
-"pronto."
+"Si quieres ver los vídeos con los subtítulos que he creado, haz clic en los "
+"siguientes enlaces:"
 
-#: templates/index.html:354
+#: templates/index.html:360
 msgid "Grandparents"
 msgstr "abuelos"
 
-#: templates/index.html:358
-msgid "In progress"
-msgstr "en curso"
+#: templates/index.html:364
+msgid "October 2017"
+msgstr "octubre de 2017"
 
-#: templates/index.html:362
-msgid "Spanish Subtitles"
-msgstr "subtítulos en español"
+#: templates/index.html:368
+msgid "English and Spanish Subtitles"
+msgstr "Subtítulos en inglés y español"
 
-#: templates/index.html:385 templates/index.html:404
+#: templates/index.html:391 templates/index.html:410
 msgid "TED Talks"
 msgstr "TED Talks"
 
-#: templates/index.html:388
+#: templates/index.html:394
 msgid ""
 "TED (Technology, Entertainment, Design) is an organisation that posts talks "
 "online for free distribution. It is widely known for its annual conference "
@@ -288,7 +286,7 @@ msgstr ""
 "Conference) y por sus charlas (TED Talks), que tratan varios temas, como "
 "ciencias, educación, arte, cultura, etc."
 
-#: templates/index.html:389
+#: templates/index.html:395
 msgid ""
 "In January 2014 I began collaborating with the creation of subtitles of some "
 "of their talks both into Spanish and Catalan. You can find them following the "
@@ -298,27 +296,27 @@ msgstr ""
 "charlas en español y catalán. Puedes verlas haciendo clic en los siguientes "
 "enlaces:"
 
-#: templates/index.html:393
+#: templates/index.html:399
 msgid "Using Sports for Social Change"
 msgstr "Using Sports for Social Change"
 
-#: templates/index.html:398
+#: templates/index.html:404
 msgid "Social maps that reveal a city's intersections — and separations"
 msgstr "Social maps that reveal a city's intersections — and separations"
 
-#: templates/index.html:408
+#: templates/index.html:414
 msgid "January 2014 - Nowadays"
 msgstr "enero de 2014 - actualmente"
 
-#: templates/index.html:412
+#: templates/index.html:418
 msgid "Spanish and Catalan Subtitles"
 msgstr "subtítulos en español y catalán"
 
-#: templates/index.html:435
+#: templates/index.html:441
 msgid "Skins"
 msgstr "Skins"
 
-#: templates/index.html:438
+#: templates/index.html:444
 msgid ""
 "<em>Skins</em> is a British TV series created by Bryan Elsey and Jamie "
 "Brittain, which was first broadcasted on television on channel E4 on 25 "
@@ -328,7 +326,7 @@ msgstr ""
 "Jamie Brittain, emitida por primera vez en televisión el 25 de enero de 2017 "
 "en el canal E4."
 
-#: templates/index.html:439
+#: templates/index.html:445
 msgid ""
 "The series deals with the story of a group of teenagers who suffer different "
 "problems such as drug and alcohol abuse, homosexuality, mental illness, teen "
@@ -338,7 +336,7 @@ msgstr ""
 "problemas como alcoholismo, adicción a las drogas, homosexualidad, "
 "enfermedades mentales, embarazo adolescente, etc."
 
-#: templates/index.html:440
+#: templates/index.html:446
 msgid ""
 "As part of my dissertation for my MA in Audiovisual Translation, I provided "
 "the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing) of five "
@@ -352,27 +350,27 @@ msgstr ""
 "clic <a href=\"https://www.youtube.com/watch?v=17_y4-zTWdc\" target=\"_blank"
 "\">aquí</a>."
 
-#: templates/index.html:442 templates/index.html:489
+#: templates/index.html:448 templates/index.html:495
 msgid "Course:"
 msgstr "Titulación:"
 
-#: templates/index.html:443
+#: templates/index.html:449
 msgid "MA in Audiovisual Translation"
 msgstr "Máster en Traducción Audiovisual"
 
-#: templates/index.html:447
+#: templates/index.html:453
 msgid "September 2014"
 msgstr "septiembre de 2014"
 
-#: templates/index.html:451
+#: templates/index.html:457
 msgid "English into Spanish SDH"
 msgstr "subtítulos para sordos de inglés a español"
 
-#: templates/index.html:474
+#: templates/index.html:480
 msgid "The Godfather II"
 msgstr "El Padrino II"
 
-#: templates/index.html:477
+#: templates/index.html:483
 msgid ""
 "As part of the dissertation of the <em>MA in Translation and New "
 "Technologies: Translation of Software and Multimedia Products</em> I had to "
@@ -384,7 +382,7 @@ msgstr ""
 "inglés a español varias partes de los materiales que componen el videojuego "
 "<strong>El Padrino II</strong>."
 
-#: templates/index.html:478
+#: templates/index.html:484
 msgid ""
 "This video game is based on the film <em>The Godfather II</em> by Francis "
 "Ford Coppola, and was developed by EA Redwood Shores and distributed by "
@@ -394,23 +392,23 @@ msgstr ""
 "Ford Coppola. Fue desarrollado por EA Redwood Shotes y distribuido por "
 "Electronic Arts, Paramount Digital Entertainment."
 
-#: templates/index.html:479
+#: templates/index.html:485
 msgid "These are the materials that I localised:"
 msgstr "Los materiales que localicé fueron:"
 
-#: templates/index.html:481
+#: templates/index.html:487
 msgid "Guide"
 msgstr "Guía"
 
-#: templates/index.html:483
+#: templates/index.html:489
 msgid "Video Game trailer"
 msgstr "Tráiler del videojuego"
 
-#: templates/index.html:485
+#: templates/index.html:491
 msgid "Website"
 msgstr "Sitio web"
 
-#: templates/index.html:490
+#: templates/index.html:496
 msgid ""
 "MA in Translation and New Technologies: Translation of Software and "
 "Multimedia Products"
@@ -418,19 +416,19 @@ msgstr ""
 "Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos "
 "Multimedia"
 
-#: templates/index.html:494
+#: templates/index.html:500
 msgid "June 2017"
 msgstr "junio de 2017"
 
-#: templates/index.html:498 templates/index.html:537
+#: templates/index.html:504 templates/index.html:543
 msgid "Video game localisation English into Spanish"
 msgstr "localización de videojuegos de inglés a español"
 
-#: templates/index.html:521
+#: templates/index.html:527
 msgid "Grandpa"
 msgstr "Grandpa"
 
-#: templates/index.html:524
+#: templates/index.html:530
 msgid ""
 "LocJAM is an online contest for game translators. Each year a short open "
 "source game in English is chosen for translation."
@@ -438,7 +436,7 @@ msgstr ""
 "LocJAM es un concurso en línea para traductores de juegos. Cada año se "
 "selecciona un juego breve de código abierto en inglés."
 
-#: templates/index.html:525
+#: templates/index.html:531
 msgid ""
 "The first time I read about this contest was in 2015, when LocJAM 2 took "
 "place. That year they chose a video game for translation and as my passion "
@@ -450,7 +448,7 @@ msgstr ""
 "puesto que por aquella época se empezaba a desarrollar mi pasión por la "
 "localización de videojuegos, decidí participar en el concurso."
 
-#: templates/index.html:526
+#: templates/index.html:532
 msgid ""
 "The video game chosen for that year was <em>Grandpa</em>, created by Omar "
 "Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a href=\"https://"
@@ -464,18 +462,31 @@ msgstr ""
 "License (CC BY 3.0)</a>. Si te apetece jugar a este juego en la versión en "
 "español que presenté, haz clic"
 
-#: templates/index.html:526
+#: templates/index.html:532
 msgid "here</a>."
 msgstr "aquí</a>."
 
-#: templates/index.html:528
+#: templates/index.html:534
 msgid "Contest:"
 msgstr "Concurso:"
 
-#: templates/index.html:529
+#: templates/index.html:535
 msgid "LocJAM 2"
 msgstr "LocJAM 2"
 
-#: templates/index.html:533
+#: templates/index.html:539
 msgid "February 2015"
 msgstr "febrero de 2015"
+
+#~ msgid ""
+#~ "<strong>Note:</strong> I am currently working on this project and I will "
+#~ "provide the link to the video soon."
+#~ msgstr ""
+#~ "<strong>Nota:</strong> Estoy trabajando en este proyecto y subiré el vídeo "
+#~ "pronto."
+
+#~ msgid "In progress"
+#~ msgstr "en curso"
+
+#~ msgid "Spanish Subtitles"
+#~ msgstr "subtítulos en español"

@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-28 19:55+0100\n"
-"PO-Revision-Date: 2017-09-10 12:07+0100\n"
+"POT-Creation-Date: 2017-10-29 10:12+0000\n"
+"PO-Revision-Date: 2017-10-29 10:18+0000\n"
+"Last-Translator: \n"
+"Language: ca\n"
 "Language-Team: ca <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
-"Last-Translator: \n"
-"Language: ca\n"
+"Generated-By: Babel 2.5.0\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
 #: templates/index.html:9
@@ -59,15 +59,15 @@ msgstr "Contacte"
 msgid "Language"
 msgstr "Llengua"
 
-#: templates/index.html:68
+#: templates/index.html:68 templates/index.html:353
 msgid "English"
 msgstr "Anglès"
 
-#: templates/index.html:69 templates/index.html:391
+#: templates/index.html:69 templates/index.html:355 templates/index.html:397
 msgid "Spanish"
 msgstr "Espanyol"
 
-#: templates/index.html:70 templates/index.html:396
+#: templates/index.html:70 templates/index.html:402
 msgid "Catalan"
 msgstr "Català"
 
@@ -147,7 +147,7 @@ msgstr "Aquesta web sèrie, produïda i filmada al meu poble natal, ha sigut nom
 msgid "In September 2015, I decided that I wanted to help the people who created this web series. Since then, in my free time, I have been working on providing the Spanish subtitles, as well as translating the script into English, in order to provide English subtitles. If you want to see my job and have a good laugh, click <a href=\"https://www.youtube.com/watch?v=bsBvztx_BV8\" target=\"_blank\">here</a>."
 msgstr "En setembre de 2015, vaig decidir-me a ajudar als creadors d'aquesta web sèrie. Des d'aleshores, en el meu temps lliure, he estat creant els subtítols en espanyol, i a més he traduït el guió a l'anglès per poder crear subtítols en aquesta llengua. Si vols veure el meu treball i riure de bona gana, fes clic <a href=\"https://www.youtube.com/watch?v=bsBvztx_BV8\" target=\"_blank\">ací</a>."
 
-#: templates/index.html:314 templates/index.html:353 templates/index.html:403
+#: templates/index.html:314 templates/index.html:359 templates/index.html:409
 msgid "Client:"
 msgstr "Client:"
 
@@ -155,8 +155,8 @@ msgstr "Client:"
 msgid "<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" target=\"_blank\"/>Sal de la fila"
 msgstr "<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" target=\"_blank\"/>Sal de la fila"
 
-#: templates/index.html:318 templates/index.html:357 templates/index.html:407
-#: templates/index.html:446 templates/index.html:493 templates/index.html:532
+#: templates/index.html:318 templates/index.html:363 templates/index.html:413
+#: templates/index.html:452 templates/index.html:499 templates/index.html:538
 msgid "Date:"
 msgstr "Data:"
 
@@ -164,8 +164,8 @@ msgstr "Data:"
 msgid "Ongoing"
 msgstr "actualment"
 
-#: templates/index.html:322 templates/index.html:361 templates/index.html:411
-#: templates/index.html:450 templates/index.html:497 templates/index.html:536
+#: templates/index.html:322 templates/index.html:367 templates/index.html:417
+#: templates/index.html:456 templates/index.html:503 templates/index.html:542
 msgid "Service:"
 msgstr "Servei:"
 
@@ -173,8 +173,8 @@ msgstr "Servei:"
 msgid "Spanish and English Subtitles"
 msgstr "subtítols en espanyol i anglès"
 
-#: templates/index.html:327 templates/index.html:366 templates/index.html:416
-#: templates/index.html:455 templates/index.html:502 templates/index.html:541
+#: templates/index.html:327 templates/index.html:372 templates/index.html:422
+#: templates/index.html:461 templates/index.html:508 templates/index.html:547
 msgid "Close"
 msgstr "Tanca"
 
@@ -191,152 +191,152 @@ msgid "We found this documentary on the Internet by chance and it was narrated i
 msgstr "Vam trobar aquest documental a Internet per casualitat, narrat en anglès i com que els meus avis viatjaven amb <em>La Panderola</em> quan eren jóvens, vaig decidir crear subtítols en espanyol per al vídeo perquè pogueren gaudir d'un documental que els portaria molts bons records."
 
 #: templates/index.html:351
-msgid "<strong>Note:</strong> I am currently working on this project and I will provide the link to the video soon."
-msgstr "<strong>Nota:</strong> Actualment estic treballant en aquest projecte, pujaré el vídeo prompte."
+msgid "You can find the videos with my subtitles in the links below:"
+msgstr "Pots veure els vídeos en els subtítols que he creat fent clic als següents enllaços:"
 
-#: templates/index.html:354
+#: templates/index.html:360
 msgid "Grandparents"
 msgstr "avis"
 
-#: templates/index.html:358
-msgid "In progress"
-msgstr "en progrés"
+#: templates/index.html:364
+msgid "October 2017"
+msgstr "octubre de 2017"
 
-#: templates/index.html:362
-msgid "Spanish Subtitles"
-msgstr "subtítols en espanyol"
+#: templates/index.html:368
+msgid "English and Spanish Subtitles"
+msgstr "subtítols en espanyol i anglès"
 
-#: templates/index.html:385 templates/index.html:404
+#: templates/index.html:391 templates/index.html:410
 msgid "TED Talks"
 msgstr "TED Talks"
 
-#: templates/index.html:388
+#: templates/index.html:394
 msgid "TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution. It is widely known for its annual conference (TED Conference) and for its talks (TED Talks), which deal with several topics such as science, education, arts, culture, among others."
 msgstr "TED (Tecnologia, Entreteniment, Disseny) és una organització que ofereix xarrades en línia gratuïtes. Aquesta organització és mundialment coneguda per la seua conferència anual (TED Conference) i per les seues xarrades (TED Talks), que tracten de diversos temes com ciència, educació, art, cultura, etc."
 
-#: templates/index.html:389
+#: templates/index.html:395
 msgid "In January 2014 I began collaborating with the creation of subtitles of some of their talks both into Spanish and Catalan. You can find them following the links below."
 msgstr "En gener de 2014 vaig començar a col·laborar creant subtítols en espanyol i català per a algunes de les seues xarrades. Pots veure-les fent clic als següents enllaços:"
 
-#: templates/index.html:393
+#: templates/index.html:399
 msgid "Using Sports for Social Change"
 msgstr "Using Sports for Social Change"
 
-#: templates/index.html:398
+#: templates/index.html:404
 msgid "Social maps that reveal a city's intersections — and separations"
 msgstr "Social maps that reveal a city's intersections — and separations"
 
-#: templates/index.html:408
+#: templates/index.html:414
 msgid "January 2014 - Nowadays"
 msgstr "gener de 2014 - actualment"
 
-#: templates/index.html:412
+#: templates/index.html:418
 msgid "Spanish and Catalan Subtitles"
 msgstr "subtítols en espanyol i català"
 
-#: templates/index.html:435
+#: templates/index.html:441
 msgid "Skins"
 msgstr "Skins"
 
-#: templates/index.html:438
+#: templates/index.html:444
 msgid "<em>Skins</em> is a British TV series created by Bryan Elsey and Jamie Brittain, which was first broadcasted on television on channel E4 on 25 January 2007."
 msgstr "<em>Skins</em> és una sèrie de televisió britànica, creada per Bryan Elsey i Jamie Brittain, que fou emesa per primera vegada al canal E4 el 25 de gener de 2007."
 
-#: templates/index.html:439
+#: templates/index.html:445
 msgid "The series deals with the story of a group of teenagers who suffer different problems such as drug and alcohol abuse, homosexuality, mental illness, teen pregnancy, etc."
 msgstr "La sèrie tracta d'un grup d'adolescents amb diversos problemes com drogaddicció, alcoholisme, homosexualitat, malalties mentals, embaràs adolescent, etc."
 
-#: templates/index.html:440
+#: templates/index.html:446
 msgid "As part of my dissertation for my MA in Audiovisual Translation, I provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing) of five scenes from episode 1 series 3 named \"Everyone\". You can see the results by clicking <a href=\"https://www.youtube.com/watch?v=17_y4-zTWdc\" target=\"_blank\">here</a>."
 msgstr "Com a tesina per al màster en Traducció Audiovisual, vaig crear els subtítols per a persones sordes per a cinc escenes del primer capítol de la tercera temporada d'aquesta sèrie, anomenat \"Everyone\" (Tots). Pots veure els resultats fent clic <a href=\"https://www.youtube.com/watch?v=17_y4-zTWdc\" target=\"_blank\">ací</a>."
 
-#: templates/index.html:442 templates/index.html:489
+#: templates/index.html:448 templates/index.html:495
 msgid "Course:"
 msgstr "Titulació:"
 
-#: templates/index.html:443
+#: templates/index.html:449
 msgid "MA in Audiovisual Translation"
 msgstr "Màster en Traducció Audiovisual"
 
-#: templates/index.html:447
+#: templates/index.html:453
 msgid "September 2014"
 msgstr "setembre de 2014"
 
-#: templates/index.html:451
+#: templates/index.html:457
 msgid "English into Spanish SDH"
 msgstr "subtítols per a persones sordes d'anglès a espanyol"
 
-#: templates/index.html:474
+#: templates/index.html:480
 msgid "The Godfather II"
 msgstr "El Padrí II"
 
-#: templates/index.html:477
+#: templates/index.html:483
 msgid "As part of the dissertation of the <em>MA in Translation and New Technologies: Translation of Software and Multimedia Products</em> I had to localise several parts of the materials of the video game <strong>The Godfather II</strong> from English into Spanish."
 msgstr "Per a la tesina del <em>Màster en Traducció i Noves Tecnologies: Traducció de Programari i Productes Multimèdia</em> vaig localitzar d'anglès a espanyol algunes parts que componen els materials del videojoc <strong>El Padrí II</strong>."
 
-#: templates/index.html:478
+#: templates/index.html:484
 msgid "This video game is based on the film <em>The Godfather II</em> by Francis Ford Coppola, and was developed by EA Redwood Shores and distributed by Electronic Arts, Paramount Digital Entertainment."
 msgstr "Aquest videojoc està basat en la pel·lícula <em>El Padrí II</em> de Francis Ford Coppola, i fou desenvolupat per EA Redwood Shores i distribuït per Electronic Arts, Paramount Digital Entertainment."
 
-#: templates/index.html:479
+#: templates/index.html:485
 msgid "These are the materials that I localised:"
 msgstr "Els materials que vaig localitzar són:"
 
-#: templates/index.html:481
+#: templates/index.html:487
 msgid "Guide"
 msgstr "Guia"
 
-#: templates/index.html:483
+#: templates/index.html:489
 msgid "Video Game trailer"
 msgstr "Tràiler del videojoc"
 
-#: templates/index.html:485
+#: templates/index.html:491
 msgid "Website"
 msgstr "Pàgina web"
 
-#: templates/index.html:490
+#: templates/index.html:496
 msgid "MA in Translation and New Technologies: Translation of Software and Multimedia Products"
 msgstr "Màster en Traducció i Noves Tecnologies: Traducció de Programari i Productes Multimèdia"
 
-#: templates/index.html:494
+#: templates/index.html:500
 msgid "June 2017"
 msgstr "juny de 2017"
 
-#: templates/index.html:498 templates/index.html:537
+#: templates/index.html:504 templates/index.html:543
 msgid "Video game localisation English into Spanish"
 msgstr "localització de videojocs d'anglès a espanyol"
 
-#: templates/index.html:521
+#: templates/index.html:527
 msgid "Grandpa"
 msgstr "Grandpa"
 
-#: templates/index.html:524
+#: templates/index.html:530
 msgid "LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation."
 msgstr "LocJAM és un concurs en línia per a traductors de jocs. Cada any se selecciona un joc en anglès de codi obert."
 
-#: templates/index.html:525
+#: templates/index.html:531
 msgid "The first time I read about this contest was in 2015, when LocJAM 2 took place. That year they chose a video game for translation and as my passion for video game localisation was beginning to develop, I decided to take part in the contest."
 msgstr "La primera vegada que vaig llegir sobre aquest concurs fou en 2015, quan es va celebrar el LocJAM 2. Aquell any van decidir que es traduiria un videojoc i com que la meua passió per la localització de videojocs començava a desenvolupar-se, vaig voler participar en el concurs."
 
-#: templates/index.html:526
+#: templates/index.html:532
 msgid "The video game chosen for that year was <em>Grandpa</em>, created by Omar Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\">Creative Commons License (CC BY 3.0)</a>. If you would like to play this short game in the Spanish version that I provided, click"
 msgstr "El videojoc que es va seleccionar va ser <em>Grandpa</em>, creat per Omar Enezi, Abdullah Hamed and Basma Mariki, baix la llicència <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\">Creative Commons License (CC BY 3.0)</a>. Si vols jugar a aquest joc en la versió a l'espanyol que vaig presentar, fes clic"
 
-#: templates/index.html:526
+#: templates/index.html:532
 msgid "here</a>."
 msgstr "ací</a>."
 
-#: templates/index.html:528
+#: templates/index.html:534
 msgid "Contest:"
 msgstr "Concurs:"
 
-#: templates/index.html:529
+#: templates/index.html:535
 msgid "LocJAM 2"
 msgstr "LocJAM 2"
 
-#: templates/index.html:533
+#: templates/index.html:539
 msgid "February 2015"
-msgstr "febrer de 201"
+msgstr "febrer de 2015"
 
 #~ msgid ""
 #~ msgstr ""
@@ -347,3 +347,19 @@ msgstr "febrer de 201"
 #~ " nominated in several web series "
 #~ "festivals and has won two prices."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "<strong>Note:</strong> I am currently working"
+#~ " on this project and I will "
+#~ "provide the link to the video "
+#~ "soon."
+#~ msgstr ""
+#~ "<strong>Nota:</strong> Actualment estic treballant"
+#~ " en aquest projecte, pujaré el vídeo"
+#~ " prompte."
+
+#~ msgid "In progress"
+#~ msgstr "en progrés"
+
+#~ msgid "Spanish Subtitles"
+#~ msgstr "subtítols en espanyol"
