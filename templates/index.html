@@ -59,6 +59,9 @@
                     <li name="about" class="page-scroll">
                         <a name="about" href="#about">{{ gettext('About') }}</a>
                     </li>
+                    <li name="associations" class="page-scroll">
+                        <a name="associations" href="#associations">{{ gettext('Associations') }}</a>
+                    </li>
                     <li name="contact" class="page-scroll">
                         <a name="contact" href="#contact">{{ gettext('Contact') }}</a>
                     </li>
@@ -244,6 +247,31 @@
                 </div>
                 <div class="col-lg-5">
                     <p>{{ gettext('In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead and Junior Translation Project Manager. At the end of 2017 I decided that I wanted to focus my career to translation, hence, since the beginning of 2018, I am working as a freelance translator, subtitler and localiser. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series.') }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 	<!-- Associations Section  -->
+    <section class="success"  id="associations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>{{ gettext('Translation Associations') }}</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                    	<img src="{{ url_for('static', filename='img/associations/atrae_small.jpg') }}" class="img-responsive"></img>
+                        <p>{{ gettext('Asociación de Traducción y Adaptación Audiovisual de España') }}</p>
+                        <p><br></p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 text-center">
+                    <div class="service-box">
+                    </div>
                 </div>
             </div>
         </div>

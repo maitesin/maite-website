@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-01-11 18:33+0000\n"
+"POT-Creation-Date: 2018-02-12 10:52+0000\n"
 "PO-Revision-Date: 2017-08-06 20:06+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -34,91 +34,95 @@ msgstr ""
 msgid "Toggle navigation"
 msgstr ""
 
-#: templates/index.html:44 templates/index.html:87
+#: templates/index.html:44 templates/index.html:90
 msgid "Maite Clausell"
 msgstr ""
 
-#: templates/index.html:54 templates/index.html:101
+#: templates/index.html:54 templates/index.html:104
 msgid "Portfolio"
 msgstr ""
 
-#: templates/index.html:57 templates/index.html:175
+#: templates/index.html:57 templates/index.html:178
 msgid "Skills"
 msgstr ""
 
-#: templates/index.html:60 templates/index.html:237
+#: templates/index.html:60 templates/index.html:240
 msgid "About"
 msgstr ""
 
-#: templates/index.html:63 templates/index.html:260
+#: templates/index.html:63
+msgid "Associations"
+msgstr ""
+
+#: templates/index.html:66 templates/index.html:288
 msgid "Contact"
 msgstr ""
 
-#: templates/index.html:66
+#: templates/index.html:69
 msgid "Language"
 msgstr ""
 
-#: templates/index.html:68 templates/index.html:353
+#: templates/index.html:71 templates/index.html:381
 msgid "English"
 msgstr ""
 
-#: templates/index.html:69 templates/index.html:355 templates/index.html:397
+#: templates/index.html:72 templates/index.html:383 templates/index.html:425
 msgid "Spanish"
 msgstr ""
 
-#: templates/index.html:70 templates/index.html:402
+#: templates/index.html:73 templates/index.html:430
 msgid "Catalan"
 msgstr ""
 
-#: templates/index.html:89
+#: templates/index.html:92
 msgid "Translator - Subtitler - Localiser"
 msgstr ""
 
-#: templates/index.html:183
+#: templates/index.html:186
 msgid "Subtitling"
 msgstr ""
 
-#: templates/index.html:184
+#: templates/index.html:187
 msgid "English into Spanish and Catalan subtitles for films, series and others."
 msgstr ""
 
-#: templates/index.html:191
+#: templates/index.html:194
 msgid "SDH"
 msgstr ""
 
-#: templates/index.html:192
+#: templates/index.html:195
 msgid "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
 msgstr ""
 
-#: templates/index.html:199
+#: templates/index.html:202
 msgid "Editing"
 msgstr ""
 
-#: templates/index.html:200
+#: templates/index.html:203
 msgid "Edition of Spanish and Catalan texts after translation."
 msgstr ""
 
-#: templates/index.html:207
+#: templates/index.html:210
 msgid "App localisation"
 msgstr ""
 
-#: templates/index.html:208 templates/index.html:224
+#: templates/index.html:211 templates/index.html:227
 msgid "English into Spanish and Catalan website localisation."
 msgstr ""
 
-#: templates/index.html:215
+#: templates/index.html:218
 msgid "Game Localisation"
 msgstr ""
 
-#: templates/index.html:216
+#: templates/index.html:219
 msgid "English into Spanish and Catalan game and video game localisation."
 msgstr ""
 
-#: templates/index.html:223
+#: templates/index.html:226
 msgid "Web Localisation"
 msgstr ""
 
-#: templates/index.html:243
+#: templates/index.html:246
 msgid ""
 "In 2013 I graduated in English Philology and moved to London (England) to"
 " study an MA in Audiovisual Translation. After finishing my MA in 2014, I"
@@ -128,7 +132,7 @@ msgid ""
 "Surrey,<br>to move back to London."
 msgstr ""
 
-#: templates/index.html:246
+#: templates/index.html:249
 msgid ""
 "In 2017 I finished an MA in Translation and New Technologies: Translation"
 " of Software and Multimedia Products and worked at the translation team "
@@ -140,15 +144,23 @@ msgid ""
 "web series."
 msgstr ""
 
-#: templates/index.html:280
+#: templates/index.html:260
+msgid "Translation Associations"
+msgstr ""
+
+#: templates/index.html:268
+msgid "Asociación de Traducción y Adaptación Audiovisual de España"
+msgstr ""
+
+#: templates/index.html:308
 msgid "Copyright &copy; Maite Clausell 2017"
 msgstr ""
 
-#: templates/index.html:307
+#: templates/index.html:335
 msgid "Beto"
 msgstr ""
 
-#: templates/index.html:310
+#: templates/index.html:338
 msgid ""
 "Beto is a Spanish web series about a young adult with no job and little "
 "friends. His life is a chaos and even with his parents help, he struggles"
@@ -156,13 +168,13 @@ msgid ""
 " psychiatrist who scams him continuously."
 msgstr ""
 
-#: templates/index.html:311
+#: templates/index.html:339
 msgid ""
 "This web series - produced and filmed in my hometown - has been nominated"
 " in several web series festivals and has won two awards."
 msgstr ""
 
-#: templates/index.html:312
+#: templates/index.html:340
 msgid ""
 "In September 2015, I decided that I wanted to help the people who created"
 " this web series. Since then, in my free time, I have been working on "
@@ -173,51 +185,51 @@ msgid ""
 "target=\"_blank\">here</a>."
 msgstr ""
 
-#: templates/index.html:314 templates/index.html:359 templates/index.html:409
+#: templates/index.html:342 templates/index.html:387 templates/index.html:437
 msgid "Client:"
 msgstr ""
 
-#: templates/index.html:315
+#: templates/index.html:343
 msgid ""
 "<a href=\"https://www.facebook.com/Sal-de-la-fila-349500041886691\" "
 "target=\"_blank\"/>Sal de la fila"
 msgstr ""
 
-#: templates/index.html:318 templates/index.html:363 templates/index.html:413
-#: templates/index.html:452 templates/index.html:499 templates/index.html:538
+#: templates/index.html:346 templates/index.html:391 templates/index.html:441
+#: templates/index.html:480 templates/index.html:527 templates/index.html:566
 msgid "Date:"
 msgstr ""
 
-#: templates/index.html:319
+#: templates/index.html:347
 msgid "Ongoing"
 msgstr ""
 
-#: templates/index.html:322 templates/index.html:367 templates/index.html:417
-#: templates/index.html:456 templates/index.html:503 templates/index.html:542
+#: templates/index.html:350 templates/index.html:395 templates/index.html:445
+#: templates/index.html:484 templates/index.html:531 templates/index.html:570
 msgid "Service:"
 msgstr ""
 
-#: templates/index.html:323
+#: templates/index.html:351
 msgid "Spanish and English Subtitles"
 msgstr ""
 
-#: templates/index.html:327 templates/index.html:372 templates/index.html:422
-#: templates/index.html:461 templates/index.html:508 templates/index.html:547
+#: templates/index.html:355 templates/index.html:400 templates/index.html:450
+#: templates/index.html:489 templates/index.html:536 templates/index.html:575
 msgid "Close"
 msgstr ""
 
-#: templates/index.html:346
+#: templates/index.html:374
 msgid "La Panderola"
 msgstr ""
 
-#: templates/index.html:349
+#: templates/index.html:377
 msgid ""
 "<em>La Panderola</em> was a kind of tram that run between the years 1888 "
 "- 1963 in the area of Castellón de la Plana (Spain), where my family and "
 "myself originally come from."
 msgstr ""
 
-#: templates/index.html:350
+#: templates/index.html:378
 msgid ""
 "We found this documentary on the Internet by chance and it was narrated "
 "in English. As my grandparents used <em>La Panderola</em> when they were "
@@ -226,27 +238,27 @@ msgid ""
 "memories."
 msgstr ""
 
-#: templates/index.html:351
+#: templates/index.html:379
 msgid "You can find the videos with my subtitles in the links below:"
 msgstr ""
 
-#: templates/index.html:360
+#: templates/index.html:388
 msgid "Grandparents"
 msgstr ""
 
-#: templates/index.html:364
+#: templates/index.html:392
 msgid "October 2017"
 msgstr ""
 
-#: templates/index.html:368
+#: templates/index.html:396
 msgid "English and Spanish Subtitles"
 msgstr ""
 
-#: templates/index.html:391 templates/index.html:410
+#: templates/index.html:419 templates/index.html:438
 msgid "TED Talks"
 msgstr ""
 
-#: templates/index.html:394
+#: templates/index.html:422
 msgid ""
 "TED (Technology, Entertainment, Design) is an organisation that posts "
 "talks online for free distribution. It is widely known for its annual "
@@ -255,48 +267,48 @@ msgid ""
 "others."
 msgstr ""
 
-#: templates/index.html:395
+#: templates/index.html:423
 msgid ""
 "In January 2014 I began collaborating with the creation of subtitles of "
 "some of their talks both into Spanish and Catalan. You can find them "
 "following the links below."
 msgstr ""
 
-#: templates/index.html:399
+#: templates/index.html:427
 msgid "Using Sports for Social Change"
 msgstr ""
 
-#: templates/index.html:404
+#: templates/index.html:432
 msgid "Social maps that reveal a city's intersections — and separations"
 msgstr ""
 
-#: templates/index.html:414
+#: templates/index.html:442
 msgid "January 2014 - Nowadays"
 msgstr ""
 
-#: templates/index.html:418
+#: templates/index.html:446
 msgid "Spanish and Catalan Subtitles"
 msgstr ""
 
-#: templates/index.html:441
+#: templates/index.html:469
 msgid "Skins"
 msgstr ""
 
-#: templates/index.html:444
+#: templates/index.html:472
 msgid ""
 "<em>Skins</em> is a British TV series created by Bryan Elsey and Jamie "
 "Brittain, which was first broadcasted on television on channel E4 on 25 "
 "January 2007."
 msgstr ""
 
-#: templates/index.html:445
+#: templates/index.html:473
 msgid ""
 "The series deals with the story of a group of teenagers who suffer "
 "different problems such as drug and alcohol abuse, homosexuality, mental "
 "illness, teen pregnancy, etc."
 msgstr ""
 
-#: templates/index.html:446
+#: templates/index.html:474
 msgid ""
 "As part of my dissertation for my MA in Audiovisual Translation, I "
 "provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing)"
@@ -306,27 +318,27 @@ msgid ""
 "target=\"_blank\">here</a>."
 msgstr ""
 
-#: templates/index.html:448 templates/index.html:495
+#: templates/index.html:476 templates/index.html:523
 msgid "Course:"
 msgstr ""
 
-#: templates/index.html:449
+#: templates/index.html:477
 msgid "MA in Audiovisual Translation"
 msgstr ""
 
-#: templates/index.html:453
+#: templates/index.html:481
 msgid "September 2014"
 msgstr ""
 
-#: templates/index.html:457
+#: templates/index.html:485
 msgid "English into Spanish SDH"
 msgstr ""
 
-#: templates/index.html:480
+#: templates/index.html:508
 msgid "The Godfather II"
 msgstr ""
 
-#: templates/index.html:483
+#: templates/index.html:511
 msgid ""
 "As part of the dissertation of the <em>MA in Translation and New "
 "Technologies: Translation of Software and Multimedia Products</em> I had "
@@ -334,54 +346,54 @@ msgid ""
 "Godfather II</strong> from English into Spanish."
 msgstr ""
 
-#: templates/index.html:484
+#: templates/index.html:512
 msgid ""
 "This video game is based on the film <em>The Godfather II</em> by Francis"
 " Ford Coppola, and was developed by EA Redwood Shores and distributed by "
 "Electronic Arts, Paramount Digital Entertainment."
 msgstr ""
 
-#: templates/index.html:485
+#: templates/index.html:513
 msgid "These are the materials that I localised:"
 msgstr ""
 
-#: templates/index.html:487
+#: templates/index.html:515
 msgid "Guide"
 msgstr ""
 
-#: templates/index.html:489
+#: templates/index.html:517
 msgid "Video Game trailer"
 msgstr ""
 
-#: templates/index.html:491
+#: templates/index.html:519
 msgid "Website"
 msgstr ""
 
-#: templates/index.html:496
+#: templates/index.html:524
 msgid ""
 "MA in Translation and New Technologies: Translation of Software and "
 "Multimedia Products"
 msgstr ""
 
-#: templates/index.html:500
+#: templates/index.html:528
 msgid "June 2017"
 msgstr ""
 
-#: templates/index.html:504 templates/index.html:543
+#: templates/index.html:532 templates/index.html:571
 msgid "Video game localisation English into Spanish"
 msgstr ""
 
-#: templates/index.html:527
+#: templates/index.html:555
 msgid "Grandpa"
 msgstr ""
 
-#: templates/index.html:530
+#: templates/index.html:558
 msgid ""
 "LocJAM is an online contest for game translators. Each year a short open "
 "source game in English is chosen for translation."
 msgstr ""
 
-#: templates/index.html:531
+#: templates/index.html:559
 msgid ""
 "The first time I read about this contest was in 2015, when LocJAM 2 took "
 "place. That year they chose a video game for translation and as my "
@@ -389,7 +401,7 @@ msgid ""
 "to take part in the contest."
 msgstr ""
 
-#: templates/index.html:532
+#: templates/index.html:560
 msgid ""
 "The video game chosen for that year was <em>Grandpa</em>, created by Omar"
 " Enezi, Abdullah Hamed and Basma Mariki, licensed under a <a "
@@ -399,19 +411,19 @@ msgid ""
 "click"
 msgstr ""
 
-#: templates/index.html:532
+#: templates/index.html:560
 msgid "here</a>."
 msgstr ""
 
-#: templates/index.html:534
+#: templates/index.html:562
 msgid "Contest:"
 msgstr ""
 
-#: templates/index.html:535
+#: templates/index.html:563
 msgid "LocJAM 2"
 msgstr ""
 
-#: templates/index.html:539
+#: templates/index.html:567
 msgid "February 2015"
 msgstr ""
 
