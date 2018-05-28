@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ gettext('Maite Clausell Menero - Professional Website') }}">
+    <meta name="author" content="{{ gettext('Oscar Forner Martinez') }}">
+
+    <title>{{ gettext('Maite Clausell - Website') }}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="{{ url_for('static', filename='css/freelancer.css') }}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114727102-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114727102-1');
+    </script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">{{ gettext('Toggle navigation') }}</span><i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="{{ url_for('root') }}#page-top"><small>{{ gettext('Maite Clausell') }}</small></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="{{ url_for('root') }}#page-top"></a>
+                    </li>
+                    <li name="portfolio" class="page-scroll">
+                        <a name="portfolio" href="{{ url_for('root') }}#portfolio">{{ gettext('Portfolio') }}</a>
+                    </li>
+                    <li name="services" class="page-scroll">
+                        <a name="services" href="{{ url_for('root') }}#services">{{ gettext('Skills') }}</a>
+                    </li>
+                    <li name="about" class="page-scroll">
+                        <a name="about" href="{{ url_for('root') }}#about">{{ gettext('About') }}</a>
+                    </li>
+                    <li name="associations" class="page-scroll">
+                        <a name="associations" href="{{ url_for('root') }}#associations">{{ gettext('Associations') }}</a>
+                    </li>
+                    <li name="contact" class="page-scroll">
+                        <a name="contact" href="{{ url_for('root') }}#contact">{{ gettext('Contact') }}</a>
+                    </li>
+                    <li class="dropdown">
+                        <a name="languages" class="dropdown-toggle" data-toggle="dropdown" href="#">{{ gettext('Language') }}<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/en">{{ gettext('English') }}</a></li>
+                            <li><a href="/es">{{ gettext('Spanish') }}</a></li>
+                            <li><a href="/ca">{{ gettext('Catalan') }}</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="{{ url_for('static', filename='img/profile.png') }}" alt="">
+                    <div class="intro-text">
+                        <span class="name">{{ gettext('Maite Clausell') }}</span>
+                        <hr class="star-light">
+                        <span class="skills">{{ gettext('Translator - Subtitler - Localiser') }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>{{ gettext('Privacy Notice') }}</h2>
+                    <hr class="star-primary">
+                </div>
+                <div class="col-lg-12 text-justify">
+                    <h3>Who am I?</h3>
+                    <p>My name is Maite Clausell and I am a freelance translator of English documents into Spanish and Catalan. I am based in the UK and as such subject to the requirements of the new General Data Protection Regulation which comes into force on 25 May 2018.</p>
+                    <p>You can contact me via the details provided on my website.</p>
+                    <h3>Client, supplier and collaborator data</h3>
+                    <p>Visitors to my website are not obliged to provide personal data. Nevertheless, anyone interested in my services can contact me via the contact information provided, meaning that some personal data will be collected in order to establish communication.</p>
+                    <h3>Legal Grounds</h3>
+                    <p>The legal basis for processing your personal data is to perform the services you request or to take the necessary steps prior to fulfilling the afore-mentioned request.</p>
+                    <p>Personal data will not be used for marketing purposes.</p>
+                    <h3>Categories of personal data and why do I store it</h3>
+                    <p>I collect, store and use personal data on clients, suppliers and potential clients. Personal data collected may include:</p>
+                    <ul style='font-size: 1.3em'>
+                        <li>Name and surname</li>
+                        <li>Postal address</li>
+                        <li>E-mail address</li>
+                        <li>Telephone number</li>
+                        <li>Payment and delivery conditions</li>
+                        <li>Financial details, including tax number, and bank account</li>
+                    </ul>
+                    <p>These data will be used for the following purposes:</p>
+                    <ul style='font-size: 1.3em'>
+                        <li>to issue quotes and invoices,</li>
+                        <li>to provide a translation or editing service as requested by you,</li>
+                        <li>or to comply with legal requirements.</li>
+                    </ul>
+                    <h3>Who else may have access to your personal data?</h3>
+                    <p>For administrative purposes, other parties, including the providers of my website and email hosting services, may have access to your personal data. All these parties are also compliant with the EU General Data Protection Regulation, or in the case of US companies, are self-certified under the US Privacy Shield framework.</p>
+                    <h3>How long do I keep your personal data?</h3>
+                    <p>Your personal data will be kept throughout the business relationship period only, or for the length of time stipulated to comply with legal and tax obligations.</p>
+                    <h3>Do you have the right to access your data?</h3>
+                    <p>You may contact me at any time to request a copy of your personal data, or to ask me to rectify or remove the information I hold.</p>
+                    <h3>Your right to lodge a complaint</h3>
+                    <p>If you have any concerns about how I process your personal data, please contact me. You also have the right to lodge a complaint with the supervisory authority in the UK (the <a href='https://ico.org.uk/'>Information Commissioner’s Office, or ICO</a>) or in the country where you live.</p>
+                    <h3>Security measures</h3>
+                    <p>Precautionary measures are taken to guarantee that your personal data is safeguarded. These measures include:</p>
+                    <ul style='font-size: 1.3em'>
+                        <li><strong>Updated to computers and devices</strong>: The equipment used for storing and processing personal data is regularly updated.</li>
+                        <li><strong>Malware</strong>: Antivirus software is installed on the equipment used for storing and processing data and is regularly updated.</li>
+                        <li><strong>Firewall</strong>: Firewalls are in place on all devices used for storing or processing personal data, to avoid remote unlawful third-party access.</li>
+                        <li><strong>Back-up</strong>: All personal data is periodically backed-up on a device other than the one used on daily basis, providing further security and possible recovery in the event of loss or damage of the original files.</li>
+                        <li><strong>Technical measures</strong>: All computers and devices in which personal data is stored are password-protected.</li>
+                    </ul>
+                    <h3>Cookies policy</h3>
+                    <p>Like most websites, mine uses cookies to collect data. Cookies are small data files which are placed on your computer (PCs, smart phones or tablets) as you browse. They are used to remember when your computer or device accesses this website, they help it operate effectively and improve your user experience.</p>
+                    <p>The data collected includes pages viewed and your journey around the website. These cookies are not used to collect or record data on your name, address or other contact details.</p>
+                    <p>You can disable the use of cookies by changing your browser settings to reject cookies.</p>
+                    <h3>Google Analytics</h3>
+                    <p>Based on my legitimate interest (i.e. my interest in analysis, optimisation and economic performance of my online offer in accordance with article 6, section 1, letter f of GDPR), I use a third-party service, Google Analytics, which is Google LLC’s web analysis service.</p>
+                    <p>Google Analytics collects standard internet log data and details of visitor behaviour patterns. The data collected by this service includes the number of visitors to the site and the country from where they access the site. The way in which this data is processed does not personally identify any visitor.</p>
+                    <p>If you do not want Google Analytics to collect this data from you, please click <a href='https://tools.google.com/dlpage/gaoptout'>here</a> to get the Google Analytics opt-out browser add-on.</p>
+                    <br>
+                    <br>
+                    <p>This Privacy Notice was updated in May 2018. It will be reviewed and updated when necessary.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact" class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>{{ gettext('Contact') }}</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="mailto:maite@clausell.es" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/mcm_tradu" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/maiteclausell" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        {{ gettext('Copyright &copy; Maite Clausell 2018') }}
+                    </div>
+                    <div class="col-lg-6">
+                        <a href='{{ url_for('privacy') }}'> {{ gettext('Privacy Notice') }} </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="{{ url_for('static', filename='js/freelancer.js') }}"></script>
+
+</body>
+
+</html>

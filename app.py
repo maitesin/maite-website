@@ -25,5 +25,9 @@ def index():
 def root():
     return redirect(url_for('index', lang_code='en'))
 
+@app.route('/privacy_notice')
+def privacy():
+    return render_template('privacy.html')
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
