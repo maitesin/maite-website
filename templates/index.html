@@ -175,6 +175,16 @@
                         <img src="{{ url_for('static', filename='img/portfolio/Grandpa.png') }}" class="img-responsive" alt="">
                     </a>
                 </div>
+                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{{ url_for('static', filename='img/portfolio/Pomodoro_texto.png') }}" class="img-responsive" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -217,7 +227,7 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-mobile"></i>
                         <h3>{{ gettext('App localisation') }}</h3>
-                        <p>{{ gettext('English into Spanish and Catalan website localisation.') }}</p>
+                        <p>{{ gettext('English into Spanish and Catalan localisation of web and mobile.') }}</p>
                         <p><br></p>
                     </div>
                 </div>
@@ -255,7 +265,7 @@
                     <p>{{ gettext('In 2013 I graduated in English Philology and moved to London (England) to study an MA in Audiovisual Translation. After finishing my MA in 2014, I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey,<br>to move back to London.') }}</p>
                 </div>
                 <div class="col-lg-5">
-                    <p>{{ gettext('In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead and Junior Translation Project Manager. At the end of 2017 I decided that I wanted to focus my career to translation, hence, since the beginning of 2018, I am working as a freelance translator, subtitler and localiser. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series.') }}</p>
+                    <p>{{ gettext('In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead. I am working as a freelance translator, subtitler and localiser since the beginning of 2018. At the beginning of this year I have also worked as a videogame QA Tester and proofreader. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series.') }}</p>
                 </div>
             </div>
         </div>
@@ -578,6 +588,44 @@
                                 </li>
                                 <li>{{ gettext('Service:') }}
                                     <strong>{{ gettext('Video game localisation English into Spanish') }}
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{ gettext('Close') }}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ gettext('Marinara:<br>Pomodoro Assistant') }}</h2>
+                            <hr class="star-primary">
+                            <img src="{{ url_for('static', filename='img/portfolio/Pomodoro_texto.png') }}" class="img-responsive img-centered" alt="">
+                            <p>{{ gettext('<em>Marinara: Pomodoro Assistant</em> is a Google Chrome extension developed<br>by Chris Schmich.') }}</p>
+                            <p>{{ gettext('This a productivity extension based on the Pomodoro Technique, which works as a time management assistant and can be added to Chrome from  <a href="https://chrome.google.com/webstore/detail/marinara-pomodoro®-assist/lojgmehidjdhhbmpjfamhpkpodfcodef" target="_blank">here</a>.') }}</p>
+                            <ul class="list-inline item-details">
+                                <li>{{ gettext('Developer:') }}
+                                    <strong><a href= "https://github.com/schmich" target="_blank">{{ gettext('Chris Schmich') }}</a>
+                                    </strong>
+                                </li>
+                                <li>{{ gettext('Date:') }}
+                                    <strong>{{ gettext('February 2018') }}
+                                    </strong>
+                                </li>
+                                <li>{{ gettext('Service:') }}
+                                    <strong>{{ gettext('Translation from English into Spanish and Catalan') }}
                                     </strong>
                                 </li>
                             </ul>
