@@ -1,1 +1,0 @@
-;(function($,window,undefined){$('#content').grid({rows:[[['#mod-gus']],[['#mod-breadcrumbs'],['#mod-menu']],[['#mod-logo']],[['#mod-titles']],[['#mod-game-media-listing'],['#mod-media-recently']],[['#mod-footer'],['#mod-ratings']]]});})(jQuery,this);

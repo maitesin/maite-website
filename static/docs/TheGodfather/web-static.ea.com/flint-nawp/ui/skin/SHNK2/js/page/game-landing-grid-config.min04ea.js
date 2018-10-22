@@ -1,1 +1,0 @@
-;(function($,window,undefined){$('#content').grid({rows:[[['#mod-global-header']],[['#mod-breadcrumbs']],[['#mod-logo'],['#mod-countdown']],[['#mod-menu']],[['#mod-editorial-pod']],[['#mod-game-info']],[['#mod-center-promos','#mod-newsletter'],['#mod-facebook-fans']],[['#mod-footer','#mod-ratings']]]},function(){$(document.body).removeClass('reordering');});})(jQuery,this);
