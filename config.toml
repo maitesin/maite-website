@@ -3,46 +3,6 @@ baseURL = "https://www.maiteclausell.com"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
-[menu]
-
-  [[menu.header]]
-    weight = 2
-    name = "Work"
-    url = "/work"
-  [[menu.header]]
-    weight = 3
-    name = "Blog"
-    url = "/blog"
-  [[menu.header]]
-    weight = 4
-    name = "Service"
-    url = "/service"
-  [[menu.header]]
-    weight = 5
-    name = "Contact"
-    url = "/contact"
-
-  [[menu.footer]]
-    weight = 1
-    name = "About us"
-    url = "#"
-  [[menu.footer]]
-    weight = 2
-    name = "Contact us"
-    url = "#"
-  [[menu.footer]]
-    weight = 3
-    name = "How it works"
-    url = "#"
-  [[menu.footer]]
-    weight = 4
-    name = "Blog"
-    url = "#"
-  [[menu.footer]]
-    weight = 5
-    name = "Terms"
-    url = "#"
-
 # The site's parameters
 [params]
 
@@ -100,3 +60,130 @@ theme = "airspace-hugo"
       phone = "Phone: +88 01672 506 744"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    [[languages.en.menu.header]]
+      weight = 2
+      name = "Work"
+      url = "/work"
+    [[languages.en.menu.header]]
+      weight = 3
+      name = "Blog"
+      url = "/blog"
+    [[languages.en.menu.header]]
+      weight = 4
+      name = "Service"
+      url = "/service"
+    [[languages.en.menu.header]]
+      weight = 5
+      name = "Contact"
+      url = "/contact"
+
+    [[languages.en.menu.footer]]
+      weight = 1
+      name = "About us"
+      url = "#"
+    [[languages.en.menu.footer]]
+      weight = 2
+      name = "Contact us"
+      url = "#"
+    [[languages.en.menu.footer]]
+      weight = 3
+      name = "How it works"
+      url = "#"
+    [[languages.en.menu.footer]]
+      weight = 4
+      name = "Blog"
+      url = "#"
+    [[languages.en.menu.footer]]
+      weight = 5
+      name = "Terms"
+      url = "#"
+
+  [languages.es]
+    languageName = "Spanish"
+    weight = 2
+    contentDir = "content/es"
+    [[languages.es.menu.header]]
+      weight = 2
+      name = "Work"
+      url = "/work"
+    [[languages.es.menu.header]]
+      weight = 3
+      name = "Blog"
+      url = "/blog"
+    [[languages.es.menu.header]]
+      weight = 4
+      name = "Service"
+      url = "/service"
+    [[languages.es.menu.header]]
+      weight = 5
+      name = "Contact"
+      url = "/contact"
+
+    [[languages.es.menu.footer]]
+      weight = 1
+      name = "About us"
+      url = "#"
+    [[languages.es.menu.footer]]
+      weight = 2
+      name = "Contact us"
+      url = "#"
+    [[languages.es.menu.footer]]
+      weight = 3
+      name = "How it works"
+      url = "#"
+    [[languages.es.menu.footer]]
+      weight = 4
+      name = "Blog"
+      url = "#"
+    [[languages.es.menu.footer]]
+      weight = 5
+      name = "Terms"
+      url = "#"
+
+  [languages.ca]
+    languageName = "Catalan"
+    weight = 3
+    contentDir = "content/ca"
+    [[languages.ca.menu.header]]
+      weight = 2
+      name = "Treball"
+      url = "/work"
+    [[languages.ca.menu.header]]
+      weight = 3
+      name = "Blog"
+      url = "/blog"
+    [[languages.ca.menu.header]]
+      weight = 4
+      name = "Serveis"
+      url = "/service"
+    [[languages.ca.menu.header]]
+      weight = 5
+      name = "Contact"
+      url = "/contact"
+
+    [[languages.ca.menu.footer]]
+      weight = 1
+      name = "About us"
+      url = "#"
+    [[languages.ca.menu.footer]]
+      weight = 2
+      name = "Contact us"
+      url = "#"
+    [[languages.ca.menu.footer]]
+      weight = 3
+      name = "How it works"
+      url = "#"
+    [[languages.ca.menu.footer]]
+      weight = 4
+      name = "Blog"
+      url = "#"
+    [[languages.ca.menu.footer]]
+      weight = 5
+      name = "Terms"
+      url = "#"

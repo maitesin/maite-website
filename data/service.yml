@@ -1,45 +1,35 @@
 enable: true
-title: Our Services
+title: Skills
 subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Subtitling | SDH | Editing | App localisation | Game Localisation | Web Localisation
 content:
 
-  - icon: ion-coffee
-    name: Branding
+  - icon: fa fa-4x fa-video-camera
+    name: Subtitling
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      English into Spanish and Catalan subtitles for films, series and others.
 
-  - icon: ion-compass
-    name: Web Design
+  - icon: fa fa-4x fa-deaf
+    name: SDH
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      English into Spanish and Catalan subtitles for Deaf and Hard of Hearing.
 
-  - icon: ion-image
-    name: App Design
+  - icon: fa fa-4x fa-check
+    name: Editing
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Edition of Spanish and Catalan texts after translation.
 
-  - icon: ion-bug
-    name: Start Up
+  - icon: fa fa-4x fa-mobile
+    name: App localisation
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      English into Spanish and Catalan localisation of web and mobile Apps.
 
-  - icon: ion-headphone
-    name: Logo Design
+  - icon: fa fa-4x fa-gamepad
+    name: Game Localisation
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      English into Spanish and Catalan game and video game localisation.
 
-  - icon: ion-leaf
-    name: Development
+  - icon: fa fa-4x fa-desktop
+    name: Web Localisation
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-planet
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-earth
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      English into Spanish and Catalan website localisation.
