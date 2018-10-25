@@ -3,36 +3,42 @@ title: Just some of our latest projects.
 subtitle: Don’t just take our word for it. Check out some of our latest work.
 
 portfolio:
-  - category: Branding
+  - category: Subtitling
     url: "#"
-    image: "/img/portfolio/work1.jpg"
-    name: Tesla Motors
+    image: "/img/portfolio/Beto.png"
+    name: Beto
     description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Websites
+      Beto is a Spanish web series about a young adult with no job and little friends
+  - category: Subtitling
     url: "#"
-    image: "/img/portfolio/work1.jpg"
-    name: Tesla Motors
+    image: "/img/portfolio/Panderola.png"
+    name: La Panderola
     description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Graphics
+      La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from.
+  - category: Subtitling
     url: "#"
-    image: "/img/portfolio/work2.jpg"
-    name: Tesla Motors
+    image: "/img/portfolio/TED.png"
+    name: TED Talks
     description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Design
+      TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution.
+  - category: Subtitling
     url: "#"
-    image: "/img/portfolio/work3.jpg"
-    name: Tesla Motors
+    image: "/img/portfolio/Skins.png"
+    name: Skins
     description: >
-      Labore et dolore magna aliqua. Ut enim ad
-  - category: Video
+      Skins is a British TV series created by Bryan Elsey and Jamie Brittain.
+  - category: Videogame
     url: "#"
-    image: "/img/portfolio/work4.jpg"
-    name: Tesla Motors
+    image: "/img/portfolio/Godfather.png"
+    name: The Godfather II
     description: >
-      Labore et dolore magna aliqua. Ut enim ad
+      This video game is based on the film The Godfather II by Francis Ford Coppola.
+  - category: Videogame
+    url: "#"
+    image: "/img/portfolio/Grandpa.png"
+    name: Grandpa
+    description: >
+      LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.
 clients:
   - image: "/img/clients/clients-logo1.png"
     url: "#"
