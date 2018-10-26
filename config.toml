@@ -111,19 +111,19 @@ theme = "airspace-hugo"
     [[languages.es.menu.header]]
       weight = 2
       name = "Work"
-      url = "/work"
+      url = "/es/work"
     [[languages.es.menu.header]]
       weight = 3
       name = "Blog"
-      url = "/blog"
+      url = "/es/blog"
     [[languages.es.menu.header]]
       weight = 4
       name = "Service"
-      url = "/service"
+      url = "/es/service"
     [[languages.es.menu.header]]
       weight = 5
       name = "Contact"
-      url = "/contact"
+      url = "/es/contact"
 
     [[languages.es.menu.footer]]
       weight = 1
@@ -153,19 +153,19 @@ theme = "airspace-hugo"
     [[languages.ca.menu.header]]
       weight = 2
       name = "Treball"
-      url = "/work"
+      url = "/ca/work"
     [[languages.ca.menu.header]]
       weight = 3
       name = "Blog"
-      url = "/blog"
+      url = "/ca/blog"
     [[languages.ca.menu.header]]
       weight = 4
       name = "Serveis"
-      url = "/service"
+      url = "/ca/service"
     [[languages.ca.menu.header]]
       weight = 5
       name = "Contact"
-      url = "/contact"
+      url = "/ca/contact"
 
     [[languages.ca.menu.footer]]
       weight = 1
