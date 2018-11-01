@@ -13,6 +13,7 @@ theme = "airspace-hugo"
   dateFormat = "6 January 2006"
 
   home = "Home"
+  homeUrl = "/"
   language = "Language"
 
   [params.slider]
@@ -109,6 +110,9 @@ theme = "airspace-hugo"
     languageName = "Spanish"
     weight = 2
     contentDir = "content/es"
+    [languages.es.params]
+      home = "Casa"
+      homeUrl = "/es"
     [[languages.es.menu.header]]
       weight = 2
       name = "Work"
@@ -151,6 +155,9 @@ theme = "airspace-hugo"
     languageName = "Catalan"
     weight = 3
     contentDir = "content/ca"
+    [languages.ca.params]
+      home = "Casa"
+      homeUrl = "/ca"
     [[languages.ca.menu.header]]
       weight = 2
       name = "Treball"
