@@ -10,31 +10,31 @@ portfolio:
     description: >
       Beto is a Spanish web series about a young adult with no job and little friends
   - category: Subtitling
-    url: "#"
+    url: "/portfolio/panderola"
     image: "/img/portfolio/Panderola.png"
     name: La Panderola
     description: >
       La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from.
   - category: Subtitling
-    url: "#"
+    url: "/portfolio/ted"
     image: "/img/portfolio/TED.png"
     name: TED Talks
     description: >
       TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution.
   - category: Subtitling
-    url: "#"
+    url: "/portfolio/skins"
     image: "/img/portfolio/Skins.png"
     name: Skins
     description: >
       Skins is a British TV series created by Bryan Elsey and Jamie Brittain.
   - category: Videogame
-    url: "#"
+    url: "/portfolio/godfather"
     image: "/img/portfolio/Godfather.png"
     name: The Godfather II
     description: >
       This video game is based on the film The Godfather II by Francis Ford Coppola.
   - category: Videogame
-    url: "#"
+    url: "/portfolio/grandpa"
     image: "/img/portfolio/Grandpa.png"
     name: Grandpa
     description: >
