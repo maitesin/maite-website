@@ -15,6 +15,8 @@ theme = "airspace-hugo"
   home = "Home"
   homeUrl = "/"
   language = "Language"
+  PortfolioName = "Back to Portfolio"
+  PortfolioUrl = "work"
 
   [params.slider]
     enable = true
@@ -113,6 +115,8 @@ theme = "airspace-hugo"
     [languages.es.params]
       home = "Casa"
       homeUrl = "/es"
+      PortfolioName = "Volver al portfolio"
+      PortfolioUrl = "es/work"
     [[languages.es.menu.header]]
       weight = 2
       name = "Work"
@@ -158,6 +162,8 @@ theme = "airspace-hugo"
     [languages.ca.params]
       home = "Casa"
       homeUrl = "/ca"
+      PortfolioName = "Tornar al portfolio"
+      PortfolioUrl = "ca/work"
     [[languages.ca.menu.header]]
       weight = 2
       name = "Treball"
