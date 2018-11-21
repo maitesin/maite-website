@@ -4,40 +4,8 @@ date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
 +++
 
-## Create a New Theme
+**Skins** is a British TV series created by Bryan Elsey and Jamie Brittain, which was first broadcasted on television on channel E4 on 25 January 2007.
 
-Hugo doesn't ship with a default theme. There are a few available (I counted a dozen when I first installed Hugo) and Hugo comes with a command to create new themes.
+The series deals with the story of a group of teenagers who suffer different problems such as drug and alcohol abuse, homosexuality, mental illness, teen pregnancy, etc.
 
-We're going to create a new theme called "zafta." Since the goal of this tutorial is to show you how to fill out the files to pull in your content, the theme will not contain any CSS. In other words, ugly but functional.
-
-All themes have opinions on content and layout. For example, Zafta uses "post" over "blog". Strong opinions make for simpler templates but differing opinions make it tougher to use themes. When you build a theme, consider using the terms that other themes do.
-
-
-### Create a Skeleton
-
-Use the hugo "new" command to create the skeleton of a theme. This creates the directory structure and places empty files for you to fill out.
-
-```
-$ hugo new theme zafta
-
-$ ls -l
-total 8
-drwxr-xr-x  2 quoha  staff   68 Sep 29 16:49 archetypes
--rw-r--r--  1 quoha  staff   82 Sep 29 16:49 config.toml
-drwxr-xr-x  2 quoha  staff   68 Sep 29 16:49 content
-drwxr-xr-x  2 quoha  staff   68 Sep 29 16:49 layouts
-drwxr-xr-x  4 quoha  staff  136 Sep 29 17:02 public
-drwxr-xr-x  2 quoha  staff   68 Sep 29 16:49 static
-drwxr-xr-x  3 quoha  staff  102 Sep 29 17:31 themes
-
-$ find themes -type f | xargs ls -l
--rw-r--r--  1 quoha  staff  1081 Sep 29 17:31 themes/zafta/LICENSE.md
--rw-r--r--  1 quoha  staff     0 Sep 29 17:31 themes/zafta/archetypes/default.md
--rw-r--r--  1 quoha  staff     0 Sep 29 17:31 themes/zafta/layouts/_default/list.html
--rw-r--r--  1 quoha  staff     0 Sep 29 17:31 themes/zafta/layouts/_default/single.html
--rw-r--r--  1 quoha  staff     0 Sep 29 17:31 themes/zafta/layouts/index.html
--rw-r--r--  1 quoha  staff     0 Sep 29 17:31 themes/zafta/layouts/partials/footer.html
--rw-r--r--  1 quoha  staff     0 Sep 29 17:31 themes/zafta/layouts/partials/header.html
--rw-r--r--  1 quoha  staff    93 Sep 29 17:31 themes/zafta/theme.toml
-$
-```
+As part of my dissertation for my MA in Audiovisual Translation, I provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing) of five scenes from episode 1 series 3 named "Everyone". You can see the results by clicking [here](https://www.youtube.com/watch?v=17_y4-zTWdc).
