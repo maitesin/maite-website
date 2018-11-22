@@ -39,6 +39,12 @@ portfolio:
     name: Grandpa
     description: >
       LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.
+  - category: Application
+    url: "/portfolio/pomodoro"
+    image: "/img/portfolio/Pomodoro_texto.png"
+    name: Pomodoro Assistant
+    description: >
+      Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich.
 clients:
   - image: "/img/clients/clients-logo1.png"
     url: "#"
