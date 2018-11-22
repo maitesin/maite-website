@@ -9,4 +9,7 @@ As part of the dissertation of the **MA in Translation and New Technologies: Tra
 This video game is based on the film **The Godfather II** by Francis Ford Coppola, and was developed by EA Redwood Shores and distributed by Electronic Arts, Paramount Digital Entertainment.
 
 These are the materials that I localised:
-***FILL THE INFO HERE***
+
+* [Guide](/docs/Guide.pdf)
+* [Video Game trailer](https://youtu.be/VdxgUg_Pdco)
+* [Website](/docs/TheGodfather/www.ea.com/the-godfather-2.html)
