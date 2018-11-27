@@ -1,5 +1,5 @@
 title = "Maite Clausell's Personal Website"
-baseURL = "https://dev.maiteclausell.com"
+baseURL = "http://dev.maiteclausell.com"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
