@@ -35,7 +35,7 @@ theme = "airspace-hugo"
     subtitle = "Catch up with us, anytime and anywhere"
 
   [params.feature]
-    enable = true
+    enable = false
     title = "We believe in great ideas"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
     [params.feature.button]
@@ -48,7 +48,7 @@ theme = "airspace-hugo"
     paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
 
   [params.contact]
-    enable = true
+    enable = false
     title = "Drop us a note"
     subtitle = "Don’t just take our word for it. Check out some of our latest work."
     [params.contact.form]
