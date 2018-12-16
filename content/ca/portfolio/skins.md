@@ -2,6 +2,7 @@
 title = "Skins"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
+image = "/img/portfolio/Skins.png"
 +++
 
 **Skins** is a British TV series created by Bryan Elsey and Jamie Brittain, which was first broadcasted on television on channel E4 on 25 January 2007.

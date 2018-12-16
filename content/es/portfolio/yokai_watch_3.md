@@ -1,8 +1,8 @@
 +++
-title = "Grandpa"
+title = "Yokai Watch 3"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
-image = "/img/portfolio/Grandpa.png"
+image = "/img/portfolio/yokai_watch_3.png"
 +++
 
 LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.

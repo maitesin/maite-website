@@ -2,6 +2,7 @@
 title = "Beto"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
+image = "/img/portfolio/Beto.png"
 +++
 
 Beto is a Spanish web series about a young adult with no job and little friends. His life is a chaos and even with his parents help, he struggles to make ends meet. People usually take advantage of him, in special, his psychiatrist who scams him continuously.

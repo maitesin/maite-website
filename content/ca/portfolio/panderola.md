@@ -2,6 +2,7 @@
 title = "Panderola"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
+image = "/img/portfolio/Panderola.png"
 +++
 
 **La Panderola** was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from.
