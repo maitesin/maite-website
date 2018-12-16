@@ -2,6 +2,7 @@
 title = "TED"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
+image = "/img/portfolio/TED.png"
 +++
 
 TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution. It is widely known for its annual conference (TED Conference) and for its talks (TED Talks), which deal with several topics such as science, education, arts, culture, among others.

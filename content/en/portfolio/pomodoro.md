@@ -2,6 +2,7 @@
 title = "Pomodoro Assistant"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
+image = "/img/portfolio/Pomodoro.png"
 +++
 
 **Marinara: Pomodoro Assistant** is a Google Chrome extension developed by ***Chris Schmich***.
