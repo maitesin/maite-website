@@ -45,6 +45,18 @@ portfolio:
     name: Pomodoro Assistant
     description: >
       Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich.
+  - category: Videogame
+    url: "/portfolio/yokai_watch_blasters"
+    image: "/img/portfolio/yokai_watch_blasters.png"
+    name: Yokai Watch Blasters
+    description: >
+      Something really interesting about Yokai Watch Blasters.
+  - category: Videogame
+    url: "/portfolio/yokai_watch_3"
+    image: "/img/portfolio/yokai_watch_3.png"
+    name: Yokai Watch 3
+    description: >
+      Something really interesting about Yokai Watch 3.
 clients:
   - image: "/img/clients/clients-logo1.png"
     url: "#"
