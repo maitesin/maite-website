@@ -26,8 +26,8 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About me"
-        paragraph = """In 2013 I graduated in English Philology and moved to London (England) to study an MA in Audiovisual Translation. After finishing my MA in 2014, I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London.\n\nIn 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead. Since the beginning of 2018, I am working as a freelance translator, subtitler and localiser and as a videogame QA Tester and proofreader at Pole to Win. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series."""
-		
+    paragraph1 = """In 2013 I graduated in English Philology and moved to London (England) to study an MA in Audiovisual Translation. After finishing my MA in 2014, I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London."""
+		paragraph2 = """In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead. Since the beginning of 2018, I am working as a freelance translator, subtitler and localiser and as a videogame QA Tester and proofreader at Pole to Win. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series."""
 
   [params.blog]
     enable = true
