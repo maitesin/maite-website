@@ -47,24 +47,6 @@ theme = "airspace-hugo"
     title = "We design delightful digital experiences."
     paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
 
-  [params.contact]
-    enable = false
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
-    [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
-    [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
-    [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
-
 [languages]
   [languages.en]
     languageName = "English"
@@ -82,10 +64,6 @@ theme = "airspace-hugo"
       weight = 4
       name = "Services"
       url = "/service"
-    [[languages.en.menu.header]]
-      weight = 5
-      name = "Contact"
-      url = "/contact"
 
     [[languages.en.menu.footer]]
       weight = 1
@@ -129,10 +107,6 @@ theme = "airspace-hugo"
       weight = 4
       name = "Servicios"
       url = "/es/service"
-    [[languages.es.menu.header]]
-      weight = 5
-      name = "Contacto"
-      url = "/es/contact"
 
     [[languages.es.menu.footer]]
       weight = 1
@@ -176,10 +150,6 @@ theme = "airspace-hugo"
       weight = 4
       name = "Serveis"
       url = "/ca/service"
-    [[languages.ca.menu.header]]
-      weight = 5
-      name = "Contact"
-      url = "/ca/contact"
 
     [[languages.ca.menu.footer]]
       weight = 1
