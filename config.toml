@@ -70,14 +70,6 @@ theme = "airspace-hugo"
       name = "About me"
       url = "#"
     [[languages.en.menu.footer]]
-      weight = 2
-      name = "Contact us"
-      url = "#"
-    [[languages.en.menu.footer]]
-      weight = 3
-      name = "How it works"
-      url = "#"
-    [[languages.en.menu.footer]]
       weight = 4
       name = "Blog"
       url = "#"
@@ -113,14 +105,6 @@ theme = "airspace-hugo"
       name = "About us"
       url = "#"
     [[languages.es.menu.footer]]
-      weight = 2
-      name = "Contact us"
-      url = "#"
-    [[languages.es.menu.footer]]
-      weight = 3
-      name = "How it works"
-      url = "#"
-    [[languages.es.menu.footer]]
       weight = 4
       name = "Blog"
       url = "#"
@@ -154,14 +138,6 @@ theme = "airspace-hugo"
     [[languages.ca.menu.footer]]
       weight = 1
       name = "About us"
-      url = "#"
-    [[languages.ca.menu.footer]]
-      weight = 2
-      name = "Contact us"
-      url = "#"
-    [[languages.ca.menu.footer]]
-      weight = 3
-      name = "How it works"
       url = "#"
     [[languages.ca.menu.footer]]
       weight = 4
