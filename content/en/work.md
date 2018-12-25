@@ -1,4 +1,4 @@
 +++
-title = "Work"
+title = "Portfolio"
 id = "work"
 +++

@@ -1,4 +1,4 @@
 +++
-title = "Service"
+title = "Services"
 id = "service"
 +++
