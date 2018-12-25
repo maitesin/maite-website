@@ -17,6 +17,8 @@ theme = "airspace-hugo"
   language = "Language"
   PortfolioName = "Back to Portfolio"
   PortfolioUrl = "work"
+  BlogName = "Back to Blog"
+  BlogUrl= "blog"
 
   [params.slider]
     enable = true
@@ -74,6 +76,8 @@ theme = "airspace-hugo"
       homeUrl = "/es"
       PortfolioName = "Volver al porfolio"
       PortfolioUrl = "es/work"
+      BlogName = "Volver al blog"
+      BlogUrl= "es/blog"
     [[languages.es.menu.header]]
       weight = 2
       name = "Porfolio"
@@ -96,6 +100,8 @@ theme = "airspace-hugo"
       homeUrl = "/ca"
       PortfolioName = "Tornar al portfolio"
       PortfolioUrl = "ca/work"
+      BlogName = "Tornar al blog"
+      BlogUrl= "ca/blog"
     [[languages.ca.menu.header]]
       weight = 2
       name = "Dossier"
