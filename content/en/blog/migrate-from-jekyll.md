@@ -1,6 +1,7 @@
 +++
 title = "Migrate from Jekyll"
 date = "2015-10-10T13:07:31+02:00"
+author = "Maite Clausell"
 tags = ["ipsum"]
 categories = ["lorem"]
 +++
