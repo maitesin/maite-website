@@ -1,7 +1,5 @@
 enable: true
 title: Skills
-subtitle: >
-  Subtitling | SDH | Editing | App localisation | Game Localisation | Web Localisation
 content:
 
   - icon: fa fa-4x fa-video-camera
