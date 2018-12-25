@@ -65,19 +65,6 @@ theme = "airspace-hugo"
       name = "Services"
       url = "/service"
 
-    [[languages.en.menu.footer]]
-      weight = 1
-      name = "About me"
-      url = "#"
-    [[languages.en.menu.footer]]
-      weight = 4
-      name = "Blog"
-      url = "#"
-    [[languages.en.menu.footer]]
-      weight = 5
-      name = "Terms"
-      url = "#"
-
   [languages.es]
     languageName = "Spanish"
     weight = 2
@@ -99,19 +86,6 @@ theme = "airspace-hugo"
       weight = 4
       name = "Servicios"
       url = "/es/service"
-
-    [[languages.es.menu.footer]]
-      weight = 1
-      name = "About us"
-      url = "#"
-    [[languages.es.menu.footer]]
-      weight = 4
-      name = "Blog"
-      url = "#"
-    [[languages.es.menu.footer]]
-      weight = 5
-      name = "Terms"
-      url = "#"
 
   [languages.ca]
     languageName = "Catalan"
@@ -135,15 +109,3 @@ theme = "airspace-hugo"
       name = "Serveis"
       url = "/ca/service"
 
-    [[languages.ca.menu.footer]]
-      weight = 1
-      name = "About us"
-      url = "#"
-    [[languages.ca.menu.footer]]
-      weight = 4
-      name = "Blog"
-      url = "#"
-    [[languages.ca.menu.footer]]
-      weight = 5
-      name = "Terms"
-      url = "#"
