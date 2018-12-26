@@ -3,3 +3,4 @@
 * Change the *Skills* title in the front page for *Services*
 * Remove the *Skills* title from the *Services* tab
 * Change the footnote for the contact me section
+* Change the fonts of the website
