@@ -1,6 +1,6 @@
 * Change title of the front page of the site
 * Change "Maite Clausell's Website" section for a slogan
-* Change the *Skills* title in the front page for *Services*
-* Remove the *Skills* title from the *Services* tab
 * Change the footnote for the contact me section
 * Change the fonts of the website
+* Add support for services to be translated
+* Add associations section
