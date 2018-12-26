@@ -46,8 +46,7 @@ theme = "airspace-hugo"
 
   [params.call]
     enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Contact me"
 
 [languages]
   [languages.en]
