@@ -48,6 +48,9 @@ theme = "airspace-hugo"
     enable = true
     title = "Contact me"
 
+  [params.associations]
+    enable = true
+
 [languages]
   [languages.en]
     languageName = "English"
