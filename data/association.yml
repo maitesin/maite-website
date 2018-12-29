@@ -2,7 +2,5 @@ enable: true
 title: Associations
 content:
 
-  - icon: fa fa-4x fa-video-camera
-    name: Subtitling
-    text: >
-      English into Spanish and Catalan subtitles for films, series and others.
+  - image: atrae_small.jpg
+    name: Asociación de Traducción y Adaptación Audiovisual de España
