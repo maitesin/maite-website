@@ -1,12 +1,12 @@
 +++
-title = "Yokai Watch Blasters"
+title = "Yo-kai Watch Blasters"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
 image = "/img/portfolio/yokai_watch_blasters.png"
 +++
 
-LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.
+*Yo-kai Watch Blasters* is a role-playing video game for Nintendo 3DS developed by [Level 5](http://level5ia.com/). It is a spin-off based on the mini-game in *Yo-kai Watch 2*.
 
-The first time I read about this contest was in 2015, when LocJAM 2 took place. That year they chose a video game for translation and as my passion for video game localisation was beginning to develop, I decided to take part in the contest.
+The two different versions of the game, *Yo-kai Watch Blasters: Red Cat Corps* and *Yo-kai Watch Blasters: White Dog Squad*, were first released in Japan on July 2015 and worldwide in September 2018. Due to its success in Japan, a free expansion - *Yo-kai Watch Blasters: Moon Rabbit Crew*, was released in Japan in December 2015, and worldwide in September 2018.
 
-The video game chosen for that year was **Grandpa**, created by Omar Enezi, Abdullah Hamed and Basma Mariki, licensed under a [Creative Commons License (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/). If you would like to play this short game in the Spanish version that I provided, click [here](/grandpa).
+The company in charge of localising the game from Japanese into English, French, Italian, German and Spanish was [Pole To Win](https://www.ptw-i.com/). The translation of the game was performed in their Glasgow office, while **QA testing - for which I was part of the Spanish team** - took place in the London office at the beginning of 2018.

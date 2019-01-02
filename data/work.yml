@@ -8,7 +8,7 @@ portfolio:
     image: "/img/portfolio/Beto.png"
     name: Beto
     description: >
-      Beto is a Spanish web series about a young adult with no job and little friends
+      Beto is a Spanish web series about a young adult with no job and little friends.
   - category: Subtitling
     url: "/portfolio/panderola"
     image: "/img/portfolio/Panderola.png"
@@ -38,7 +38,7 @@ portfolio:
     image: "/img/portfolio/Grandpa.png"
     name: Grandpa
     description: >
-      LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.
+      Grandpa was the video game choosen for LocJAM 2, an contest for game translators.
   - category: Application
     url: "/portfolio/pomodoro"
     image: "/img/portfolio/Pomodoro_texto.png"
@@ -50,13 +50,13 @@ portfolio:
     image: "/img/portfolio/yokai_watch_blasters.png"
     name: Yokai Watch Blasters
     description: >
-      Something really interesting about Yokai Watch Blasters.
+      Yo-kai Watch Blasters is a role-playing video game for Nintendo 3DS developed by Level 5.
   - category: Videogame
     url: "/portfolio/yokai_watch_3"
     image: "/img/portfolio/yokai_watch_3.png"
     name: Yokai Watch 3
     description: >
-      Something really interesting about Yokai Watch 3.
+      Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5.
 clients:
   - image: "/img/clients/clients-logo1.png"
     url: "#"

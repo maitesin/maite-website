@@ -5,9 +5,9 @@ type = "portfolio"
 image = "/img/portfolio/Godfather.png"
 +++
 
-As part of the dissertation of the **MA in Translation and New Technologies: Translation of Software and Multimedia Products** I had to localise several parts of the materials of the video game **The Godfather II** from English into Spanish.
+As part of the dissertation of the *MA in Translation and New Technologies: Translation of Software and Multimedia Products* (2017) **I had to localise several parts of the materials of the video game *The Godfather II* from English into Spanish**.
 
-This video game is based on the film **The Godfather II** by Francis Ford Coppola, and was developed by EA Redwood Shores and distributed by Electronic Arts, Paramount Digital Entertainment.
+This video game is based on the film *The Godfather II* by Francis Ford Coppola, and was developed by EA Redwood Shores and distributed by Electronic Arts, Paramount Digital Entertainment.
 
 These are the materials that I localised:
 

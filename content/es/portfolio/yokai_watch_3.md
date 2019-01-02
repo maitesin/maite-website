@@ -1,12 +1,12 @@
 +++
-title = "Yokai Watch 3"
+title = "Yo-kai Watch 3"
 date = "2015-06-24T13:50:46+02:00"
 type = "portfolio"
 image = "/img/portfolio/yokai_watch_3.png"
 +++
 
-LocJAM is an online contest for game translators. Each year a short open source game in English is chosen for translation.
+*Yo-kai Watch 3* is a role-playing video game for Nintendo 3DS developed by [Level 5](http://level5ia.com/). It is a sequel to *Yo-kai Watch 2*.
 
-The first time I read about this contest was in 2015, when LocJAM 2 took place. That year they chose a video game for translation and as my passion for video game localisation was beginning to develop, I decided to take part in the contest.
+The game was first released as *Yo-kai Watch 3: Sushi* and *Yo-kai Watch 3: Tempura* in Japan on July 2016. A third version *Yo-kai Watch 3: Sukiyaki* was released on December that year. This last version – considered the definitive one - was released in Europe on December 2018.
 
-The video game chosen for that year was **Grandpa**, created by Omar Enezi, Abdullah Hamed and Basma Mariki, licensed under a [Creative Commons License (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/). If you would like to play this short game in the Spanish version that I provided, click [here](/grandpa).
+The company in charge of localising the game from Japanese into English, French, Italian, German and Spanish was [Pole To Win](https://www.ptw-i.com/). The whole localisation process of this game was performed in their London office, where **I was part of the Spanish QA testing team** during the summer of 2018.
