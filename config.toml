@@ -50,6 +50,11 @@ theme = "airspace-hugo"
 
   [params.associations]
     enable = true
+    title = "Associations"
+    [[params.associations.item]]
+      weight = 1
+      image = "atrae_small.jpg"
+      name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
   [params.services]
     enable = true
@@ -159,6 +164,17 @@ theme = "airspace-hugo"
         icon = "fa fa-4x fa-desktop"
         name = "Web Localisation"
         text = "English into Spanish and Catalan website localisation."
+    [languages.es.call]
+      enable = true
+      title = "Formas de contacto"
+
+    [languages.es.associations]
+      enable = true
+      title = "Asociaciones"
+      [[languages.es.associations.item]]
+        weight = 1
+        image = "atrae_small.jpg"
+        name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
   [languages.ca]
     languageName = "Catalan"
@@ -216,3 +232,14 @@ theme = "airspace-hugo"
         icon = "fa fa-4x fa-desktop"
         name = "Web Localisation"
         text = "English into Spanish and Catalan website localisation."
+    [languages.ca.call]
+      enable = true
+      title = "Formes de contactar"
+
+    [languages.ca.associations]
+      enable = true
+      title = "Associacions"
+      [[languages.ca.associations.item]]
+        weight = 1
+        image = "atrae_small.jpg"
+        name = "Asociación de Traducción y Adaptación Audiovisual de España"
