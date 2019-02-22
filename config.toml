@@ -51,6 +51,40 @@ theme = "airspace-hugo"
   [params.associations]
     enable = true
 
+  [params.services]
+    enable = true
+    title = "Services"
+    [[params.services.item]]
+      weight = 1
+      icon = "fa fa-4x fa-video-camera"
+      name = "Subtitling"
+      text = "English into Spanish and Catalan subtitles for films, series and others."
+    [[params.services.item]]
+      weight = 2
+      icon = "fa fa-4x fa-deaf"
+      name = "SDH"
+      text = "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
+    [[params.services.item]]
+      weight = 3
+      icon = "fa fa-4x fa-check"
+      name = "Editing"
+      text = "Edition and proofreading of Spanish and Catalan texts after translation."
+    [[params.services.item]]
+      weight = 4
+      icon = "fa fa-4x fa-mobile"
+      name = "App Localisation"
+      text = "English into Spanish and Catalan localisation of web and mobile Apps."
+    [[params.services.item]]
+      weight = 5
+      icon = "fa fa-4x fa-gamepad"
+      name = "Game Localisation"
+      text = "English into Spanish and Catalan game and video game localisation."
+    [[params.services.item]]
+      weight = 6
+      icon = "fa fa-4x fa-desktop"
+      name = "Web Localisation"
+      text = "English into Spanish and Catalan website localisation."
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -92,6 +126,39 @@ theme = "airspace-hugo"
       weight = 4
       name = "Servicios"
       url = "/es/service"
+    [languages.es.services]
+      enable = true
+      title = "Servicios"
+      [[languages.es.services.item]]
+        weight = 1
+        icon = "fa fa-4x fa-video-camera"
+        name = "Subtitling"
+        text = "English into Spanish and Catalan subtitles for films, series and others."
+      [[languages.es.services.item]]
+        weight = 2
+        icon = "fa fa-4x fa-deaf"
+        name = "SDH"
+        text = "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
+      [[languages.es.services.item]]
+        weight = 3
+        icon = "fa fa-4x fa-check"
+        name = "Editing"
+        text = "Edition and proofreading of Spanish and Catalan texts after translation."
+      [[languages.es.services.item]]
+        weight = 4
+        icon = "fa fa-4x fa-mobile"
+        name = "App Localisation"
+        text = "English into Spanish and Catalan localisation of web and mobile Apps."
+      [[languages.es.services.item]]
+        weight = 5
+        icon = "fa fa-4x fa-gamepad"
+        name = "Game Localisation"
+        text = "English into Spanish and Catalan game and video game localisation."
+      [[languages.es.services.item]]
+        weight = 6
+        icon = "fa fa-4x fa-desktop"
+        name = "Web Localisation"
+        text = "English into Spanish and Catalan website localisation."
 
   [languages.ca]
     languageName = "Catalan"
@@ -116,4 +183,36 @@ theme = "airspace-hugo"
       weight = 4
       name = "Serveis"
       url = "/ca/service"
-
+    [languages.ca.services]
+      enable = true
+      title = "Serveis"
+      [[languages.ca.services.item]]
+        weight = 1
+        icon = "fa fa-4x fa-video-camera"
+        name = "Subtitling"
+        text = "English into Spanish and Catalan subtitles for films, series and others."
+      [[languages.ca.services.item]]
+        weight = 2
+        icon = "fa fa-4x fa-deaf"
+        name = "SDH"
+        text = "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
+      [[languages.ca.services.item]]
+        weight = 3
+        icon = "fa fa-4x fa-check"
+        name = "Editing"
+        text = "Edition and proofreading of Spanish and Catalan texts after translation."
+      [[languages.ca.services.item]]
+        weight = 4
+        icon = "fa fa-4x fa-mobile"
+        name = "App Localisation"
+        text = "English into Spanish and Catalan localisation of web and mobile Apps."
+      [[languages.ca.services.item]]
+        weight = 5
+        icon = "fa fa-4x fa-gamepad"
+        name = "Game Localisation"
+        text = "English into Spanish and Catalan game and video game localisation."
+      [[languages.ca.services.item]]
+        weight = 6
+        icon = "fa fa-4x fa-desktop"
+        name = "Web Localisation"
+        text = "English into Spanish and Catalan website localisation."
