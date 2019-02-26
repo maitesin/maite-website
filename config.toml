@@ -90,6 +90,74 @@ theme = "airspace-hugo"
       name = "Web Localisation"
       text = "English into Spanish and Catalan website localisation."
 
+  [params.portfolio]
+  enable = true
+  title = "Just some of our latest projects."
+  subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
+    [[params.portfolio.item]]
+    weight = 1
+    category = "Subtitling"
+    name = "Beto"
+    url = "/portfolio/beto"
+    image = "/img/portfolio/Beto.png"
+    description = "Beto is a Spanish web series about a young adult with no job and little friends."
+    [[params.portfolio.item]]
+    weight = 2
+    category = "Subtitling"
+    name = "La Panderola"
+    url = "/portfolio/panderola"
+    image = "/img/portfolio/Panderola.png"
+    description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from."
+    [[params.portfolio.item]]
+    weight = 3
+    category = "Subtitling"
+    name = "TED Talks"
+    url = "/portfolio/ted"
+    image = "/img/portfolio/TED.png"
+    description = "TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution."
+    [[params.portfolio.item]]
+    weight = 4
+    category = "Subtitling"
+    name = "Skins"
+    url = "/portfolio/skins"
+    image = "/img/portfolio/Skins.png"
+    description = "Skins is a British TV series created by Bryan Elsey and Jamie Brittain."
+    [[params.portfolio.item]]
+    weight = 5
+    category = "Videogame"
+    name = "The Godfather II"
+    url = "/portfolio/godfather"
+    image = "/img/portfolio/Godfather.png"
+    description = "This video game is based on the film The Godfather II by Francis Ford Coppola."
+    [[params.portfolio.item]]
+    weight = 6
+    category = "Videogame"
+    name = "Grandpa"
+    url = "/portfolio/grandpa"
+    image = "/img/portfolio/Grandpa.png"
+    description = "Grandpa was the video game choosen for LocJAM 2, an contest for game translators."
+    [[params.portfolio.item]]
+    weight = 7
+    category = "Application"
+    name = "Pomodoro Assistant"
+    url = "/portfolio/pomodoro"
+    image = "/img/portfolio/Pomodoro_texto.png"
+    description = "Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich."
+    [[params.portfolio.item]]
+    weight = 8
+    category = "Videogame"
+    name = "Yokai Watch Blasters"
+    url = "/portfolio/yokai_watch_blasters"
+    image = "/img/portfolio/yokai_watch_blasters.png"
+    description = "Yo-kai Watch Blasters is a role-playing video game for Nintendo 3DS developed by Level 5."
+    [[params.portfolio.item]]
+    weight = 9
+    category = "Videogame"
+    name = "Yokai Watch 3"
+    url = "/portfolio/yokai_watch_3"
+    image = "/img/portfolio/yokai_watch_3.png"
+    description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -176,6 +244,75 @@ theme = "airspace-hugo"
         image = "atrae_small.jpg"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
+    [languages.es.portfolio]
+    enable = true
+    title = "Just some of our latest projects."
+    subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
+      [[languages.es.portfolio.item]]
+      weight = 1
+      category = "Subtitling"
+      name = "Beto"
+      url = "/portfolio/beto"
+      image = "/img/portfolio/Beto.png"
+      description = "Beto is a Spanish web series about a young adult with no job and little friends."
+      [[languages.es.portfolio.item]]
+      weight = 2
+      category = "Subtitling"
+      name = "La Panderola"
+      url = "/portfolio/panderola"
+      image = "/img/portfolio/Panderola.png"
+      description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from."
+      [[languages.es.portfolio.item]]
+      weight = 3
+      category = "Subtitling"
+      name = "TED Talks"
+      url = "/portfolio/ted"
+      image = "/img/portfolio/TED.png"
+      description = "TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution."
+      [[languages.es.portfolio.item]]
+      weight = 4
+      category = "Subtitling"
+      name = "Skins"
+      url = "/portfolio/skins"
+      image = "/img/portfolio/Skins.png"
+      description = "Skins is a British TV series created by Bryan Elsey and Jamie Brittain."
+      [[languages.es.portfolio.item]]
+      weight = 5
+      category = "Videogame"
+      name = "The Godfather II"
+      url = "/portfolio/godfather"
+      image = "/img/portfolio/Godfather.png"
+      description = "This video game is based on the film The Godfather II by Francis Ford Coppola."
+      [[languages.es.portfolio.item]]
+      weight = 6
+      category = "Videogame"
+      name = "Grandpa"
+      url = "/portfolio/grandpa"
+      image = "/img/portfolio/Grandpa.png"
+      description = "Grandpa was the video game choosen for LocJAM 2, an contest for game translators."
+      [[languages.es.portfolio.item]]
+      weight = 7
+      category = "Application"
+      name = "Pomodoro Assistant"
+      url = "/portfolio/pomodoro"
+      image = "/img/portfolio/Pomodoro_texto.png"
+      description = "Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich."
+      [[languages.es.portfolio.item]]
+      weight = 8
+      category = "Videogame"
+      name = "Yokai Watch Blasters"
+      url = "/portfolio/yokai_watch_blasters"
+      image = "/img/portfolio/yokai_watch_blasters.png"
+      description = "Yo-kai Watch Blasters is a role-playing video game for Nintendo 3DS developed by Level 5."
+      [[languages.es.portfolio.item]]
+      weight = 9
+      category = "Videogame"
+      name = "Yokai Watch 3"
+      url = "/portfolio/yokai_watch_3"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+
+
   [languages.ca]
     languageName = "Catalan"
     weight = 3
@@ -243,3 +380,71 @@ theme = "airspace-hugo"
         weight = 1
         image = "atrae_small.jpg"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
+
+    [languages.ca.portfolio]
+    enable = true
+    title = "Just some of our latest projects."
+    subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
+      [[languages.ca.portfolio.item]]
+      weight = 1
+      category = "Subtitling"
+      name = "Beto"
+      url = "/portfolio/beto"
+      image = "/img/portfolio/Beto.png"
+      description = "Beto is a Spanish web series about a young adult with no job and little friends."
+      [[languages.ca.portfolio.item]]
+      weight = 2
+      category = "Subtitling"
+      name = "La Panderola"
+      url = "/portfolio/panderola"
+      image = "/img/portfolio/Panderola.png"
+      description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from."
+      [[languages.ca.portfolio.item]]
+      weight = 3
+      category = "Subtitling"
+      name = "TED Talks"
+      url = "/portfolio/ted"
+      image = "/img/portfolio/TED.png"
+      description = "TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution."
+      [[languages.ca.portfolio.item]]
+      weight = 4
+      category = "Subtitling"
+      name = "Skins"
+      url = "/portfolio/skins"
+      image = "/img/portfolio/Skins.png"
+      description = "Skins is a British TV series created by Bryan Elsey and Jamie Brittain."
+      [[languages.ca.portfolio.item]]
+      weight = 5
+      category = "Videogame"
+      name = "The Godfather II"
+      url = "/portfolio/godfather"
+      image = "/img/portfolio/Godfather.png"
+      description = "This video game is based on the film The Godfather II by Francis Ford Coppola."
+      [[languages.ca.portfolio.item]]
+      weight = 6
+      category = "Videogame"
+      name = "Grandpa"
+      url = "/portfolio/grandpa"
+      image = "/img/portfolio/Grandpa.png"
+      description = "Grandpa was the video game choosen for LocJAM 2, an contest for game translators."
+      [[languages.ca.portfolio.item]]
+      weight = 7
+      category = "Application"
+      name = "Pomodoro Assistant"
+      url = "/portfolio/pomodoro"
+      image = "/img/portfolio/Pomodoro_texto.png"
+      description = "Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich."
+      [[languages.ca.portfolio.item]]
+      weight = 8
+      category = "Videogame"
+      name = "Yokai Watch Blasters"
+      url = "/portfolio/yokai_watch_blasters"
+      image = "/img/portfolio/yokai_watch_blasters.png"
+      description = "Yo-kai Watch Blasters is a role-playing video game for Nintendo 3DS developed by Level 5."
+      [[languages.ca.portfolio.item]]
+      weight = 9
+      category = "Videogame"
+      name = "Yokai Watch 3"
+      url = "/portfolio/yokai_watch_3"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
