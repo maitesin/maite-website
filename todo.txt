@@ -1,4 +1,0 @@
-* Change "Maite Clausell's Website" section for a slogan
-* Change the fonts of the website
-* Add support for services to be translated
-* Add support for associations to be translated
