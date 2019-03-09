@@ -157,6 +157,29 @@ theme = "airspace-hugo"
     url = "/portfolio/yokai_watch_3"
     image = "/img/portfolio/yokai_watch_3.png"
     description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+  [params.testimonial]
+    enable = true
+    title = "Relevant yearly statistics about me"
+    [[params.testimonial.item]]
+    weight = 1
+    icon = "fa fa-4x fa-file-text"
+    counter = 50000
+    text = "Words localised"
+    [[params.testimonial.item]]
+    weight = 2
+    icon = "fa fa-4x fa-users"
+    counter = 20
+    text = "Happy clients"
+    [[params.testimonial.item]]
+    weight = 3
+    icon = "fa fa-4x fa-graduation-cap"
+    counter = 10
+    text = "Courses completed"
+    [[params.testimonial.item]]
+    weight = 4
+    icon = "fa fa-4x fa-coffee"
+    counter = 1000
+    text = "Cups of coffee"
 
 [languages]
   [languages.en]
@@ -311,6 +334,29 @@ theme = "airspace-hugo"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
       description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+    [languages.es.testimonial]
+      enable = true
+      title = "Relevante yearly statistics about me"
+      [[languages.es.testimonial.item]]
+      weight = 1
+      icon = "fa fa-4x fa-file-text"
+      counter = 50000
+      text = "Words localised"
+      [[languages.es.testimonial.item]]
+      weight = 2
+      icon = "fa fa-4x fa-users"
+      counter = 20
+      text = "Happy clients"
+      [[languages.es.testimonial.item]]
+      weight = 3
+      icon = "fa fa-4x fa-graduation-cap"
+      counter = 10
+      text = "Courses completed"
+      [[languages.es.testimonial.item]]
+      weight = 4
+      icon = "fa fa-4x fa-coffee"
+      counter = 1000
+      text = "Cups of coffee"
 
 
   [languages.ca]
@@ -448,3 +494,26 @@ theme = "airspace-hugo"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
       description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+    [languages.ca.testimonial]
+      enable = true
+      title = "Relevant anual statistics about me"
+      [[languages.ca.testimonial.item]]
+      weight = 1
+      icon = "fa fa-4x fa-file-text"
+      counter = 50000
+      text = "Words localised"
+      [[languages.ca.testimonial.item]]
+      weight = 2
+      icon = "fa fa-4x fa-users"
+      counter = 20
+      text = "Happy clients"
+      [[languages.ca.testimonial.item]]
+      weight = 3
+      icon = "fa fa-4x fa-graduation-cap"
+      counter = 10
+      text = "Courses completed"
+      [[languages.ca.testimonial.item]]
+      weight = 4
+      icon = "fa fa-4x fa-coffee"
+      counter = 1000
+      text = "Cups of coffee"
