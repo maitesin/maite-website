@@ -96,6 +96,7 @@ theme = "airspace-hugo"
 
   [params.portfolio]
   enable = true
+  group = "Everything"
   title = "Just some of our latest projects."
   subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
     [[params.portfolio.item]]
@@ -273,6 +274,7 @@ theme = "airspace-hugo"
 
     [languages.es.portfolio]
     enable = true
+    group = "Todas"
     title = "Just some of our latest projects."
     subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
       [[languages.es.portfolio.item]]
@@ -439,6 +441,7 @@ theme = "airspace-hugo"
 
     [languages.ca.portfolio]
     enable = true
+    group = "Totes"
     title = "Just some of our latest projects."
     subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
       [[languages.ca.portfolio.item]]
