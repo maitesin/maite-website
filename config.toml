@@ -112,7 +112,7 @@ theme = "airspace-hugo"
     name = "La Panderola"
     url = "/portfolio/panderola"
     image = "/img/portfolio/Panderola.png"
-    description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from."
+    description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain)."
     [[params.portfolio.item]]
     weight = 3
     category = "Subtitling"
@@ -227,39 +227,40 @@ theme = "airspace-hugo"
       weight = 4
       name = "Servicios"
       url = "/es/service"
+
     [languages.es.services]
       enable = true
       title = "Servicios"
       [[languages.es.services.item]]
         weight = 1
         icon = "fa fa-4x fa-video-camera"
-        name = "Subtitling"
-        text = "English into Spanish and Catalan subtitles for films, series and others."
+        name = "Subtitulado"
+        text = "Subtitulado de inglés a español y catalán para películas, series, etc."
       [[languages.es.services.item]]
         weight = 2
         icon = "fa fa-4x fa-deaf"
-        name = "SDH"
-        text = "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
+        name = "SPS"
+        text = "Subtitulado para sordos y personas con deficiencia auditiva de inglés a español y catalán."
       [[languages.es.services.item]]
         weight = 3
         icon = "fa fa-4x fa-check"
-        name = "Editing"
-        text = "Edition and proofreading of Spanish and Catalan texts after translation."
+        name = "Edición de textos"
+        text = "Edición y revisión de textos traducidos al español y al catalán."
       [[languages.es.services.item]]
         weight = 4
         icon = "fa fa-4x fa-mobile"
-        name = "App Localisation"
-        text = "English into Spanish and Catalan localisation of web and mobile Apps."
+        name = "Localización de aplicaciones"
+        text = "Localización de aplicaciones web y móviles de inglés a español y catalán."
       [[languages.es.services.item]]
         weight = 5
         icon = "fa fa-4x fa-gamepad"
-        name = "Game Localisation"
-        text = "English into Spanish and Catalan game and video game localisation."
+        name = "Localización de videojuegos"
+        text = "Localización de videojuegos de inglés a español y catalán."
       [[languages.es.services.item]]
         weight = 6
         icon = "fa fa-4x fa-desktop"
-        name = "Web Localisation"
-        text = "English into Spanish and Catalan website localisation."
+        name = "Localización de sitios web"
+        text = "Localización de sitios web de inglés a español y catalán."
     [languages.es.call]
       enable = true
       title = "Formas de contacto"
@@ -279,67 +280,68 @@ theme = "airspace-hugo"
     subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
       [[languages.es.portfolio.item]]
       weight = 1
-      category = "Subtitling"
+      category = "Subtitulado"
       name = "Beto"
       url = "/portfolio/beto"
       image = "/img/portfolio/Beto.png"
-      description = "Beto is a Spanish web series about a young adult with no job and little friends."
+      description = "Beto es una web serie española sobre un adulto joven desempleado y con pocos amigos."
       [[languages.es.portfolio.item]]
       weight = 2
-      category = "Subtitling"
+      category = "Subtitulado"
       name = "La Panderola"
       url = "/portfolio/panderola"
       image = "/img/portfolio/Panderola.png"
-      description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from."
+      description = "La Panderola era un tipo de tranvía que explotó una línea desde 1888 hasta 1963 en la zona de Castellón de la Plana (España)."
       [[languages.es.portfolio.item]]
       weight = 3
-      category = "Subtitling"
+      category = "Subtitulado"
       name = "TED Talks"
       url = "/portfolio/ted"
       image = "/img/portfolio/TED.png"
-      description = "TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution."
+      description = "TED (Tecnología, Entretenimiento, Diseño) es una organización que publica charlas en línea."
       [[languages.es.portfolio.item]]
       weight = 4
-      category = "Subtitling"
+      category = "Subtitulado"
       name = "Skins"
       url = "/portfolio/skins"
       image = "/img/portfolio/Skins.png"
-      description = "Skins is a British TV series created by Bryan Elsey and Jamie Brittain."
+      description = "Skins es una serie de televisión birtánica creada por Bryan Elsey y Jamie Brittain."
       [[languages.es.portfolio.item]]
       weight = 5
-      category = "Videogame"
+      category = "Videojuegos"
       name = "The Godfather II"
       url = "/portfolio/godfather"
       image = "/img/portfolio/Godfather.png"
-      description = "This video game is based on the film The Godfather II by Francis Ford Coppola."
+      description = "Este videojuego está basado en la película El Padrino II de Francis Ford Coppola."
       [[languages.es.portfolio.item]]
       weight = 6
-      category = "Videogame"
+      category = "Videojuegos"
       name = "Grandpa"
       url = "/portfolio/grandpa"
       image = "/img/portfolio/Grandpa.png"
-      description = "Grandpa was the video game choosen for LocJAM 2, an contest for game translators."
+      description = "Grandpa fue el videojuego elegido para LocJAM 2, un concurso para traductores de juegos."
       [[languages.es.portfolio.item]]
       weight = 7
-      category = "Application"
+      category = "Aplicación"
       name = "Pomodoro Assistant"
       url = "/portfolio/pomodoro"
       image = "/img/portfolio/Pomodoro_texto.png"
-      description = "Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich."
+      description = "Marinara: Pomodoro Assistant es una extensión de Google Chrome desarrollada por Chris Schmich."
       [[languages.es.portfolio.item]]
       weight = 8
-      category = "Videogame"
+      category = "Videojuegos"
       name = "Yokai Watch Blasters"
       url = "/portfolio/yokai_watch_blasters"
       image = "/img/portfolio/yokai_watch_blasters.png"
-      description = "Yo-kai Watch Blasters is a role-playing video game for Nintendo 3DS developed by Level 5."
+      description = "Yo-kai Watch Blasters es un videojuego de rol para Nintendo 3DS desarrollado por Level 5."
       [[languages.es.portfolio.item]]
       weight = 9
-      category = "Videogame"
+      category = "Videojuegos"
       name = "Yokai Watch 3"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
-      description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+      description = "Yo-kai Watch 3 es un videojuego de rol para Nintendo 3DS desarrollado por Level 5."
+
     [languages.es.testimonial]
       enable = true
       title = "Relevante yearly statistics about me"
@@ -378,7 +380,7 @@ theme = "airspace-hugo"
     [languages.ca.params]
       home = "Inici"
       homeUrl = "/ca"
-      PortfolioName = "Tornar al portfolio"
+      PortfolioName = "Tornar al dossier"
       PortfolioUrl = "ca/work"
       BlogName = "Tornar al blog"
       BlogUrl= "ca/blog"
@@ -397,36 +399,37 @@ theme = "airspace-hugo"
     [languages.ca.services]
       enable = true
       title = "Serveis"
+
       [[languages.ca.services.item]]
         weight = 1
         icon = "fa fa-4x fa-video-camera"
-        name = "Subtitling"
-        text = "English into Spanish and Catalan subtitles for films, series and others."
+        name = "Subtitulació"
+        text = "Subtitulació de pel·lícules, sèries, etc. d'anglès a espanyol i català."
       [[languages.ca.services.item]]
         weight = 2
         icon = "fa fa-4x fa-deaf"
-        name = "SDH"
-        text = "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
+        name = "SPS"
+        text = "Subtitulació per a persones sordes i persones amb discapacitats auditives d'anglès a espanyol i català."
       [[languages.ca.services.item]]
         weight = 3
         icon = "fa fa-4x fa-check"
-        name = "Editing"
-        text = "Edition and proofreading of Spanish and Catalan texts after translation."
+        name = "Edició de textos"
+        text = "Edició i revisió de textos traduïts a espanyol i català."
       [[languages.ca.services.item]]
         weight = 4
         icon = "fa fa-4x fa-mobile"
-        name = "App Localisation"
-        text = "English into Spanish and Catalan localisation of web and mobile Apps."
+        name = "Localització d'aplicacions"
+        text = "Localització d'aplicacions web i mòbils d'anglès a espanyol i català."
       [[languages.ca.services.item]]
         weight = 5
         icon = "fa fa-4x fa-gamepad"
-        name = "Game Localisation"
-        text = "English into Spanish and Catalan game and video game localisation."
+        name = "Localització de videojocs"
+        text = "Localització de videojocs d'anglès a espanyol i català."
       [[languages.ca.services.item]]
         weight = 6
         icon = "fa fa-4x fa-desktop"
-        name = "Web Localisation"
-        text = "English into Spanish and Catalan website localisation."
+        name = "Localització de pàgines web"
+        text = "Localització de pàgines web d'anglès a espanyol i català."
     [languages.ca.call]
       enable = true
       title = "Formes de contactar"
@@ -446,67 +449,68 @@ theme = "airspace-hugo"
     subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
       [[languages.ca.portfolio.item]]
       weight = 1
-      category = "Subtitling"
+      category = "Subtitulació"
       name = "Beto"
       url = "/portfolio/beto"
       image = "/img/portfolio/Beto.png"
-      description = "Beto is a Spanish web series about a young adult with no job and little friends."
+      description = "Beto és una web sèrie espanyola que tracta la vida d'un adult jove sense treball i amb pocs amics."
       [[languages.ca.portfolio.item]]
       weight = 2
-      category = "Subtitling"
+      category = "Subtitulació"
       name = "La Panderola"
       url = "/portfolio/panderola"
       image = "/img/portfolio/Panderola.png"
-      description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from."
+      description = "La Panderola fou un tipus de tramvia que va funcionar des de 1888 fins a 1963 en la zona de Castelló de la Plana (Espanya)."
       [[languages.ca.portfolio.item]]
       weight = 3
-      category = "Subtitling"
+      category = "Subtitulació"
       name = "TED Talks"
       url = "/portfolio/ted"
       image = "/img/portfolio/TED.png"
-      description = "TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution."
+      description = "TED (Tecnologia, Entreteniment, Disseny) és una organització que ofereix xarrades gratuïtes en línia."
       [[languages.ca.portfolio.item]]
       weight = 4
-      category = "Subtitling"
+      category = "Subtitulació"
       name = "Skins"
       url = "/portfolio/skins"
       image = "/img/portfolio/Skins.png"
-      description = "Skins is a British TV series created by Bryan Elsey and Jamie Brittain."
+      description = "Skins és una sèrie de televisió britànica, creada per Bryan Elsey i Jamie Brittain."
       [[languages.ca.portfolio.item]]
       weight = 5
-      category = "Videogame"
+      category = "Videojocs"
       name = "The Godfather II"
       url = "/portfolio/godfather"
       image = "/img/portfolio/Godfather.png"
-      description = "This video game is based on the film The Godfather II by Francis Ford Coppola."
+      description = "Aquest videojoc està basat en la pel·lícula El Padrí II de Francis Ford Coppola."
       [[languages.ca.portfolio.item]]
       weight = 6
-      category = "Videogame"
+      category = "Videojocs"
       name = "Grandpa"
       url = "/portfolio/grandpa"
       image = "/img/portfolio/Grandpa.png"
-      description = "Grandpa was the video game choosen for LocJAM 2, an contest for game translators."
+      description = "Grandpa fou el joc seleccionat per a LocJAM 2, un concurs per a traductors de jocs."
       [[languages.ca.portfolio.item]]
       weight = 7
-      category = "Application"
+      category = "Aplicació"
       name = "Pomodoro Assistant"
       url = "/portfolio/pomodoro"
       image = "/img/portfolio/Pomodoro_texto.png"
-      description = "Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich."
+      description = "Marinara: Pomodoro Assistant és una extensió de Google Chrome desenvolupada per Chris Schmich."
       [[languages.ca.portfolio.item]]
       weight = 8
-      category = "Videogame"
+      category = "Videojocs"
       name = "Yokai Watch Blasters"
       url = "/portfolio/yokai_watch_blasters"
       image = "/img/portfolio/yokai_watch_blasters.png"
-      description = "Yo-kai Watch Blasters is a role-playing video game for Nintendo 3DS developed by Level 5."
+      description = "Yo-kai Watch Blasters és un videojoc de rol per a Nintendo 3DS desenvolupat per Level 5."
       [[languages.ca.portfolio.item]]
       weight = 9
-      category = "Videogame"
+      category = "Videojocs"
       name = "Yokai Watch 3"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
-      description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+      description = "Yo-kai Watch 3 és un videojoc de rol per a Nintendo 3DS desenvolupat per Level 5."
+
     [languages.ca.testimonial]
       enable = true
       title = "Relevant anual statistics about me"
