@@ -444,7 +444,7 @@ theme = "airspace-hugo"
 
     [languages.ca.portfolio]
     enable = true
-    group = "Totes"
+    group = "Tot"
     title = "Just some of our latest projects."
     subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
       [[languages.ca.portfolio.item]]
