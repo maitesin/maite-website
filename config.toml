@@ -203,6 +203,10 @@ theme = "airspace-hugo"
       weight = 4
       name = "Services"
       url = "/service"
+    [[languages.en.menu.footer]]
+      weight = 1
+      name = "Legal notice"
+      url = "/legal"
 
   [languages.es]
     languageName = "Spanish"
@@ -227,6 +231,10 @@ theme = "airspace-hugo"
       weight = 4
       name = "Servicios"
       url = "/es/service"
+    [[languages.es.menu.footer]]
+      weight = 1
+      name = "Aviso legal"
+      url = "/legal"
 
     [languages.es.services]
       enable = true
@@ -396,6 +404,11 @@ theme = "airspace-hugo"
       weight = 4
       name = "Serveis"
       url = "/ca/service"
+    [[languages.ca.menu.footer]]
+      weight = 1
+      name = "Avis legal"
+      url = "/legal"
+
     [languages.ca.services]
       enable = true
       title = "Serveis"
