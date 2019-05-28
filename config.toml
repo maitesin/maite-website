@@ -164,7 +164,7 @@ theme = "airspace-hugo"
     description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
   [params.testimonial]
     enable = true
-    title = "Relevant yearly statistics about me"
+    title = "Relevant statistics about me"
     [[params.testimonial.item]]
     weight = 1
     icon = "fa fa-4x fa-file-text"
@@ -233,7 +233,7 @@ theme = "airspace-hugo"
       url = "/es/service"
     [[languages.es.menu.footer]]
       weight = 1
-      name = "Aviso legal"
+      name = "Aviso legal (en inglés)"
       url = "/legal"
 
     [languages.es.services]
@@ -352,34 +352,34 @@ theme = "airspace-hugo"
 
     [languages.es.testimonial]
       enable = true
-      title = "Relevante yearly statistics about me"
+      title = "Datos importantes sobre mí"
       [[languages.es.testimonial.item]]
       weight = 1
       icon = "fa fa-4x fa-file-text"
       counter = 50000
-      text = "Words localised"
+      text = "Palabras traducidas"
       [[languages.es.testimonial.item]]
       weight = 2
       icon = "fa fa-4x fa-users"
       counter = 20
-      text = "Happy clients"
+      text = "Clientes satisfechos"
       [[languages.es.testimonial.item]]
       weight = 3
       icon = "fa fa-4x fa-graduation-cap"
       counter = 10
-      text = "Courses completed"
+      text = "Cursos completados"
       [[languages.es.testimonial.item]]
       weight = 4
       icon = "fa fa-4x fa-coffee"
       counter = 1000
-      text = "Cups of coffee"
+      text = "Tazas de café"
 
     [languages.es.wrapper]
       enable = true
-      title = "Sobre mi"
-      paragraph1 = """In 2013 I graduated in English Philology and moved to London (England) to study an MA in Audiovisual Translation. After finishing my MA in 2014, I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London."""
-      paragraph2 = """In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead. Since the beginning of 2018, I am working as a freelance translator, subtitler and localiser and as a videogame QA Tester and proofreader at Pole to Win. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series."""
-
+      title = "Acerca de mí"
+      paragraph1 = """Soy Maite Clausell Menero, traductora, subtituladora y localizadora de inglés a español y catalán. A pesar de haber nacido y haberme criado en España, cerca del mar Mediterráneo, me mudé a Londres  en 2013 para estudiar un máster en Traducción Audiovisual. En 2017 terminé el Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia."""
+      paragraph2 = """Anteriormente, he trabajado como Language Lead de español para la localización de una aplicación de un Asistente personal inteligente, coordinadora de proyectos, y como tester y revisora de videojuegos. Además, en mi tiempo libre me dedico a leer, tejer, jugar a videojuegos y a hacer trabajo voluntario creando subtítulos para una web serie española y las conferencias de TED Talks, lo que me permite seguir formándome y ganar experiencia."""
+     
 
   [languages.ca]
     languageName = "Catalan"
@@ -406,7 +406,7 @@ theme = "airspace-hugo"
       url = "/ca/service"
     [[languages.ca.menu.footer]]
       weight = 1
-      name = "Avis legal"
+      name = "Avís legal (en anglès)"
       url = "/legal"
 
     [languages.ca.services]
@@ -526,30 +526,30 @@ theme = "airspace-hugo"
 
     [languages.ca.testimonial]
       enable = true
-      title = "Relevant anual statistics about me"
+      title = "Dades importants sobre mi"
       [[languages.ca.testimonial.item]]
       weight = 1
       icon = "fa fa-4x fa-file-text"
       counter = 50000
-      text = "Words localised"
+      text = "Paraules traduïdes"
       [[languages.ca.testimonial.item]]
       weight = 2
       icon = "fa fa-4x fa-users"
       counter = 20
-      text = "Happy clients"
+      text = "Clients satisfets"
       [[languages.ca.testimonial.item]]
       weight = 3
       icon = "fa fa-4x fa-graduation-cap"
       counter = 10
-      text = "Courses completed"
+      text = "Cursos completats"
       [[languages.ca.testimonial.item]]
       weight = 4
       icon = "fa fa-4x fa-coffee"
       counter = 1000
-      text = "Cups of coffee"
+      text = "Tasses de cafè"
 
     [languages.ca.wrapper]
       enable = true
-      title = "Sobre mi2"
+      title = "Quant a mi"
       paragraph1 = """In 2013 I graduated in English Philology and moved to London (England) to study an MA in Audiovisual Translation. After finishing my MA in 2014, I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London."""
       paragraph2 = """In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead. Since the beginning of 2018, I am working as a freelance translator, subtitler and localiser and as a videogame QA Tester and proofreader at Pole to Win. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series."""
