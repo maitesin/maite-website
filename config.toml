@@ -57,7 +57,7 @@ theme = "airspace-hugo"
     title = "Associations"
     [[params.associations.item]]
       weight = 1
-      image = "atrae_small.jpg"
+      image = "atrae_small.webp"
       name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
   [params.services]
@@ -278,7 +278,7 @@ theme = "airspace-hugo"
       title = "Asociaciones"
       [[languages.es.associations.item]]
         weight = 1
-        image = "atrae_small.jpg"
+        image = "atrae_small.webp"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
     [languages.es.portfolio]
@@ -452,7 +452,7 @@ theme = "airspace-hugo"
       title = "Associacions"
       [[languages.ca.associations.item]]
         weight = 1
-        image = "atrae_small.jpg"
+        image = "atrae_small.webp"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
     [languages.ca.portfolio]
