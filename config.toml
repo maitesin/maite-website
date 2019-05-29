@@ -162,6 +162,7 @@ theme = "airspace-hugo"
     url = "/portfolio/yokai_watch_3"
     image = "/img/portfolio/yokai_watch_3.png"
     description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+
   [params.testimonial]
     enable = true
     title = "Relevant statistics about me"
@@ -186,6 +187,120 @@ theme = "airspace-hugo"
     counter = 1000
     text = "Cups of coffee"
 
+  [params.cpd]
+  enable = true
+  coursesTitle = "Courses"
+  webinarsTitle = "Webinars"
+  eventsTitle = "Events"
+
+    [[params.cpd.course]]
+    name = "Evoluciona de traductor novato a traductor profesional"
+    by = "Traduversia"
+    date = "June 2018"
+    [[params.cpd.course]]
+    name = "Productividad y gestión del tiempo para traductores"
+    by = "Traduversia"
+    date = "June 2015"
+    [[params.cpd.course]]
+    name = "Herramientas para la localización y la traducción audiovisual"
+    by = "Traduversia"
+    date = "June 2015"
+    [[params.cpd.course]]
+    name = "Understanding Video Games by University of Alberta"
+    by = "Coursera"
+    date = "February 2015"
+    [[params.cpd.course]]
+    name = "Cómo buscar trabajo en traducción"
+    by = "AulaSic"
+    date = "September 2014"
+    [[params.cpd.course]]
+    name = "Translation Technology Course in Subtitling For the Deaf And The Hard of Hearing"
+    by = "CenTras"
+    date = "March 2014"
+    [[params.cpd.course]]
+    name = "Introduction to Video games Localisation"
+    by = "ATRAE"
+    date = "April 2013"
+    [[params.cpd.course]]
+    name = "Introduction course to film dubbing"
+    by = "Universitat de Valencia"
+    date = "February 2013"
+    [[params.cpd.course]]
+    name = "Accessibility and Audiovisual Translation: Subtitling for deaf people and Audio- description for blind people"
+    by = "Universitat Jaume I"
+    date = "February 2011"
+
+
+    [[params.cpd.webinar]]
+    name = "What you need to get started as a freelance translator. A Cheklist by Meghan Konkol"
+    by = "SDL"
+    date = "May 2019"
+    [[params.cpd.webinar]]
+    name = "How to manage language quality smoothly and seamlessly"
+    by = "Proz"
+    date = "April 2019"
+    [[params.cpd.webinar]]
+    name = "10 steps for freelance translators to go from generic to exclusive and from struggling to thriving by Tess Whitty"
+    by = "SDL"
+    date = "April 2019"
+    [[params.cpd.webinar]]
+    name = "Introducing a new, easy way to translate subtitles in SDL Trados Studio by Paul Filkin"
+    by = "SDL"
+    date = "April 2019"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio 2014 Advanced"
+    by = "Proz"
+    date = "April 2015"
+    [[params.cpd.webinar]]
+    name = "How to translate files coming from other tools with memoQ"
+    by = "Proz"
+    date = "February 2015"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio – Let’s go further"
+    by = "Proz"
+    date = "February 2015"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio – Let’s go back to basics"
+    by = "Proz"
+    date = "February 2015"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio 2014 Getting Started Part 1: Translating"
+    by = "Proz"
+    date = "October 2014"
+    [[params.cpd.webinar]]
+    name = "memoQ: Working with files from other tools"
+    by = "Proz"
+    date = "May 2014"
+    [[params.cpd.webinar]]
+    name = "Make the most of SDL Trados Studio"
+    by = "Proz"
+    date = "May 2014"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio for beginners with tips and tricks"
+    by = "Proz"
+    date = "December 2012"
+
+    [[params.cpd.event]]
+    name = "SpanNet Spring Translation Workshop"
+    by = "ITI Spanish Network"
+    date = "London, March 2019"
+    [[params.cpd.event]]
+    name = "Meet the Client 2019"
+    by = "ITI London Regional Group"
+    date = "London, March 2019"
+    [[params.cpd.event]]
+    name = "FUN FOR ALL 5"
+    by = "TransMedia Catalonia Research Group"
+    date = "Barcelona, June 2018"
+    [[params.cpd.event]]
+    name = "ProZ.com 2015 virtual conference for International Translation Day"
+    by = "Proz"
+    date = "September 2015"
+    [[params.cpd.event]]
+    name = "SDL Trados Studio 2015 Virtual Conference"
+    by = "Proz"
+    date = "July 2015"
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -203,6 +318,10 @@ theme = "airspace-hugo"
       weight = 4
       name = "Services"
       url = "/service"
+    [[languages.en.menu.header]]
+      weight = 5
+      name = "CPD"
+      url = "/cpd"
     [[languages.en.menu.footer]]
       weight = 1
       name = "Legal notice"
@@ -231,6 +350,10 @@ theme = "airspace-hugo"
       weight = 4
       name = "Servicios"
       url = "/es/service"
+    [[languages.es.menu.header]]
+      weight = 5
+      name = "CPD"
+      url = "/cpd"
     [[languages.es.menu.footer]]
       weight = 1
       name = "Aviso legal (en inglés)"
@@ -404,6 +527,10 @@ theme = "airspace-hugo"
       weight = 4
       name = "Serveis"
       url = "/ca/service"
+    [[languages.ca.menu.header]]
+      weight = 5
+      name = "CPD"
+      url = "/cpd"
     [[languages.ca.menu.footer]]
       weight = 1
       name = "Avís legal (en anglès)"
