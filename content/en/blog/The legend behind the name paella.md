@@ -1,6 +1,6 @@
 +++
 title = "Paella: The Legend behind its Name"
-date = "2015-06-24T13:50:46+02:00"
+date = "2019-05-30T13:50:46+02:00"
 author = "Maite Clausell"
 +++
 
@@ -8,7 +8,7 @@ Paella is one of the most typical foods in the Spanish culture, especially in th
 
 If we focus on the word's etymology, the Spanish Real Academia (RAE) states that the word “Paella” comes from the Valencian language:
 
-![paella_RAE](/img/blog/paella.png)
+![paella_RAE](/img/blog/paella.png#center)
 <figcaption>*From RAE dictionary*</figcaption>
 
 In the Valencian region, “paella” is not only the name of the traditional dish, but is also the word used for “pan” or “frying pan”. If we search for this word in a [Valencian dictionary](http://www.diccionari.cat/lexicx.jsp?GECART=0098260), it is mentioned that it comes from Latin through the French *paëlle*, which comes from an early form *patella*, these woould later develop into the word *poêle*, which also means "pan". It would seem that the word *patella* lost its “t” in its transition to Valencian, resulting in *paella*.
