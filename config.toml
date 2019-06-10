@@ -169,13 +169,13 @@ theme = "airspace-hugo"
     [[params.testimonial.item]]
     weight = 1
     icon = "fa fa-4x fa-file-text"
-    counter = 50000
+    counter = 500000
     text = "Words localised"
     [[params.testimonial.item]]
     weight = 2
     icon = "fa fa-4x fa-users"
     counter = 20
-    text = "Happy clients"
+    text = "End clients"
     [[params.testimonial.item]]
     weight = 3
     icon = "fa fa-4x fa-graduation-cap"
@@ -554,7 +554,7 @@ theme = "airspace-hugo"
         weight = 3
         icon = "fa fa-4x fa-check"
         name = "Edició de textos"
-        text = "Edició i revisió de textos traduïts a espanyol i català."
+        text = "Edició i revisió de textos traduïts a espanyol i català des de l'anglès."
       [[languages.ca.services.item]]
         weight = 4
         icon = "fa fa-4x fa-mobile"
