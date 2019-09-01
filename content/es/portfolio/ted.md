@@ -5,9 +5,13 @@ type = "portfolio"
 image = "/img/portfolio/TED.png"
 +++
 
-TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution. It is widely known for its annual conference (TED Conference) and for its talks (TED Talks), which deal with several topics such as science, education, arts, culture, among others.
+TED (Tecnología, Entretenimiento, Diseño) es una organización que publica charlas en línea. Es ampliamente conocida por su congreso anual (TED Conference) y por sus charlas (TED Talks), que tratan varios temas, como ciencias, educación, arte, cultura, etc.
 
-In January 2014, I began collaborating with **the creation of subtitles of some of their talks both into Spanish and Catalan**. You can find them following the links below.
+IEn enero de 2014, empecé a colaborar creando **subtítulos para algunas de sus charlas en español y catalán**. Puedes verlas haciendo clic en los siguientes enlaces:
 
-* [Spanish](https://www.youtube.com/watch?v=xfjZ-tWFxpA)
-* [Catalan](https://www.youtube.com/watch?v=PhVP1tNeGyY)
+* Inglés a español:
+ - [Using Sports for Social Change](https://www.youtube.com/watch?v=xfjZ-tWFxpA)
+
+* Inglés a catalán:
+ - [Social maps that reveal a city's intersections — and separations](https://www.youtube.com/watch?v=PhVP1tNeGyY)
+ - [The beautiful future of solar power](https://www.youtube.com/watch?v=_lyP_2p5MJc)

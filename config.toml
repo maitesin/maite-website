@@ -32,8 +32,8 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About me"
-    paragraph1 = """In 2013 I graduated in English Philology and moved to London (England) to study an MA in Audiovisual Translation. After finishing my MA in 2014, I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London."""
-		paragraph2 = """In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead. Since the beginning of 2018, I am working as a freelance translator, subtitler and localiser and as a videogame QA Tester and proofreader at Pole to Win. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series."""
+    paragraph1 = """My name is Maite Clausell Menero, and I am an English into Spanish and Catalan translator, subtitler and localiser. I was born and raised in Spain near the Mediterranean sea, however, in 2013 I moved to London to study an MA in Audiovisual Translation. In 2017, I improved my Curriculum with an MA in Translation and New Technologies: Translation of Software and Multimedia Products."""
+		paragraph2 = """Previously, I have worked as Spanish Language Lead for the localization of an Artificial Intelligence Assistant app, project coordinator, and video game tester and reviewer. Moreover, in my free time I like to read, knit, play video games and create subtitles for a Spanish web series and TED Talks Conferences, which allow me to gain experience and to keep growing professionally."""
 
   [params.blog]
     enable = true
@@ -500,7 +500,7 @@ theme = "airspace-hugo"
     [languages.es.wrapper]
       enable = true
       title = "Acerca de mí"
-      paragraph1 = """Soy Maite Clausell Menero, traductora, subtituladora y localizadora de inglés a español y catalán. A pesar de haber nacido y haberme criado en España, cerca del mar Mediterráneo, me mudé a Londres  en 2013 para estudiar un máster en Traducción Audiovisual. En 2017 terminé el Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia."""
+      paragraph1 = """Soy Maite Clausell Menero, traductora, subtituladora y localizadora de inglés a español y catalán. A pesar de haber nacido y haberme criado en España, cerca del mar Mediterráneo, me mudé a Londres  en 2013 para estudiar un máster en Traducción Audiovisual. En 2017 amplié my curriculum con otro Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia."""
       paragraph2 = """Anteriormente, he trabajado como Language Lead de español para la localización de una aplicación de un Asistente personal inteligente, coordinadora de proyectos, y como tester y revisora de videojuegos. Además, en mi tiempo libre me dedico a leer, tejer, jugar a videojuegos y a hacer trabajo voluntario creando subtítulos para una web serie española y las conferencias de TED Talks, lo que me permite seguir formándome y ganar experiencia."""
      
 
@@ -678,5 +678,5 @@ theme = "airspace-hugo"
     [languages.ca.wrapper]
       enable = true
       title = "Quant a mi"
-      paragraph1 = """In 2013 I graduated in English Philology and moved to London (England) to study an MA in Audiovisual Translation. After finishing my MA in 2014, I decided to stay in England, though I was born and raised near the Mediterranean Sea in Spain. In the years I have lived in England, I have moved around and lived in different places: London, Cambridge and Surrey, to move back to London."""
-      paragraph2 = """In 2017 I finished an MA in Translation and New Technologies: Translation of Software and Multimedia Products and worked at the translation team of a marketing company as Spanish Language Lead. Since the beginning of 2018, I am working as a freelance translator, subtitler and localiser and as a videogame QA Tester and proofreader at Pole to Win. In my free time I like to read, knit, play video games and create subtitles for a Spanish web series."""
+      paragraph1 = """Sóc Maite Clausell Menero, traductora, subtituladora i localitzadora d'anglés a espanyol i català. Encara que vaig nàixer i em vaig criar a Espanya prop del mar Mediterrani, en 2013 vaig anar a viure a Londres per estudiar un màster en Traducció Audiovisual. En 2017 vaig ampliar el meu currículum amb un màster en Traducció i Noves Tecnologies: Traducció de Programari i Productes Multimèdia."""
+      paragraph2 = """Anteriorment, he treballat com a Language Lead d’espanyol per a la localització de l’aplicació d’un Assistent personal intel·ligent, coordinadora de projectes i com a tester i revisora de videojocs. A més a més, en el meu temps lliure m'agrada llegir, teixir, jugar a videojocs i crear subtítols per a una web sèrie espanyola i per a les conferències de TED Talks, el que em permet seguir formant-me i guanyar experiència."""

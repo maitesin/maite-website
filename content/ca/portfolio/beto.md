@@ -5,9 +5,9 @@ type = "portfolio"
 image = "/img/portfolio/Beto.png"
 +++
 
-[Beto](https://www.facebook.com/laseriedeBETO/) is a Spanish web series produced by [Sal de la fila](https://www.facebook.com/saldelafila/) about a young adult with no job and little friends. His life is a chaos and even with his parents help, he struggles to make ends meet. People usually take advantage of him, in special, his psychiatrist who scams him continuously.
+[Beto](https://www.facebook.com/laseriedeBETO/) és una web sèrie espanyola, produïda per [Sal de la fila](https://www.facebook.com/saldelafila/) que tracta la vida d'un adult jove sense treball i amb pocs amics. La seua vida és caòtica i inclús amb l'ajuda dels seus pares té problemes per arribar a final de mes. La gent se n'aprofita d'ell, especialment, el seu psiquiatra, que l'estafa contínuament.
 
-This web series - produced and filmed in my hometown - has been nominated in several web series festivals and has won two awards.
+Aquesta web sèrie, produïda i filmada al meu poble natal, ha sigut nominada en diversos festivals de web sèries i ha sigut guardonada amb dos premis.
 
-In September 2015, I decided that I wanted to help the people who created this web series. Since then, in my free time, **I have been working on providing the Spanish subtitles, as well as translating the script into English, in order to provide English subtitles**. If you want to see my job and have a good laugh, click [here](https://www.youtube.com/watch?v=bsBvztx_BV8).
+En setembre de 2015, vaig decidir-me a ajudar als creadors d'aquesta web sèrie. Des d'aleshores, en el meu temps lliure, he estat creant els subtítols en espanyol, i a més he traduït el guió a l'anglès per poder crear subtítols en aquesta llengua. Si vols veure el meu treball i riure de bona gana, fes clic [ací](https://www.youtube.com/watch?v=bsBvztx_BV8).
 

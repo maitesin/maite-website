@@ -5,11 +5,11 @@ type = "portfolio"
 image = "/img/portfolio/Panderola.png"
 +++
 
-**La Panderola** was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain), where my family and myself originally come from.
+**La Panderola** era una especie de tranvía que explotó una línea desde 1888 hasta 1963 en la zona de Castellón de la Plana (España), provincia en la que se sitúa mi ciudad natal.
 
-We found this documentary on the Internet by chance and it was narrated in English. As my grandparents used **La Panderola** when they were young, I decided to create Spanish subtitles for the video. Therefore, they were able to enjoy this documentary which brought back really good memories.
+Nos encontramos con este documental en Internet por casualidad, narrado en inglés y puesto que mis abuelos solían viajar en  **La Panderola**  cuando eran jóvenes, quise subtitular el documental en español para que pudiesen disfrutar del mismo, lo cual les traería buenos recuerdos.
 
-You can find the videos with my subtitles in the links below:
+Si quieres ver los vídeos con mis subtítulos, haz clic en los siguientes enlaces:
 
- * [English](https://youtu.be/dd400CIBLkg)
- * [Spanish](https://youtu.be/P94bwq85K54)
+ * [Inglés](https://youtu.be/dd400CIBLkg)
+ * [Español](https://youtu.be/P94bwq85K54)

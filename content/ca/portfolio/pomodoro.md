@@ -5,9 +5,9 @@ type = "portfolio"
 image = "/img/portfolio/Pomodoro_texto.png"
 +++
 
-*Marinara: Pomodoro Assistant* is a Google Chrome extension developed by Chris Schmich.
+*Marinara: Pomodoro Assistant* és una extensió de Google Chrome desenvolupada per Chris Schmich.
 
-This is a productivity extension based on the Pomodoro Technique, which works as a time management assistant and can be added to Chrome from [here](https://chrome.google.com/webstore/detail/marinara-pomodoro®-assist/lojgmehidjdhhbmpjfamhpkpodfcodef).
+Aquesta extensió està basada en la Tècnica Pomodoro de productivitat i funciona com un assistent de gestió del temps. Es pot afegir a Chrome des d'aquest [enllaç](https://chrome.google.com/webstore/detail/marinara-pomodoro®-assist/lojgmehidjdhhbmpjfamhpkpodfcodef).
 
-At the beginning of 2018, I started using this extension to help me better manage my time while working. Since it was only translated to some languages, in February that year **I volunteered to translate/proofread it into Spanish and Catalan**.
+Per tal de millorar la meua gestió del temps mentre treballava, vaig començar a utilitzar aquesta extensió a principis de 2018, i com que sols estava traduïda a alguns idiomes, em vaig oferir voluntària  per a **fer la traducció i revisió a l’espanyol i al català**.
 

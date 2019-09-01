@@ -9,5 +9,9 @@ TED (Technology, Entertainment, Design) is an organisation that posts talks onli
 
 In January 2014, I began collaborating with **the creation of subtitles of some of their talks both into Spanish and Catalan**. You can find them following the links below.
 
-* [Spanish](https://www.youtube.com/watch?v=xfjZ-tWFxpA)
-* [Catalan](https://www.youtube.com/watch?v=PhVP1tNeGyY)
+* English into Spanish:
+ - [Using Sports for Social Change](https://www.youtube.com/watch?v=xfjZ-tWFxpA)
+
+* English into Catalan:
+ - [Social maps that reveal a city's intersections — and separations](https://www.youtube.com/watch?v=PhVP1tNeGyY)
+ - [The beautiful future of solar power](https://www.youtube.com/watch?v=_lyP_2p5MJc)

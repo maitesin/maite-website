@@ -5,8 +5,8 @@ type = "portfolio"
 image = "/img/portfolio/Skins.png"
 +++
 
-*Skins* is a British TV series created by Bryan Elsey and Jamie Brittain, which was first broadcasted on television on channel E4 on 25 January 2007.
+*Skins* és una sèrie de televisió britànica, creada per Bryan Elsey i Jamie Brittain, que fou emesa per primera vegada al canal E4 el 25 de gener de 2007.
 
-The series deals with the story of a group of teenagers who suffer different problems such as drug and alcohol abuse, homosexuality, mental illness, teen pregnancy, etc.
+La sèrie tracta d'un grup d'adolescents amb diversos problemes com drogaddicció, alcoholisme, homosexualitat, malalties mentals, embaràs adolescent, etc.
 
-As part of my dissertation for my *MA in Audiovisual Translation* (2014), **I provided the Spanish SDH (Subtitles for the Deaf and the Hard of Hearing)** of five scenes from episode 1 series 3 named "Everyone". You can see the results by clicking [here](https://www.youtube.com/watch?v=17_y4-zTWdc).
+Com a tesina per al *Màster en Traducció Audiovisual* (2014), vaig crear els **subtítols per a persones sordes** per a cinc escenes del primer capítol de la tercera temporada d'aquesta sèrie, anomenat "Everyone" (Tots). Pots veure els resultats fent clic [ací](https://www.youtube.com/watch?v=17_y4-zTWdc).

@@ -5,8 +5,8 @@ type = "portfolio"
 image = "/img/portfolio/yokai_watch_3.png"
 +++
 
-*Yo-kai Watch 3* is a role-playing video game for Nintendo 3DS developed by [Level 5](http://level5ia.com/). It is a sequel to *Yo-kai Watch 2*.
+*Yo-kai Watch 3* és un videojoc de rol per a Nintendo 3DS, desenvolupat per [Level 5](http://level5ia.com/). Aquest joc és la seqüela de *Yo-kai Watch 2*.
 
-The game was first released as *Yo-kai Watch 3: Sushi* and *Yo-kai Watch 3: Tempura* in Japan on July 2016. A third version *Yo-kai Watch 3: Sukiyaki* was released on December that year. This last version – considered the definitive one - was released in Europe on December 2018.
+Les dues versions del joc *Yo-kai Watch 3: Sushi* i *Yo-kai Watch 3: Tempura* eixiren a la venda en el Japó en juliol de 2016. Al desembre d’aquest mateix any, va eixir una tercera versió *Yo-kai Watch 3: Sukiyaki*, que fou considerada la definitiva i que va eixir a la venda en Europa en desembre de 2018.
 
-The company in charge of localising the game from Japanese into English, French, Italian, German and Spanish was [Pole To Win](https://www.ptw-i.com/). The whole localisation process of this game was performed in their London office, where **I was part of the Spanish QA testing team** during the summer of 2018.
+L’empresa encarregada de la localització d’aquest videojoc del japonès a l’anglès, francès, italià, alemany i espanyol fou [Pole To Win](https://www.ptw-i.com/). El procés de localització va tenir lloc a l’oficina de Londres durant l’estiu de 2018, període en què vaig ser part de **l’equip de testeig per a espanyol**.

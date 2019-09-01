@@ -5,8 +5,8 @@ type = "portfolio"
 image = "/img/portfolio/Grandpa.png"
 +++
 
-**LocJAM** was an online non-profit contest for game translators. For each of its editions, a different short open source game in English was chosen for translation.
+**LocJAM** fou un concurs en línia sense ànim de lucre per a traductors de jocs. Per a cadascuna de les seues edicions es seleccionava un joc en anglès de codi obert.
 
-The first time I read about this contest was in 2015, when **LocJAM 2** took place. That year they chose a video game for translation and as my passion for video game localisation was beginning to develop, I decided to take part in the contest.
+La primera vegada que vaig llegir sobre aquest concurs fou en 2015, quan es va celebrar el **LocJAM 2**. Aquell any van decidir que es traduiria un videojoc i com que la meua passió per la localització de videojocs començava a desenvolupar-se, vaig voler participar en el concurs.
 
-The video game chosen for that year was *Grandpa*, created by Omar Enezi, Abdullah Hamed and Basma Mariki, licensed under a [Creative Commons License (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/). **If you would like to play this short game in the Spanish version that I provided**, click [here](/grandpa).
+El videojoc que es va seleccionar va ser  *Grandpa*, creat per Omar Enezi, Abdullah Hamed i Basma Mariki, baix la llicència [Creative Commons License (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/). **Si vols jugar a aquest joc en la versió a l'espanyol que vaig presentar,**, fes clic [ací](/grandpa).

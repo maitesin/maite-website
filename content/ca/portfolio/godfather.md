@@ -5,12 +5,12 @@ type = "portfolio"
 image = "/img/portfolio/Godfather.png"
 +++
 
-As part of the dissertation of the *MA in Translation and New Technologies: Translation of Software and Multimedia Products* (2017) **I had to localise several parts of the materials of the video game *The Godfather II* from English into Spanish**.
+Per a la tesina del  *Màster en Traducció i Noves Tecnologies: Traducció de Programari i Productes Multimèdia*  (2017) vaig **localitzar d'anglès a espanyol algunes parts que componen els materials del videojoc *El Padrí II*.**
 
-This video game is based on the film *The Godfather II* by Francis Ford Coppola, and was developed by EA Redwood Shores and distributed by Electronic Arts, Paramount Digital Entertainment.
+Aquest videojoc està basat en la pel·lícula  *El Padrí II* de Francis Ford Coppola, i fou desenvolupat per EA Redwood Shores i distribuït per Electronic Arts, Paramount Digital Entertainment.
 
-These are the materials that I localised:
+Els materials que vaig localitzar són:
 
-* [Guide](/docs/Guide.pdf)
-* [Video Game trailer](https://youtu.be/VdxgUg_Pdco)
-* [Website](/docs/TheGodfather/www.ea.com/the-godfather-2.html)
+* [Guia](/docs/Guide.pdf)
+* [Tràiler del videojoc](https://youtu.be/VdxgUg_Pdco)
+* [Pàgina web](/docs/TheGodfather/www.ea.com/the-godfather-2.html)
