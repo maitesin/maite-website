@@ -7,7 +7,7 @@ image = "/img/portfolio/Godfather.png"
 
 Como parte de la tesina del *Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia* (2017) tuve que **localizar de inglés a español varias partes de los materiales que componen el videojuego *El Padrino II*.**
 
-Este videojuego está basado en la película *El Padrino II* de Francis Ford Coppola. Fue desarrollado por EA Redwood Shotes y distribuido por Electronic Arts, Paramount Digital Entertainment.
+Este videojuego está basado en la película *El Padrino II* de Francis Ford Coppola. Fue desarrollado por EA Redwood Shotes y distribuido por Electronic Arts, Paramount Digital Entertainment.
 
 Los materiales que localicé fueron:
 
