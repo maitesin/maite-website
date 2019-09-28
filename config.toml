@@ -97,8 +97,7 @@ theme = "airspace-hugo"
   [params.portfolio]
   enable = true
   group = "Everything"
-  title = "Just some of our latest projects."
-  subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
+  title = "Portfolio"
     [[params.portfolio.item]]
     weight = 1
     category = "Subtitling"
@@ -192,7 +191,6 @@ theme = "airspace-hugo"
   coursesTitle = "Courses"
   webinarsTitle = "Webinars"
   eventsTitle = "Events"
-
     [[params.cpd.course]]
     name = "Evoluciona de traductor novato a traductor profesional"
     by = "Traduversia"
@@ -353,7 +351,7 @@ theme = "airspace-hugo"
     [[languages.es.menu.header]]
       weight = 5
       name = "CPD"
-      url = "/cpd"
+      url = "/es/cpd"
     [[languages.es.menu.footer]]
       weight = 1
       name = "Aviso legal (en inglés)"
@@ -405,10 +403,9 @@ theme = "airspace-hugo"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
     [languages.es.portfolio]
-    enable = true
-    group = "Todo"
-    title = "Just some of our latest projects."
-    subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
+      enable = true
+      group = "Todo"
+      title = "Porfolio"
       [[languages.es.portfolio.item]]
       weight = 1
       category = "Subtitulado"
@@ -530,7 +527,7 @@ theme = "airspace-hugo"
     [[languages.ca.menu.header]]
       weight = 5
       name = "CPD"
-      url = "/cpd"
+      url = "/ca/cpd"
     [[languages.ca.menu.footer]]
       weight = 1
       name = "Avís legal (en anglès)"
@@ -583,10 +580,9 @@ theme = "airspace-hugo"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
 
     [languages.ca.portfolio]
-    enable = true
-    group = "Tot"
-    title = "Just some of our latest projects."
-    subtitle = "Don’t just take our word for it. Check out some of our latest portfolio."
+      enable = true
+      group = "Tot"
+      title = "Dossier"
       [[languages.ca.portfolio.item]]
       weight = 1
       category = "Subtitulació"
