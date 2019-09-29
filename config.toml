@@ -169,7 +169,7 @@ theme = "airspace-hugo"
     description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
 
   [params.testimonial]
-    enable = true
+    enable = false
     title = "Relevant statistics about me"
     [[params.testimonial.item]]
     weight = 1
@@ -483,7 +483,7 @@ theme = "airspace-hugo"
       description = "Yo-kai Watch 3 es un videojuego de rol para Nintendo 3DS desarrollado por Level 5."
 
     [languages.es.testimonial]
-      enable = true
+      enable = false
       title = "Datos importantes sobre mí"
       [[languages.es.testimonial.item]]
       weight = 1
@@ -666,7 +666,7 @@ theme = "airspace-hugo"
       description = "Yo-kai Watch 3 és un videojoc de rol per a Nintendo 3DS desenvolupat per Level 5."
 
     [languages.ca.testimonial]
-      enable = true
+      enable = false
       title = "Dades importants sobre mi"
       [[languages.ca.testimonial.item]]
       weight = 1
