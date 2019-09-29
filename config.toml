@@ -59,6 +59,12 @@ theme = "airspace-hugo"
       weight = 1
       image = "atrae_small.webp"
       name = "Asociación de Traducción y Adaptación Audiovisual de España"
+      url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
+    [[params.associations.item]]
+      weight = 2
+      image = "iti_lrg.png"
+      name = "Institute of Translation and Interpreting - London Regional Group"
+      url = "/docs/ITI-LRG_Interview.pdf"
 
   [params.services]
     enable = true
@@ -401,6 +407,12 @@ theme = "airspace-hugo"
         weight = 1
         image = "atrae_small.webp"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
+        url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
+      [[languages.es.associations.item]]
+        weight = 2
+        image = "iti_lrg.png"
+        name = "Institute of Translation and Interpreting - London Regional Group"
+        url = "/docs/ITI-LRG_Interview.pdf"
 
     [languages.es.portfolio]
       enable = true
@@ -578,6 +590,12 @@ theme = "airspace-hugo"
         weight = 1
         image = "atrae_small.webp"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
+        url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
+      [[languages.ca.associations.item]]
+        weight = 2
+        image = "iti_lrg.png"
+        name = "Institute of Translation and Interpreting - London Regional Group"
+        url = "/docs/ITI-LRG_Interview.pdf"
 
     [languages.ca.portfolio]
       enable = true
