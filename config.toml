@@ -26,8 +26,12 @@ theme = "airspace-hugo"
     subtitle = "Translator - Subtitler - Localiser"
 
   [params.quote1]
-    text = "\"Translation is the forcible replacement of the linguistic and cultural difference of the foreign text with a text that will be intelligible to the target language.\""
+    text = "Translation is the forcible replacement of the linguistic and cultural difference of the foreign text with a text that will be intelligible to the target language."
     author = "Lawrence Venuti"
+
+  [params.quote2]
+    text = "The term “localization” is derived from the word “locale”, which traditionally means a small area or vicinity."
+    author = "Bert Esselink"
 
   [params.wrapper]
     enable = true
