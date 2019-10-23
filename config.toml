@@ -234,7 +234,10 @@ theme = "airspace-hugo"
     by = "Universitat Jaume I"
     date = "February 2011"
 
-
+	[[params.cpd.webinar]]
+    name = "Seminario de Subtitulado en soportes de tamaño reducido"
+    by = "ATRAE"
+    date = "October 2019"
     [[params.cpd.webinar]]
     name = "What you need to get started as a freelance translator. A Cheklist by Meghan Konkol"
     by = "SDL"
@@ -284,6 +287,10 @@ theme = "airspace-hugo"
     by = "Proz"
     date = "December 2012"
 
+    [[params.cpd.event]]
+    name = "International Translation Day"
+    by = "Proz"
+    date = "October 2019"
     [[params.cpd.event]]
     name = "SpanNet Spring Translation Workshop"
     by = "ITI Spanish Network"
@@ -371,109 +378,117 @@ theme = "airspace-hugo"
       [[languages.es.cpd.course]]
       name = "Evoluciona de traductor novato a traductor profesional"
       by = "Traduversia"
-      date = "June 2018"
+      date = "junio del 2018"
       [[languages.es.cpd.course]]
       name = "Productividad y gestión del tiempo para traductores"
       by = "Traduversia"
-      date = "June 2015"
+      date = "junio del 2015"
       [[languages.es.cpd.course]]
       name = "Herramientas para la localización y la traducción audiovisual"
       by = "Traduversia"
-      date = "June 2015"
+      date = "junio del 2015"
       [[languages.es.cpd.course]]
       name = "Understanding Video Games by University of Alberta"
       by = "Coursera"
-      date = "February 2015"
+      date = "febrero del 2015"
       [[languages.es.cpd.course]]
       name = "Cómo buscar trabajo en traducción"
       by = "AulaSic"
-      date = "September 2014"
+      date = "septiembre del 2014"
       [[languages.es.cpd.course]]
       name = "Translation Technology Course in Subtitling For the Deaf And The Hard of Hearing"
       by = "CenTras"
-      date = "March 2014"
+      date = "marzo del 2014"
       [[languages.es.cpd.course]]
       name = "Introduction to Video games Localisation"
       by = "ATRAE"
-      date = "April 2013"
+      date = "abril del 2013"
       [[languages.es.cpd.course]]
       name = "Introduction course to film dubbing"
       by = "Universitat de Valencia"
-      date = "February 2013"
+      date = "febrero del 2013"
       [[languages.es.cpd.course]]
       name = "Accessibility and Audiovisual Translation: Subtitling for deaf people and Audio- description for blind people"
       by = "Universitat Jaume I"
-      date = "February 2011"
+      date = "febrero del 2011"
 
+      [[languages.es.cpd.webinar]]
+      name = "Seminario de Subtitulado en soportes de tamaño reducido"
+      by = "ATRAE"
+      date = "octubre del 2019"
       [[languages.es.cpd.webinar]]
       name = "What you need to get started as a freelance translator. A Cheklist by Meghan Konkol"
       by = "SDL"
-      date = "May 2019"
+      date = "mayo del 2019"
       [[languages.es.cpd.webinar]]
       name = "How to manage language quality smoothly and seamlessly"
       by = "Proz"
-      date = "April 2019"
+      date = "abril del 2019"
       [[languages.es.cpd.webinar]]
       name = "10 steps for freelance translators to go from generic to exclusive and from struggling to thriving by Tess Whitty"
       by = "SDL"
-      date = "April 2019"
+      date = "abril del 2019"
       [[languages.es.cpd.webinar]]
       name = "Introducing a new, easy way to translate subtitles in SDL Trados Studio by Paul Filkin"
       by = "SDL"
-      date = "April 2019"
+      date = "abril del 2019"
       [[languages.es.cpd.webinar]]
       name = "SDL Trados Studio 2014 Advanced"
       by = "Proz"
-      date = "April 2015"
+      date = "abril del 2015"
       [[languages.es.cpd.webinar]]
       name = "How to translate files coming from other tools with memoQ"
       by = "Proz"
-      date = "February 2015"
+      date = "febrero del 2015"
       [[languages.es.cpd.webinar]]
       name = "SDL Trados Studio – Let’s go further"
       by = "Proz"
-      date = "February 2015"
+      date = "febrero del 2015"
       [[languages.es.cpd.webinar]]
       name = "SDL Trados Studio – Let’s go back to basics"
       by = "Proz"
-      date = "February 2015"
+      date = "febrero del 2015"
       [[languages.es.cpd.webinar]]
       name = "SDL Trados Studio 2014 Getting Started Part 1: Translating"
       by = "Proz"
-      date = "October 2014"
+      date = "octubre del 2014"
       [[languages.es.cpd.webinar]]
       name = "memoQ: Working with files from other tools"
       by = "Proz"
-      date = "May 2014"
+      date = "mayo del 2014"
       [[languages.es.cpd.webinar]]
       name = "Make the most of SDL Trados Studio"
       by = "Proz"
-      date = "May 2014"
+      date = "mayo del 2014"
       [[languages.es.cpd.webinar]]
       name = "SDL Trados Studio for beginners with tips and tricks"
       by = "Proz"
-      date = "December 2012"
+      date = "diciembre del 2012"
 
+      [[languages.es.cpd.event]]
+      name = "International Translation Day"
+      by = "Proz"
+      date = "octubre del 2019"
       [[languages.es.cpd.event]]
       name = "SpanNet Spring Translation Workshop"
       by = "ITI Spanish Network"
-      date = "London, March 2019"
+      date = "Londres, marzo del 2019"
       [[languages.es.cpd.event]]
       name = "Meet the Client 2019"
       by = "ITI London Regional Group"
-      date = "London, March 2019"
+      date = "Londres, marzo del 2019"
       [[languages.es.cpd.event]]
       name = "FUN FOR ALL 5"
       by = "TransMedia Catalonia Research Group"
-      date = "Barcelona, June 2018"
+      date = "Barcelona, junio del 2018"
       [[languages.es.cpd.event]]
       name = "ProZ.com 2015 virtual conference for International Translation Day"
       by = "Proz"
-      date = "September 2015"
+      date = "septiembre del 2015"
       [[languages.es.cpd.event]]
       name = "SDL Trados Studio 2015 Virtual Conference"
       by = "Proz"
-      date = "July 2015"
+      date = "julio del 2015"
 
     [languages.es.services]
       enable = true
@@ -665,109 +680,117 @@ theme = "airspace-hugo"
       [[languages.ca.cpd.course]]
       name = "Evoluciona de traductor novato a traductor profesional"
       by = "Traduversia"
-      date = "June 2018"
+      date = "juny del 2018"
       [[languages.ca.cpd.course]]
       name = "Productividad y gestión del tiempo para traductores"
       by = "Traduversia"
-      date = "June 2015"
+      date = "juny del 2015"
       [[languages.ca.cpd.course]]
       name = "Herramientas para la localización y la traducción audiovisual"
       by = "Traduversia"
-      date = "June 2015"
+      date = "juny del 2015"
       [[languages.ca.cpd.course]]
       name = "Understanding Video Games by University of Alberta"
       by = "Coursera"
-      date = "February 2015"
+      date = "febrer del 2015"
       [[languages.ca.cpd.course]]
       name = "Cómo buscar trabajo en traducción"
       by = "AulaSic"
-      date = "September 2014"
+      date = "setembre del 2014"
       [[languages.ca.cpd.course]]
       name = "Translation Technology Course in Subtitling For the Deaf And The Hard of Hearing"
       by = "CenTras"
-      date = "March 2014"
+      date = "març del 2014"
       [[languages.ca.cpd.course]]
       name = "Introduction to Video games Localisation"
       by = "ATRAE"
-      date = "April 2013"
+      date = "abril del 2013"
       [[languages.ca.cpd.course]]
       name = "Introduction course to film dubbing"
       by = "Universitat de Valencia"
-      date = "February 2013"
+      date = "febrer del 2013"
       [[languages.ca.cpd.course]]
       name = "Accessibility and Audiovisual Translation: Subtitling for deaf people and Audio- description for blind people"
       by = "Universitat Jaume I"
-      date = "February 2011"
+      date = "febrer del 2011"
 
+      [[languages.ca.cpd.webinar]]
+      name = "Seminario de Subtitulado en soportes de tamaño reducido"
+      by = "ATRAE"
+      date = "octubre del 2019"
       [[languages.ca.cpd.webinar]]
       name = "What you need to get started as a freelance translator. A Cheklist by Meghan Konkol"
       by = "SDL"
-      date = "May 2019"
+      date = "maig del 2019"
       [[languages.ca.cpd.webinar]]
       name = "How to manage language quality smoothly and seamlessly"
       by = "Proz"
-      date = "April 2019"
+      date = "abril del 2019"
       [[languages.ca.cpd.webinar]]
       name = "10 steps for freelance translators to go from generic to exclusive and from struggling to thriving by Tess Whitty"
       by = "SDL"
-      date = "April 2019"
+      date = "abril del 2019"
       [[languages.ca.cpd.webinar]]
       name = "Introducing a new, easy way to translate subtitles in SDL Trados Studio by Paul Filkin"
       by = "SDL"
-      date = "April 2019"
+      date = "abril del 2019"
       [[languages.ca.cpd.webinar]]
       name = "SDL Trados Studio 2014 Advanced"
       by = "Proz"
-      date = "April 2015"
+      date = "abril del 2015"
       [[languages.ca.cpd.webinar]]
       name = "How to translate files coming from other tools with memoQ"
       by = "Proz"
-      date = "February 2015"
+      date = "febrer del 2015"
       [[languages.ca.cpd.webinar]]
       name = "SDL Trados Studio – Let’s go further"
       by = "Proz"
-      date = "February 2015"
+      date = "febrer del 2015"
       [[languages.ca.cpd.webinar]]
       name = "SDL Trados Studio – Let’s go back to basics"
       by = "Proz"
-      date = "February 2015"
+      date = "febrer del 2015"
       [[languages.ca.cpd.webinar]]
       name = "SDL Trados Studio 2014 Getting Started Part 1: Translating"
       by = "Proz"
-      date = "October 2014"
+      date = "octubre del 2014"
       [[languages.ca.cpd.webinar]]
       name = "memoQ: Working with files from other tools"
       by = "Proz"
-      date = "May 2014"
+      date = "maig del 2014"
       [[languages.ca.cpd.webinar]]
       name = "Make the most of SDL Trados Studio"
       by = "Proz"
-      date = "May 2014"
+      date = "maig del 2014"
       [[languages.ca.cpd.webinar]]
       name = "SDL Trados Studio for beginners with tips and tricks"
       by = "Proz"
-      date = "December 2012"
+      date = "desembre del 2012"
 
+      [[languages.ca.cpd.event]]
+      name = "International Translation Day"
+      by = "Proz"
+      date = "octubre del 2019"
       [[languages.ca.cpd.event]]
       name = "SpanNet Spring Translation Workshop"
       by = "ITI Spanish Network"
-      date = "London, March 2019"
+      date = "Londres, març del 2019"
       [[languages.ca.cpd.event]]
       name = "Meet the Client 2019"
       by = "ITI London Regional Group"
-      date = "London, March 2019"
+      date = "Londres, març del 2019"
       [[languages.ca.cpd.event]]
       name = "FUN FOR ALL 5"
       by = "TransMedia Catalonia Research Group"
-      date = "Barcelona, June 2018"
+      date = "Barcelona, juny del 2018"
       [[languages.ca.cpd.event]]
       name = "ProZ.com 2015 virtual conference for International Translation Day"
       by = "Proz"
-      date = "September 2015"
+      date = "setembre del 2015"
       [[languages.ca.cpd.event]]
       name = "SDL Trados Studio 2015 Virtual Conference"
       by = "Proz"
-      date = "July 2015"
+      date = "juliol del 2015"
 
     [languages.ca.services]
       enable = true
