@@ -69,6 +69,11 @@ theme = "airspace-hugo"
       image = "iti_lrg.png"
       name = "Institute of Translation and Interpreting - London Regional Group"
       url = "/docs/ITI-LRG_Interview.pdf"
+    [[params.associations.item]]
+      weight = 3
+      image = "logo_socio_prof.jpg"
+      name = "Asociación Española de Traductores, Correctores e Intérpretes"
+      url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
 
   [params.services]
     enable = true
@@ -544,6 +549,11 @@ theme = "airspace-hugo"
         image = "iti_lrg.png"
         name = "Institute of Translation and Interpreting - London Regional Group"
         url = "/docs/ITI-LRG_Interview.pdf"
+      [[languages.es.associations.item]]
+        weight = 3
+        image = "logo_socio_prof.jpg"
+        name = "Asociación Española de Traductores, Correctores e Intérpretes"
+        url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
 
     [languages.es.portfolio]
       enable = true
@@ -847,6 +857,11 @@ theme = "airspace-hugo"
         image = "iti_lrg.png"
         name = "Institute of Translation and Interpreting - London Regional Group"
         url = "/docs/ITI-LRG_Interview.pdf"
+      [[languages.ca.associations.item]]
+        weight = 3
+        image = "logo_socio_prof.jpg"
+        name = "Asociación Española de Traductores, Correctores e Intérpretes"
+        url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
 
     [languages.ca.portfolio]
       enable = true
