@@ -176,6 +176,13 @@ theme = "airspace-hugo"
     url = "/portfolio/yokai_watch_3"
     image = "/img/portfolio/yokai_watch_3.png"
     description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+    [[params.portfolio.item]]
+    weight = 10
+    category = "Web"
+    name = "RUSTICMED"
+    url = "/portfolio/rusticmed"
+    image = "/img/portfolio/yokai_watch_3.png"
+    description = "RUSTICMED is a family business working in the touristic sector."
 
   [params.testimonial]
     enable = false
@@ -231,15 +238,15 @@ theme = "airspace-hugo"
     by = "CenTras"
     date = "March 2014"
     [[params.cpd.course]]
-    name = "Introduction to Video games Localisation"
+    name = "Introducción a la localización de videojuegos"
     by = "ATRAE"
     date = "April 2013"
     [[params.cpd.course]]
-    name = "Introduction course to film dubbing"
+    name = "Introducción al doblaje de películas"
     by = "Universitat de Valencia"
     date = "February 2013"
     [[params.cpd.course]]
-    name = "Accessibility and Audiovisual Translation: Subtitling for deaf people and Audio- description for blind people"
+    name = "Traducció Audiovisual: subtitulació per a persones sordes i audiodescripció per a persones invidents"
     by = "Universitat Jaume I"
     date = "February 2011"
 
@@ -409,15 +416,15 @@ theme = "airspace-hugo"
       by = "CenTras"
       date = "marzo del 2014"
       [[languages.es.cpd.course]]
-      name = "Introduction to Video games Localisation"
+      name = "Introducción a la localización de videojuegos"
       by = "ATRAE"
       date = "abril del 2013"
       [[languages.es.cpd.course]]
-      name = "Introduction course to film dubbing"
+      name = "Introducción al doblaje de películas"
       by = "Universitat de Valencia"
       date = "febrero del 2013"
       [[languages.es.cpd.course]]
-      name = "Accessibility and Audiovisual Translation: Subtitling for deaf people and Audio- description for blind people"
+      name = "Traducció Audiovisual: subtitulació per a persones sordes i audiodescripció per a persones invidents"
       by = "Universitat Jaume I"
       date = "febrero del 2011"
 
@@ -534,7 +541,7 @@ theme = "airspace-hugo"
         text = "Localización de sitios web de inglés a español y catalán."
     [languages.es.call]
       enable = true
-      title = "Formas de contacto"
+      title = "Contacto"
 
     [languages.es.associations]
       enable = true
@@ -622,6 +629,13 @@ theme = "airspace-hugo"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
       description = "Yo-kai Watch 3 es un videojuego de rol para Nintendo 3DS desarrollado por Level 5."
+      [[languages.es.portfolio.item]]
+      weight = 10
+      category = "Web"
+      name = "RUSTICMED"
+      url = "/portfolio/rusticmed"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "RUSTICMED es un negocio familiar que se dedica al sector turístico."
 
     [languages.es.testimonial]
       enable = false
@@ -716,15 +730,15 @@ theme = "airspace-hugo"
       by = "CenTras"
       date = "març del 2014"
       [[languages.ca.cpd.course]]
-      name = "Introduction to Video games Localisation"
+      name = "Introducción a la localización de videojuegos"
       by = "ATRAE"
       date = "abril del 2013"
       [[languages.ca.cpd.course]]
-      name = "Introduction course to film dubbing"
+      name = "Introducción al doblaje de películas"
       by = "Universitat de Valencia"
       date = "febrer del 2013"
       [[languages.ca.cpd.course]]
-      name = "Accessibility and Audiovisual Translation: Subtitling for deaf people and Audio- description for blind people"
+      name = "Traducció Audiovisual: subtitulació per a persones sordes i audiodescripció per a persones invidents"
       by = "Universitat Jaume I"
       date = "febrer del 2011"
 
@@ -842,7 +856,7 @@ theme = "airspace-hugo"
         text = "Localització de pàgines web d'anglès a espanyol i català."
     [languages.ca.call]
       enable = true
-      title = "Formes de contactar"
+      title = "Contacte"
 
     [languages.ca.associations]
       enable = true
@@ -930,6 +944,13 @@ theme = "airspace-hugo"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
       description = "Yo-kai Watch 3 és un videojoc de rol per a Nintendo 3DS desenvolupat per Level 5."
+      [[languages.ca.portfolio.item]]
+      weight = 10
+      category = "Web"
+      name = "RUSTICMED"
+      url = "/portfolio/rusticmed"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "RUSTICMED és un negoci familiar dedicat al sector turístic."
 
     [languages.ca.testimonial]
       enable = false
