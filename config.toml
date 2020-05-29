@@ -383,8 +383,8 @@ theme = "airspace-hugo"
       url = "/es/cpd"
     [[languages.es.menu.footer]]
       weight = 1
-      name = "Aviso legal (en inglés)"
-      url = "/legal"
+      name = "Aviso legal"
+      url = "/es/legal"
     
     [languages.es.cpd]
     enable = true
@@ -697,8 +697,8 @@ theme = "airspace-hugo"
       url = "/ca/cpd"
     [[languages.ca.menu.footer]]
       weight = 1
-      name = "Avís legal (en anglès)"
-      url = "/legal"
+      name = "Avís legal"
+      url = "/ca/legal"
 
     [languages.ca.cpd]
     enable = true
