@@ -4,6 +4,7 @@ date = "2015-08-03T13:39:46+02:00"
 author = "Maite Clausell"
 tags = ["hugo"]
 categories = ["pseudo"]
+image = "/img/portfolio/Godfather.png"
 +++
 
 ## Step 1. Install Hugo

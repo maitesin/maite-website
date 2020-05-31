@@ -4,6 +4,7 @@ date = "2015-10-02T21:49:20+02:00"
 author = "Maite Clausell"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["programming"]
+image = "/img/portfolio/Godfather.png"
 +++
 
 I'm a linked post in the menu. You can add other posts by adding the following line to the frontmatter:

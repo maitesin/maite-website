@@ -2,6 +2,7 @@
 title = "Welcome to my blog!"
 date = "2019-05-30T13:50:46+02:00"
 author = "Maite Clausell"
+image = "/img/portfolio/Godfather.png"
 +++
 
 Hello and welcome to my blog!

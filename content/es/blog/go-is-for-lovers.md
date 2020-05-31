@@ -4,6 +4,7 @@ date = "2015-09-17T13:47:08+02:00"
 author = "Maite Clausell"
 tags = ["go"]
 categories = ["programming"]
+image = "/img/portfolio/Godfather.png"
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

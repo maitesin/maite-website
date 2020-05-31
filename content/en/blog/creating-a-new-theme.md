@@ -4,6 +4,7 @@ date = "2015-06-24T13:50:46+02:00"
 author = "Maite Clausell"
 tags = ["theme"]
 categories = ["starting"]
+image = "/img/portfolio/Godfather.png"
 +++
 
 ## Introduction

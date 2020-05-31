@@ -2,6 +2,7 @@
 title = "Paella: The Legend behind its Name"
 date = "2019-05-30T13:50:46+02:00"
 author = "Maite Clausell"
+image = "/img/portfolio/Godfather.png"
 +++
 
 Paella is one of the most typical foods in the Spanish culture, especially in the Valencian region. The origin of the name “paella” seems to be as controversial as the recipe of this famous dish – each region prepares it in a different way, making some people say that some of those recipes are not “true paella”, however, we won’t be looking into this in this post.
