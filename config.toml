@@ -20,6 +20,7 @@ theme = "airspace-hugo"
   BlogName = "Back to Blog"
   BlogUrl = "blog"
   BlogImage = "/img/slider-bg.webp"
+  MainImage = "/img/slider-bg.webp"
 
   [params.slider]
     enable = true
