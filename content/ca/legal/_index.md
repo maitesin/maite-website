@@ -1,5 +1,6 @@
 +++
 title = "Avís legal"
+description = "/img/slider-bg.webp"
 +++
 
 ### Who am I?

@@ -1,5 +1,6 @@
 +++
 title = "Legal notice"
+description = "/img/slider-bg.webp"
 +++
 
 ### Who am I?

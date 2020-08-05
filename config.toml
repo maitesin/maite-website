@@ -18,7 +18,8 @@ theme = "airspace-hugo"
   PortfolioName = "Back to Portfolio"
   PortfolioUrl = "work"
   BlogName = "Back to Blog"
-  BlogUrl= "blog"
+  BlogUrl = "blog"
+  BlogImage = "/img/slider-bg.webp"
 
   [params.slider]
     enable = true
