@@ -1,0 +1,985 @@
+title = "Maite Clausell"
+baseURL = "https://dev.maiteclausell.com/"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+  homeUrl = "/"
+  language = "Language"
+  PortfolioName = "Back to Portfolio"
+  PortfolioUrl = "work"
+  BlogName = "Back to Blog"
+  BlogUrl = "blog"
+  BlogImage = "/img/slider-bg.webp"
+  MainImage = "/img/slider-bg.webp"
+
+  [params.slider]
+    enable = true
+    title = "Maite Clausell"
+    subtitle = "Translator - Subtitler - Localiser"
+
+  [params.quote1]
+    text = "Translation is the forcible replacement of the linguistic and cultural difference of the foreign text with a text that will be intelligible to the target language."
+    author = "Lawrence Venuti"
+
+  [params.quote2]
+    text = "The term “localization” is derived from the word “locale”, which traditionally means a small area or vicinity."
+    author = "Bert Esselink"
+
+  [params.wrapper]
+    enable = true
+    title = "About me"
+    paragraph1 = """My name is Maite Clausell Menero, and I am an English into Spanish and Catalan translator, subtitler and localiser. I was born and raised in Spain near the Mediterranean sea, however, in 2013 I moved to London to study an MA in Audiovisual Translation. In 2017, I improved my Curriculum with an MA in Translation and New Technologies: Translation of Software and Multimedia Products."""
+		paragraph2 = """Previously, I have worked as Spanish Language Lead for the localization of an Artificial Intelligence Assistant app, project coordinator, and video game tester and reviewer. Moreover, in my free time I like to read, knit, play video games and create subtitles for a Spanish web series and TED Talks Conferences, which allow me to gain experience and to keep growing professionally."""
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = false
+    title = "We believe in great ideas"
+    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.call]
+    enable = true
+    title = "Contact me"
+
+  [params.associations]
+    enable = true
+    title = "Associations"
+    [[params.associations.item]]
+      weight = 1
+      image = "atrae_small.webp"
+      name = "Asociación de Traducción y Adaptación Audiovisual de España"
+      url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
+    [[params.associations.item]]
+      weight = 2
+      image = "iti_lrg.png"
+      name = "Institute of Translation and Interpreting - London Regional Group"
+      url = "/docs/ITI-LRG_Interview.pdf"
+    [[params.associations.item]]
+      weight = 3
+      image = "logo_socio_prof.jpg"
+      name = "Asociación Española de Traductores, Correctores e Intérpretes"
+      url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
+
+  [params.services]
+    enable = true
+    title = "Services"
+    [[params.services.item]]
+      weight = 1
+      icon = "fa fa-4x fa-video-camera"
+      name = "Subtitling"
+      text = "English into Spanish and Catalan subtitles for films, series and others."
+    [[params.services.item]]
+      weight = 2
+      icon = "fa fa-4x fa-deaf"
+      name = "SDH"
+      text = "English into Spanish and Catalan subtitles for Deaf and Hard of Hearing."
+    [[params.services.item]]
+      weight = 3
+      icon = "fa fa-4x fa-check"
+      name = "Editing"
+      text = "Edition and proofreading of Spanish and Catalan texts after translation."
+    [[params.services.item]]
+      weight = 4
+      icon = "fa fa-4x fa-mobile"
+      name = "App Localisation"
+      text = "English into Spanish and Catalan localisation of web and mobile Apps."
+    [[params.services.item]]
+      weight = 5
+      icon = "fa fa-4x fa-gamepad"
+      name = "Game Localisation"
+      text = "English into Spanish and Catalan game and video game localisation."
+    [[params.services.item]]
+      weight = 6
+      icon = "fa fa-4x fa-desktop"
+      name = "Web Localisation"
+      text = "English into Spanish and Catalan website localisation."
+
+  [params.portfolio]
+  enable = true
+  group = "Everything"
+  title = "Portfolio"
+    [[params.portfolio.item]]
+    weight = 1
+    category = "Subtitling"
+    name = "Beto"
+    url = "/portfolio/beto"
+    image = "/img/portfolio/Beto.png"
+    description = "Beto is a Spanish web series about a young adult with no job and little friends."
+    [[params.portfolio.item]]
+    weight = 2
+    category = "Subtitling"
+    name = "La Panderola"
+    url = "/portfolio/panderola"
+    image = "/img/portfolio/Panderola.png"
+    description = "La Panderola was a kind of tram that run between the years 1888 - 1963 in the area of Castellón de la Plana (Spain)."
+    [[params.portfolio.item]]
+    weight = 3
+    category = "Subtitling"
+    name = "TED Talks"
+    url = "/portfolio/ted"
+    image = "/img/portfolio/TED.png"
+    description = "TED (Technology, Entertainment, Design) is an organisation that posts talks online for free distribution."
+    [[params.portfolio.item]]
+    weight = 4
+    category = "Subtitling"
+    name = "Skins"
+    url = "/portfolio/skins"
+    image = "/img/portfolio/Skins.png"
+    description = "Skins is a British TV series created by Bryan Elsey and Jamie Brittain."
+    [[params.portfolio.item]]
+    weight = 5
+    category = "Videogame"
+    name = "The Godfather II"
+    url = "/portfolio/godfather"
+    image = "/img/portfolio/Godfather.png"
+    description = "This video game is based on the film The Godfather II by Francis Ford Coppola."
+    [[params.portfolio.item]]
+    weight = 6
+    category = "Videogame"
+    name = "Grandpa"
+    url = "/portfolio/grandpa"
+    image = "/img/portfolio/Grandpa.png"
+    description = "Grandpa was the video game choosen for LocJAM 2, an contest for game translators."
+    [[params.portfolio.item]]
+    weight = 7
+    category = "Application"
+    name = "Pomodoro Assistant"
+    url = "/portfolio/pomodoro"
+    image = "/img/portfolio/Pomodoro_texto.png"
+    description = "Marinara: Pomodoro Assistant is a Google Chrome extension developed by Chris Schmich."
+    [[params.portfolio.item]]
+    weight = 8
+    category = "Videogame"
+    name = "Yokai Watch Blasters"
+    url = "/portfolio/yokai_watch_blasters"
+    image = "/img/portfolio/yokai_watch_blasters.png"
+    description = "Yo-kai Watch Blasters is a role-playing video game for Nintendo 3DS developed by Level 5."
+    [[params.portfolio.item]]
+    weight = 9
+    category = "Videogame"
+    name = "Yokai Watch 3"
+    url = "/portfolio/yokai_watch_3"
+    image = "/img/portfolio/yokai_watch_3.png"
+    description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
+    [[params.portfolio.item]]
+    weight = 10
+    category = "Web"
+    name = "RUSTICMED"
+    url = "/portfolio/rusticmed"
+    image = "/img/portfolio/yokai_watch_3.png"
+    description = "RUSTICMED is a family business working in the touristic sector."
+
+  [params.testimonial]
+    enable = false
+    title = "Relevant statistics about me"
+    [[params.testimonial.item]]
+    weight = 1
+    icon = "fa fa-4x fa-file-text"
+    counter = 500000
+    text = "Words localised"
+    [[params.testimonial.item]]
+    weight = 2
+    icon = "fa fa-4x fa-users"
+    counter = 20
+    text = "End clients"
+    [[params.testimonial.item]]
+    weight = 3
+    icon = "fa fa-4x fa-graduation-cap"
+    counter = 10
+    text = "Courses completed"
+    [[params.testimonial.item]]
+    weight = 4
+    icon = "fa fa-4x fa-coffee"
+    counter = 1000
+    text = "Cups of coffee"
+
+  [params.cpd]
+  enable = true
+  coursesTitle = "Courses"
+  webinarsTitle = "Webinars"
+  eventsTitle = "Events"
+    [[params.cpd.course]]
+    name = "Evoluciona de traductor novato a traductor profesional"
+    by = "Traduversia"
+    date = "June 2018"
+    [[params.cpd.course]]
+    name = "Productividad y gestión del tiempo para traductores"
+    by = "Traduversia"
+    date = "June 2015"
+    [[params.cpd.course]]
+    name = "Herramientas para la localización y la traducción audiovisual"
+    by = "Traduversia"
+    date = "June 2015"
+    [[params.cpd.course]]
+    name = "Understanding Video Games by University of Alberta"
+    by = "Coursera"
+    date = "February 2015"
+    [[params.cpd.course]]
+    name = "Cómo buscar trabajo en traducción"
+    by = "AulaSic"
+    date = "September 2014"
+    [[params.cpd.course]]
+    name = "Translation Technology Course in Subtitling For the Deaf And The Hard of Hearing"
+    by = "CenTras"
+    date = "March 2014"
+    [[params.cpd.course]]
+    name = "Introducción a la localización de videojuegos"
+    by = "ATRAE"
+    date = "April 2013"
+    [[params.cpd.course]]
+    name = "Introducción al doblaje de películas"
+    by = "Universitat de Valencia"
+    date = "February 2013"
+    [[params.cpd.course]]
+    name = "Traducció Audiovisual: subtitulació per a persones sordes i audiodescripció per a persones invidents"
+    by = "Universitat Jaume I"
+    date = "February 2011"
+
+	[[params.cpd.webinar]]
+    name = "Seminario de Subtitulado en soportes de tamaño reducido"
+    by = "ATRAE"
+    date = "October 2019"
+    [[params.cpd.webinar]]
+    name = "What you need to get started as a freelance translator. A Cheklist by Meghan Konkol"
+    by = "SDL"
+    date = "May 2019"
+    [[params.cpd.webinar]]
+    name = "How to manage language quality smoothly and seamlessly"
+    by = "Proz"
+    date = "April 2019"
+    [[params.cpd.webinar]]
+    name = "10 steps for freelance translators to go from generic to exclusive and from struggling to thriving by Tess Whitty"
+    by = "SDL"
+    date = "April 2019"
+    [[params.cpd.webinar]]
+    name = "Introducing a new, easy way to translate subtitles in SDL Trados Studio by Paul Filkin"
+    by = "SDL"
+    date = "April 2019"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio 2014 Advanced"
+    by = "Proz"
+    date = "April 2015"
+    [[params.cpd.webinar]]
+    name = "How to translate files coming from other tools with memoQ"
+    by = "Proz"
+    date = "February 2015"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio – Let’s go further"
+    by = "Proz"
+    date = "February 2015"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio – Let’s go back to basics"
+    by = "Proz"
+    date = "February 2015"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio 2014 Getting Started Part 1: Translating"
+    by = "Proz"
+    date = "October 2014"
+    [[params.cpd.webinar]]
+    name = "memoQ: Working with files from other tools"
+    by = "Proz"
+    date = "May 2014"
+    [[params.cpd.webinar]]
+    name = "Make the most of SDL Trados Studio"
+    by = "Proz"
+    date = "May 2014"
+    [[params.cpd.webinar]]
+    name = "SDL Trados Studio for beginners with tips and tricks"
+    by = "Proz"
+    date = "December 2012"
+
+    [[params.cpd.event]]
+    name = "International Translation Day"
+    by = "Proz"
+    date = "October 2019"
+    [[params.cpd.event]]
+    name = "SpanNet Spring Translation Workshop"
+    by = "ITI Spanish Network"
+    date = "London, March 2019"
+    [[params.cpd.event]]
+    name = "Meet the Client 2019"
+    by = "ITI London Regional Group"
+    date = "London, March 2019"
+    [[params.cpd.event]]
+    name = "FUN FOR ALL 5"
+    by = "TransMedia Catalonia Research Group"
+    date = "Barcelona, June 2018"
+    [[params.cpd.event]]
+    name = "ProZ.com 2015 virtual conference for International Translation Day"
+    by = "Proz"
+    date = "September 2015"
+    [[params.cpd.event]]
+    name = "SDL Trados Studio 2015 Virtual Conference"
+    by = "Proz"
+    date = "July 2015"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    [[languages.en.menu.header]]
+      weight = 2
+      name = "Portfolio"
+      url = "/work"
+    [[languages.en.menu.header]]
+      weight = 3
+      name = "Blog"
+      url = "/blog"
+    [[languages.en.menu.header]]
+      weight = 4
+      name = "Services"
+      url = "/service"
+    [[languages.en.menu.header]]
+      weight = 5
+      name = "CPD"
+      url = "/cpd"
+    [[languages.en.menu.footer]]
+      weight = 1
+      name = "Legal notice"
+      url = "/legal"
+
+  [languages.es]
+    languageName = "Spanish"
+    weight = 2
+    contentDir = "content/es"
+    [languages.es.params]
+      home = "Inicio"
+      homeUrl = "/es"
+      PortfolioName = "Volver al porfolio"
+      PortfolioUrl = "es/work"
+      BlogName = "Volver al blog"
+      BlogUrl= "es/blog"
+    [[languages.es.menu.header]]
+      weight = 2
+      name = "Porfolio"
+      url = "/es/work"
+    [[languages.es.menu.header]]
+      weight = 3
+      name = "Blog"
+      url = "/es/blog"
+    [[languages.es.menu.header]]
+      weight = 4
+      name = "Servicios"
+      url = "/es/service"
+    [[languages.es.menu.header]]
+      weight = 5
+      name = "CPD"
+      url = "/es/cpd"
+    [[languages.es.menu.footer]]
+      weight = 1
+      name = "Aviso legal"
+      url = "/es/legal"
+    
+    [languages.es.cpd]
+    enable = true
+    coursesTitle = "Cursos"
+    webinarsTitle = "Seminarios web"
+    eventsTitle = "Eventos"
+      [[languages.es.cpd.course]]
+      name = "Evoluciona de traductor novato a traductor profesional"
+      by = "Traduversia"
+      date = "junio del 2018"
+      [[languages.es.cpd.course]]
+      name = "Productividad y gestión del tiempo para traductores"
+      by = "Traduversia"
+      date = "junio del 2015"
+      [[languages.es.cpd.course]]
+      name = "Herramientas para la localización y la traducción audiovisual"
+      by = "Traduversia"
+      date = "junio del 2015"
+      [[languages.es.cpd.course]]
+      name = "Understanding Video Games by University of Alberta"
+      by = "Coursera"
+      date = "febrero del 2015"
+      [[languages.es.cpd.course]]
+      name = "Cómo buscar trabajo en traducción"
+      by = "AulaSic"
+      date = "septiembre del 2014"
+      [[languages.es.cpd.course]]
+      name = "Translation Technology Course in Subtitling For the Deaf And The Hard of Hearing"
+      by = "CenTras"
+      date = "marzo del 2014"
+      [[languages.es.cpd.course]]
+      name = "Introducción a la localización de videojuegos"
+      by = "ATRAE"
+      date = "abril del 2013"
+      [[languages.es.cpd.course]]
+      name = "Introducción al doblaje de películas"
+      by = "Universitat de Valencia"
+      date = "febrero del 2013"
+      [[languages.es.cpd.course]]
+      name = "Traducció Audiovisual: subtitulació per a persones sordes i audiodescripció per a persones invidents"
+      by = "Universitat Jaume I"
+      date = "febrero del 2011"
+
+      [[languages.es.cpd.webinar]]
+      name = "Seminario de Subtitulado en soportes de tamaño reducido"
+      by = "ATRAE"
+      date = "octubre del 2019"
+      [[languages.es.cpd.webinar]]
+      name = "What you need to get started as a freelance translator. A Cheklist by Meghan Konkol"
+      by = "SDL"
+      date = "mayo del 2019"
+      [[languages.es.cpd.webinar]]
+      name = "How to manage language quality smoothly and seamlessly"
+      by = "Proz"
+      date = "abril del 2019"
+      [[languages.es.cpd.webinar]]
+      name = "10 steps for freelance translators to go from generic to exclusive and from struggling to thriving by Tess Whitty"
+      by = "SDL"
+      date = "abril del 2019"
+      [[languages.es.cpd.webinar]]
+      name = "Introducing a new, easy way to translate subtitles in SDL Trados Studio by Paul Filkin"
+      by = "SDL"
+      date = "abril del 2019"
+      [[languages.es.cpd.webinar]]
+      name = "SDL Trados Studio 2014 Advanced"
+      by = "Proz"
+      date = "abril del 2015"
+      [[languages.es.cpd.webinar]]
+      name = "How to translate files coming from other tools with memoQ"
+      by = "Proz"
+      date = "febrero del 2015"
+      [[languages.es.cpd.webinar]]
+      name = "SDL Trados Studio – Let’s go further"
+      by = "Proz"
+      date = "febrero del 2015"
+      [[languages.es.cpd.webinar]]
+      name = "SDL Trados Studio – Let’s go back to basics"
+      by = "Proz"
+      date = "febrero del 2015"
+      [[languages.es.cpd.webinar]]
+      name = "SDL Trados Studio 2014 Getting Started Part 1: Translating"
+      by = "Proz"
+      date = "octubre del 2014"
+      [[languages.es.cpd.webinar]]
+      name = "memoQ: Working with files from other tools"
+      by = "Proz"
+      date = "mayo del 2014"
+      [[languages.es.cpd.webinar]]
+      name = "Make the most of SDL Trados Studio"
+      by = "Proz"
+      date = "mayo del 2014"
+      [[languages.es.cpd.webinar]]
+      name = "SDL Trados Studio for beginners with tips and tricks"
+      by = "Proz"
+      date = "diciembre del 2012"
+
+      [[languages.es.cpd.event]]
+      name = "International Translation Day"
+      by = "Proz"
+      date = "octubre del 2019"
+      [[languages.es.cpd.event]]
+      name = "SpanNet Spring Translation Workshop"
+      by = "ITI Spanish Network"
+      date = "Londres, marzo del 2019"
+      [[languages.es.cpd.event]]
+      name = "Meet the Client 2019"
+      by = "ITI London Regional Group"
+      date = "Londres, marzo del 2019"
+      [[languages.es.cpd.event]]
+      name = "FUN FOR ALL 5"
+      by = "TransMedia Catalonia Research Group"
+      date = "Barcelona, junio del 2018"
+      [[languages.es.cpd.event]]
+      name = "ProZ.com 2015 virtual conference for International Translation Day"
+      by = "Proz"
+      date = "septiembre del 2015"
+      [[languages.es.cpd.event]]
+      name = "SDL Trados Studio 2015 Virtual Conference"
+      by = "Proz"
+      date = "julio del 2015"
+
+    [languages.es.services]
+      enable = true
+      title = "Servicios"
+      [[languages.es.services.item]]
+        weight = 1
+        icon = "fa fa-4x fa-video-camera"
+        name = "Subtitulado"
+        text = "Subtitulado de inglés a español y catalán para películas, series, etc."
+      [[languages.es.services.item]]
+        weight = 2
+        icon = "fa fa-4x fa-deaf"
+        name = "SPS"
+        text = "Subtitulado para sordos y personas con deficiencia auditiva de inglés a español y catalán."
+      [[languages.es.services.item]]
+        weight = 3
+        icon = "fa fa-4x fa-check"
+        name = "Edición de textos"
+        text = "Edición y revisión de textos traducidos al español y al catalán."
+      [[languages.es.services.item]]
+        weight = 4
+        icon = "fa fa-4x fa-mobile"
+        name = "Localización de aplicaciones"
+        text = "Localización de aplicaciones web y móviles de inglés a español y catalán."
+      [[languages.es.services.item]]
+        weight = 5
+        icon = "fa fa-4x fa-gamepad"
+        name = "Localización de videojuegos"
+        text = "Localización de videojuegos de inglés a español y catalán."
+      [[languages.es.services.item]]
+        weight = 6
+        icon = "fa fa-4x fa-desktop"
+        name = "Localización de sitios web"
+        text = "Localización de sitios web de inglés a español y catalán."
+    [languages.es.call]
+      enable = true
+      title = "Contacto"
+
+    [languages.es.associations]
+      enable = true
+      title = "Asociaciones"
+      [[languages.es.associations.item]]
+        weight = 1
+        image = "atrae_small.webp"
+        name = "Asociación de Traducción y Adaptación Audiovisual de España"
+        url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
+      [[languages.es.associations.item]]
+        weight = 2
+        image = "iti_lrg.png"
+        name = "Institute of Translation and Interpreting - London Regional Group"
+        url = "/docs/ITI-LRG_Interview.pdf"
+      [[languages.es.associations.item]]
+        weight = 3
+        image = "logo_socio_prof.jpg"
+        name = "Asociación Española de Traductores, Correctores e Intérpretes"
+        url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
+
+    [languages.es.portfolio]
+      enable = true
+      group = "Todo"
+      title = "Porfolio"
+      [[languages.es.portfolio.item]]
+      weight = 1
+      category = "Subtitulado"
+      name = "Beto"
+      url = "/portfolio/beto"
+      image = "/img/portfolio/Beto.png"
+      description = "Beto es una web serie española sobre un adulto joven desempleado y con pocos amigos."
+      [[languages.es.portfolio.item]]
+      weight = 2
+      category = "Subtitulado"
+      name = "La Panderola"
+      url = "/portfolio/panderola"
+      image = "/img/portfolio/Panderola.png"
+      description = "La Panderola era un tipo de tranvía que explotó una línea desde 1888 hasta 1963 en la zona de Castellón de la Plana (España)."
+      [[languages.es.portfolio.item]]
+      weight = 3
+      category = "Subtitulado"
+      name = "TED Talks"
+      url = "/portfolio/ted"
+      image = "/img/portfolio/TED.png"
+      description = "TED (Tecnología, Entretenimiento, Diseño) es una organización que publica charlas en línea."
+      [[languages.es.portfolio.item]]
+      weight = 4
+      category = "Subtitulado"
+      name = "Skins"
+      url = "/portfolio/skins"
+      image = "/img/portfolio/Skins.png"
+      description = "Skins es una serie de televisión birtánica creada por Bryan Elsey y Jamie Brittain."
+      [[languages.es.portfolio.item]]
+      weight = 5
+      category = "Videojuegos"
+      name = "The Godfather II"
+      url = "/portfolio/godfather"
+      image = "/img/portfolio/Godfather.png"
+      description = "Este videojuego está basado en la película El Padrino II de Francis Ford Coppola."
+      [[languages.es.portfolio.item]]
+      weight = 6
+      category = "Videojuegos"
+      name = "Grandpa"
+      url = "/portfolio/grandpa"
+      image = "/img/portfolio/Grandpa.png"
+      description = "Grandpa fue el videojuego elegido para LocJAM 2, un concurso para traductores de juegos."
+      [[languages.es.portfolio.item]]
+      weight = 7
+      category = "Aplicación"
+      name = "Pomodoro Assistant"
+      url = "/portfolio/pomodoro"
+      image = "/img/portfolio/Pomodoro_texto.png"
+      description = "Marinara: Pomodoro Assistant es una extensión de Google Chrome desarrollada por Chris Schmich."
+      [[languages.es.portfolio.item]]
+      weight = 8
+      category = "Videojuegos"
+      name = "Yokai Watch Blasters"
+      url = "/portfolio/yokai_watch_blasters"
+      image = "/img/portfolio/yokai_watch_blasters.png"
+      description = "Yo-kai Watch Blasters es un videojuego de rol para Nintendo 3DS desarrollado por Level 5."
+      [[languages.es.portfolio.item]]
+      weight = 9
+      category = "Videojuegos"
+      name = "Yokai Watch 3"
+      url = "/portfolio/yokai_watch_3"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "Yo-kai Watch 3 es un videojuego de rol para Nintendo 3DS desarrollado por Level 5."
+      [[languages.es.portfolio.item]]
+      weight = 10
+      category = "Web"
+      name = "RUSTICMED"
+      url = "/portfolio/rusticmed"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "RUSTICMED es un negocio familiar que se dedica al sector turístico."
+
+    [languages.es.testimonial]
+      enable = false
+      title = "Datos importantes sobre mí"
+      [[languages.es.testimonial.item]]
+      weight = 1
+      icon = "fa fa-4x fa-file-text"
+      counter = 50000
+      text = "Palabras traducidas"
+      [[languages.es.testimonial.item]]
+      weight = 2
+      icon = "fa fa-4x fa-users"
+      counter = 20
+      text = "Clientes satisfechos"
+      [[languages.es.testimonial.item]]
+      weight = 3
+      icon = "fa fa-4x fa-graduation-cap"
+      counter = 10
+      text = "Cursos completados"
+      [[languages.es.testimonial.item]]
+      weight = 4
+      icon = "fa fa-4x fa-coffee"
+      counter = 1000
+      text = "Tazas de café"
+
+    [languages.es.wrapper]
+      enable = true
+      title = "Acerca de mí"
+      paragraph1 = """Soy Maite Clausell Menero, traductora, subtituladora y localizadora de inglés a español y catalán. A pesar de haber nacido y haberme criado en España, cerca del mar Mediterráneo, me mudé a Londres  en 2013 para estudiar un máster en Traducción Audiovisual. En 2017 amplié my curriculum con otro Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia."""
+      paragraph2 = """Anteriormente, he trabajado como Language Lead de español para la localización de una aplicación de un Asistente personal inteligente, coordinadora de proyectos, y como tester y revisora de videojuegos. Además, en mi tiempo libre me dedico a leer, tejer, jugar a videojuegos y a hacer trabajo voluntario creando subtítulos para una web serie española y las conferencias de TED Talks, lo que me permite seguir formándome y ganar experiencia."""
+     
+
+  [languages.ca]
+    languageName = "Catalan"
+    weight = 3
+    contentDir = "content/ca"
+    [languages.ca.params]
+      home = "Inici"
+      homeUrl = "/ca"
+      PortfolioName = "Tornar al dossier"
+      PortfolioUrl = "ca/work"
+      BlogName = "Tornar al blog"
+      BlogUrl= "ca/blog"
+    [[languages.ca.menu.header]]
+      weight = 2
+      name = "Dossier"
+      url = "/ca/work"
+    [[languages.ca.menu.header]]
+      weight = 3
+      name = "Blog"
+      url = "/ca/blog"
+    [[languages.ca.menu.header]]
+      weight = 4
+      name = "Serveis"
+      url = "/ca/service"
+    [[languages.ca.menu.header]]
+      weight = 5
+      name = "CPD"
+      url = "/ca/cpd"
+    [[languages.ca.menu.footer]]
+      weight = 1
+      name = "Avís legal"
+      url = "/ca/legal"
+
+    [languages.ca.cpd]
+    enable = true
+    coursesTitle = "Cursos"
+    webinarsTitle = "Seminaris en línia"
+    eventsTitle = "Esdeveniments"
+      [[languages.ca.cpd.course]]
+      name = "Evoluciona de traductor novato a traductor profesional"
+      by = "Traduversia"
+      date = "juny del 2018"
+      [[languages.ca.cpd.course]]
+      name = "Productividad y gestión del tiempo para traductores"
+      by = "Traduversia"
+      date = "juny del 2015"
+      [[languages.ca.cpd.course]]
+      name = "Herramientas para la localización y la traducción audiovisual"
+      by = "Traduversia"
+      date = "juny del 2015"
+      [[languages.ca.cpd.course]]
+      name = "Understanding Video Games by University of Alberta"
+      by = "Coursera"
+      date = "febrer del 2015"
+      [[languages.ca.cpd.course]]
+      name = "Cómo buscar trabajo en traducción"
+      by = "AulaSic"
+      date = "setembre del 2014"
+      [[languages.ca.cpd.course]]
+      name = "Translation Technology Course in Subtitling For the Deaf And The Hard of Hearing"
+      by = "CenTras"
+      date = "març del 2014"
+      [[languages.ca.cpd.course]]
+      name = "Introducción a la localización de videojuegos"
+      by = "ATRAE"
+      date = "abril del 2013"
+      [[languages.ca.cpd.course]]
+      name = "Introducción al doblaje de películas"
+      by = "Universitat de Valencia"
+      date = "febrer del 2013"
+      [[languages.ca.cpd.course]]
+      name = "Traducció Audiovisual: subtitulació per a persones sordes i audiodescripció per a persones invidents"
+      by = "Universitat Jaume I"
+      date = "febrer del 2011"
+
+      [[languages.ca.cpd.webinar]]
+      name = "Seminario de Subtitulado en soportes de tamaño reducido"
+      by = "ATRAE"
+      date = "octubre del 2019"
+      [[languages.ca.cpd.webinar]]
+      name = "What you need to get started as a freelance translator. A Cheklist by Meghan Konkol"
+      by = "SDL"
+      date = "maig del 2019"
+      [[languages.ca.cpd.webinar]]
+      name = "How to manage language quality smoothly and seamlessly"
+      by = "Proz"
+      date = "abril del 2019"
+      [[languages.ca.cpd.webinar]]
+      name = "10 steps for freelance translators to go from generic to exclusive and from struggling to thriving by Tess Whitty"
+      by = "SDL"
+      date = "abril del 2019"
+      [[languages.ca.cpd.webinar]]
+      name = "Introducing a new, easy way to translate subtitles in SDL Trados Studio by Paul Filkin"
+      by = "SDL"
+      date = "abril del 2019"
+      [[languages.ca.cpd.webinar]]
+      name = "SDL Trados Studio 2014 Advanced"
+      by = "Proz"
+      date = "abril del 2015"
+      [[languages.ca.cpd.webinar]]
+      name = "How to translate files coming from other tools with memoQ"
+      by = "Proz"
+      date = "febrer del 2015"
+      [[languages.ca.cpd.webinar]]
+      name = "SDL Trados Studio – Let’s go further"
+      by = "Proz"
+      date = "febrer del 2015"
+      [[languages.ca.cpd.webinar]]
+      name = "SDL Trados Studio – Let’s go back to basics"
+      by = "Proz"
+      date = "febrer del 2015"
+      [[languages.ca.cpd.webinar]]
+      name = "SDL Trados Studio 2014 Getting Started Part 1: Translating"
+      by = "Proz"
+      date = "octubre del 2014"
+      [[languages.ca.cpd.webinar]]
+      name = "memoQ: Working with files from other tools"
+      by = "Proz"
+      date = "maig del 2014"
+      [[languages.ca.cpd.webinar]]
+      name = "Make the most of SDL Trados Studio"
+      by = "Proz"
+      date = "maig del 2014"
+      [[languages.ca.cpd.webinar]]
+      name = "SDL Trados Studio for beginners with tips and tricks"
+      by = "Proz"
+      date = "desembre del 2012"
+
+      [[languages.ca.cpd.event]]
+      name = "International Translation Day"
+      by = "Proz"
+      date = "octubre del 2019"
+      [[languages.ca.cpd.event]]
+      name = "SpanNet Spring Translation Workshop"
+      by = "ITI Spanish Network"
+      date = "Londres, març del 2019"
+      [[languages.ca.cpd.event]]
+      name = "Meet the Client 2019"
+      by = "ITI London Regional Group"
+      date = "Londres, març del 2019"
+      [[languages.ca.cpd.event]]
+      name = "FUN FOR ALL 5"
+      by = "TransMedia Catalonia Research Group"
+      date = "Barcelona, juny del 2018"
+      [[languages.ca.cpd.event]]
+      name = "ProZ.com 2015 virtual conference for International Translation Day"
+      by = "Proz"
+      date = "setembre del 2015"
+      [[languages.ca.cpd.event]]
+      name = "SDL Trados Studio 2015 Virtual Conference"
+      by = "Proz"
+      date = "juliol del 2015"
+
+    [languages.ca.services]
+      enable = true
+      title = "Serveis"
+
+      [[languages.ca.services.item]]
+        weight = 1
+        icon = "fa fa-4x fa-video-camera"
+        name = "Subtitulació"
+        text = "Subtitulació de pel·lícules, sèries, etc. d'anglès a espanyol i català."
+      [[languages.ca.services.item]]
+        weight = 2
+        icon = "fa fa-4x fa-deaf"
+        name = "SPS"
+        text = "Subtitulació per a persones sordes i persones amb discapacitats auditives d'anglès a espanyol i català."
+      [[languages.ca.services.item]]
+        weight = 3
+        icon = "fa fa-4x fa-check"
+        name = "Edició de textos"
+        text = "Edició i revisió de textos traduïts a espanyol i català des de l'anglès."
+      [[languages.ca.services.item]]
+        weight = 4
+        icon = "fa fa-4x fa-mobile"
+        name = "Localització d'aplicacions"
+        text = "Localització d'aplicacions web i mòbils d'anglès a espanyol i català."
+      [[languages.ca.services.item]]
+        weight = 5
+        icon = "fa fa-4x fa-gamepad"
+        name = "Localització de videojocs"
+        text = "Localització de videojocs d'anglès a espanyol i català."
+      [[languages.ca.services.item]]
+        weight = 6
+        icon = "fa fa-4x fa-desktop"
+        name = "Localització de pàgines web"
+        text = "Localització de pàgines web d'anglès a espanyol i català."
+    [languages.ca.call]
+      enable = true
+      title = "Contacte"
+
+    [languages.ca.associations]
+      enable = true
+      title = "Associacions"
+      [[languages.ca.associations.item]]
+        weight = 1
+        image = "atrae_small.webp"
+        name = "Asociación de Traducción y Adaptación Audiovisual de España"
+        url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
+      [[languages.ca.associations.item]]
+        weight = 2
+        image = "iti_lrg.png"
+        name = "Institute of Translation and Interpreting - London Regional Group"
+        url = "/docs/ITI-LRG_Interview.pdf"
+      [[languages.ca.associations.item]]
+        weight = 3
+        image = "logo_socio_prof.jpg"
+        name = "Asociación Española de Traductores, Correctores e Intérpretes"
+        url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
+
+    [languages.ca.portfolio]
+      enable = true
+      group = "Tot"
+      title = "Dossier"
+      [[languages.ca.portfolio.item]]
+      weight = 1
+      category = "Subtitulació"
+      name = "Beto"
+      url = "/portfolio/beto"
+      image = "/img/portfolio/Beto.png"
+      description = "Beto és una web sèrie espanyola que tracta la vida d'un adult jove sense treball i amb pocs amics."
+      [[languages.ca.portfolio.item]]
+      weight = 2
+      category = "Subtitulació"
+      name = "La Panderola"
+      url = "/portfolio/panderola"
+      image = "/img/portfolio/Panderola.png"
+      description = "La Panderola fou un tipus de tramvia que va funcionar des de 1888 fins a 1963 en la zona de Castelló de la Plana (Espanya)."
+      [[languages.ca.portfolio.item]]
+      weight = 3
+      category = "Subtitulació"
+      name = "TED Talks"
+      url = "/portfolio/ted"
+      image = "/img/portfolio/TED.png"
+      description = "TED (Tecnologia, Entreteniment, Disseny) és una organització que ofereix xarrades gratuïtes en línia."
+      [[languages.ca.portfolio.item]]
+      weight = 4
+      category = "Subtitulació"
+      name = "Skins"
+      url = "/portfolio/skins"
+      image = "/img/portfolio/Skins.png"
+      description = "Skins és una sèrie de televisió britànica, creada per Bryan Elsey i Jamie Brittain."
+      [[languages.ca.portfolio.item]]
+      weight = 5
+      category = "Videojocs"
+      name = "The Godfather II"
+      url = "/portfolio/godfather"
+      image = "/img/portfolio/Godfather.png"
+      description = "Aquest videojoc està basat en la pel·lícula El Padrí II de Francis Ford Coppola."
+      [[languages.ca.portfolio.item]]
+      weight = 6
+      category = "Videojocs"
+      name = "Grandpa"
+      url = "/portfolio/grandpa"
+      image = "/img/portfolio/Grandpa.png"
+      description = "Grandpa fou el joc seleccionat per a LocJAM 2, un concurs per a traductors de jocs."
+      [[languages.ca.portfolio.item]]
+      weight = 7
+      category = "Aplicació"
+      name = "Pomodoro Assistant"
+      url = "/portfolio/pomodoro"
+      image = "/img/portfolio/Pomodoro_texto.png"
+      description = "Marinara: Pomodoro Assistant és una extensió de Google Chrome desenvolupada per Chris Schmich."
+      [[languages.ca.portfolio.item]]
+      weight = 8
+      category = "Videojocs"
+      name = "Yokai Watch Blasters"
+      url = "/portfolio/yokai_watch_blasters"
+      image = "/img/portfolio/yokai_watch_blasters.png"
+      description = "Yo-kai Watch Blasters és un videojoc de rol per a Nintendo 3DS desenvolupat per Level 5."
+      [[languages.ca.portfolio.item]]
+      weight = 9
+      category = "Videojocs"
+      name = "Yokai Watch 3"
+      url = "/portfolio/yokai_watch_3"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "Yo-kai Watch 3 és un videojoc de rol per a Nintendo 3DS desenvolupat per Level 5."
+      [[languages.ca.portfolio.item]]
+      weight = 10
+      category = "Web"
+      name = "RUSTICMED"
+      url = "/portfolio/rusticmed"
+      image = "/img/portfolio/yokai_watch_3.png"
+      description = "RUSTICMED és un negoci familiar dedicat al sector turístic."
+
+    [languages.ca.testimonial]
+      enable = false
+      title = "Dades importants sobre mi"
+      [[languages.ca.testimonial.item]]
+      weight = 1
+      icon = "fa fa-4x fa-file-text"
+      counter = 50000
+      text = "Paraules traduïdes"
+      [[languages.ca.testimonial.item]]
+      weight = 2
+      icon = "fa fa-4x fa-users"
+      counter = 20
+      text = "Clients satisfets"
+      [[languages.ca.testimonial.item]]
+      weight = 3
+      icon = "fa fa-4x fa-graduation-cap"
+      counter = 10
+      text = "Cursos completats"
+      [[languages.ca.testimonial.item]]
+      weight = 4
+      icon = "fa fa-4x fa-coffee"
+      counter = 1000
+      text = "Tasses de cafè"
+
+    [languages.ca.wrapper]
+      enable = true
+      title = "Quant a mi"
+      paragraph1 = """Sóc Maite Clausell Menero, traductora, subtituladora i localitzadora d'anglés a espanyol i català. Encara que vaig nàixer i em vaig criar a Espanya prop del mar Mediterrani, en 2013 vaig anar a viure a Londres per estudiar un màster en Traducció Audiovisual. En 2017 vaig ampliar el meu currículum amb un màster en Traducció i Noves Tecnologies: Traducció de Programari i Productes Multimèdia."""
+      paragraph2 = """Anteriorment, he treballat com a Language Lead d’espanyol per a la localització de l’aplicació d’un Assistent personal intel·ligent, coordinadora de projectes i com a tester i revisora de videojocs. A més a més, en el meu temps lliure m'agrada llegir, teixir, jugar a videojocs i crear subtítols per a una web sèrie espanyola i per a les conferències de TED Talks, el que em permet seguir formant-me i guanyar experiència."""
