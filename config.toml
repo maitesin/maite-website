@@ -38,7 +38,7 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About me"
-    paragraph1 = """My name is Maite Clausell Menero, and I am an English into Spanish and Catalan translator, subtitler and localiser. I was born and raised in Spain near the Mediterranean sea, however, in 2013 I moved to London to study an MA in Audiovisual Translation. In 2017, I improved my Curriculum with an MA in Translation and New Technologies: Translation of Software and Multimedia Products."""
+    paragraph1 = """My name is Maite Clausell Menero, and I am an English into Spanish and Catalan translator, subtitler and localiser. I was born and raised in Spain near the Mediterranean sea, however, in 2013 I moved to London to study an MA in Audiovisual Translation. In 2017, I improved my Curriculum with an MA in Translation and New Technologies: Translation of Software and Multimedia Products. At the beginning of 2020, I decided to come back to my hometown, where I currently live."""
 		paragraph2 = """Previously, I have worked as Spanish Language Lead for the localization of an Artificial Intelligence Assistant app, project coordinator, and video game tester and reviewer. Moreover, in my free time I like to read, knit, play video games and create subtitles for a Spanish web series and TED Talks Conferences, which allow me to gain experience and to keep growing professionally."""
 
   [params.blog]
@@ -63,7 +63,7 @@ theme = "airspace-hugo"
     title = "Associations"
     [[params.associations.item]]
       weight = 1
-      image = "atrae_small.webp"
+      image = "logo_atrae_socia_prof.jpg"
       name = "Asociación de Traducción y Adaptación Audiovisual de España"
       url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
     [[params.associations.item]]
@@ -73,7 +73,7 @@ theme = "airspace-hugo"
       url = "/docs/ITI-LRG_Interview.pdf"
     [[params.associations.item]]
       weight = 3
-      image = "logo_socio_prof.jpg"
+      image = "logo_socia_prof.jpg"
       name = "Asociación Española de Traductores, Correctores e Intérpretes"
       url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
 
@@ -178,13 +178,13 @@ theme = "airspace-hugo"
     url = "/portfolio/yokai_watch_3"
     image = "/img/portfolio/yokai_watch_3.png"
     description = "Yo-kai Watch 3 is a role-playing video game for Nintendo 3DS developed by Level 5."
-    [[params.portfolio.item]]
-    weight = 10
-    category = "Web"
-    name = "RUSTICMED"
-    url = "/portfolio/rusticmed"
-    image = "/img/portfolio/yokai_watch_3.png"
-    description = "RUSTICMED is a family business working in the touristic sector."
+    #[[params.portfolio.item]]
+    #weight = 10
+    #category = "Web"
+    #name = "RUSTICMED"
+    #url = "/portfolio/rusticmed"
+    #image = "/img/portfolio/yokai_watch_3.png"
+    #description = "RUSTICMED is a family business working in the touristic sector."
 
   [params.testimonial]
     enable = false
@@ -215,6 +215,10 @@ theme = "airspace-hugo"
   coursesTitle = "Courses"
   webinarsTitle = "Webinars"
   eventsTitle = "Events"
+    [[params.cpd.course]]
+    name = "Traducción en el sector turístico"
+    by = "AulaSIC"
+    date = "March 2020"
     [[params.cpd.course]]
     name = "Evoluciona de traductor novato a traductor profesional"
     by = "Traduversia"
@@ -252,6 +256,26 @@ theme = "airspace-hugo"
     by = "Universitat Jaume I"
     date = "February 2011"
 
+	[[params.cpd.webinar]]
+    name = "Para, piensa, sigue: la puntuación y las comas"
+    by = "XARXA"
+    date = "November 2020"
+	[[params.cpd.webinar]]
+    name = "La máquina del tiempo traductora: cómo traducir lenguajes de otra época"
+    by = "Asetrad"
+    date = "September 2020"
+	[[params.cpd.webinar]]
+    name = "La traducción de asistentes virtuales"
+    by = "Asetrad"
+    date = "September 2020"
+	[[params.cpd.webinar]]
+    name = "Traducir neologismos: cómo adaptar (e inventar) palabros sin morir en el intento"
+    by = "Asetrad"
+    date = "June 2020"
+	[[params.cpd.webinar]]
+    name = "Localización para Android: el mundo en la palma de la mano"
+    by = "Asetrad"
+    date = "May 2020"
 	[[params.cpd.webinar]]
     name = "Seminario de Subtitulado en soportes de tamaño reducido"
     by = "ATRAE"
@@ -394,6 +418,10 @@ theme = "airspace-hugo"
     webinarsTitle = "Seminarios web"
     eventsTitle = "Eventos"
       [[languages.es.cpd.course]]
+      name = "Traducción en el sector turístico"
+      by = "AulaSIC"
+      date = "marzo del 2020"
+      [[languages.es.cpd.course]]
       name = "Evoluciona de traductor novato a traductor profesional"
       by = "Traduversia"
       date = "junio del 2018"
@@ -430,6 +458,27 @@ theme = "airspace-hugo"
       by = "Universitat Jaume I"
       date = "febrero del 2011"
 
+      
+      [[languages.es.cpd.webinar]]
+      name = "Para, piensa, sigue: la puntuación y las comas"
+      by = "XARXA"
+      date = "noviembre del 2020"
+      [[languages.es.cpd.webinar]]
+      name = "La máquina del tiempo traductora: cómo traducir lenguajes de otra época"
+      by = "Asetrad"
+      date = "septiembre del 2020"
+      [[languages.es.cpd.webinar]]
+      name = "La traducción de asistentes virtuales"
+      by = "Asetrad"
+      date = "septiembre del 2020"
+      [[languages.es.cpd.webinar]]
+      name = "Traducir neologismos: cómo adaptar (e inventar) palabros sin morir en el intento"
+      by = "Asetrad"
+      date = "junio del 2020"
+      [[languages.es.cpd.webinar]]
+      name = "Localización para Android: el mundo en la palma de la mano"
+      by = "Asetrad"
+      date = "mayo del 2020"
       [[languages.es.cpd.webinar]]
       name = "Seminario de Subtitulado en soportes de tamaño reducido"
       by = "ATRAE"
@@ -550,7 +599,7 @@ theme = "airspace-hugo"
       title = "Asociaciones"
       [[languages.es.associations.item]]
         weight = 1
-        image = "atrae_small.webp"
+        image = "logo_atrae_socia_prof.jpg"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
         url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
       [[languages.es.associations.item]]
@@ -560,7 +609,7 @@ theme = "airspace-hugo"
         url = "/docs/ITI-LRG_Interview.pdf"
       [[languages.es.associations.item]]
         weight = 3
-        image = "logo_socio_prof.jpg"
+        image = "logo_socia_prof.jpg"
         name = "Asociación Española de Traductores, Correctores e Intérpretes"
         url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
 
@@ -631,13 +680,13 @@ theme = "airspace-hugo"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
       description = "Yo-kai Watch 3 es un videojuego de rol para Nintendo 3DS desarrollado por Level 5."
-      [[languages.es.portfolio.item]]
-      weight = 10
-      category = "Web"
-      name = "RUSTICMED"
-      url = "/portfolio/rusticmed"
-      image = "/img/portfolio/yokai_watch_3.png"
-      description = "RUSTICMED es un negocio familiar que se dedica al sector turístico."
+      #[[languages.es.portfolio.item]]
+      #weight = 10
+      #category = "Web"
+      #name = "RUSTICMED"
+      #url = "/portfolio/rusticmed"
+      #image = "/img/portfolio/yokai_watch_3.png"
+      #description = "RUSTICMED es un negocio familiar que se dedica al sector turístico."
 
     [languages.es.testimonial]
       enable = false
@@ -666,7 +715,7 @@ theme = "airspace-hugo"
     [languages.es.wrapper]
       enable = true
       title = "Acerca de mí"
-      paragraph1 = """Soy Maite Clausell Menero, traductora, subtituladora y localizadora de inglés a español y catalán. A pesar de haber nacido y haberme criado en España, cerca del mar Mediterráneo, me mudé a Londres  en 2013 para estudiar un máster en Traducción Audiovisual. En 2017 amplié my curriculum con otro Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia."""
+      paragraph1 = """Soy Maite Clausell Menero, traductora, subtituladora y localizadora de inglés a español y catalán. A pesar de haber nacido y haberme criado en España, cerca del mar Mediterráneo, me mudé a Londres  en 2013 para estudiar un máster en Traducción Audiovisual. En 2017 amplié my curriculum con otro Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia. A principios de 2020 decicí volver a mi tierra natal, donde resido actualmente."""
       paragraph2 = """Anteriormente, he trabajado como Language Lead de español para la localización de una aplicación de un Asistente personal inteligente, coordinadora de proyectos, y como tester y revisora de videojuegos. Además, en mi tiempo libre me dedico a leer, tejer, jugar a videojuegos y a hacer trabajo voluntario creando subtítulos para una web serie española y las conferencias de TED Talks, lo que me permite seguir formándome y ganar experiencia."""
      
 
@@ -708,6 +757,10 @@ theme = "airspace-hugo"
     webinarsTitle = "Seminaris en línia"
     eventsTitle = "Esdeveniments"
       [[languages.ca.cpd.course]]
+      name = "Traducción en el sector turístico"
+      by = "AulaSIC"
+      date = "març del 2020"
+      [[languages.ca.cpd.course]]
       name = "Evoluciona de traductor novato a traductor profesional"
       by = "Traduversia"
       date = "juny del 2018"
@@ -744,6 +797,26 @@ theme = "airspace-hugo"
       by = "Universitat Jaume I"
       date = "febrer del 2011"
 
+      [[languages.ca.cpd.webinar]]
+      name = "Para, piensa, sigue: la puntuación y las comas"
+      by = "XARXA"
+      date = "novembre del 2020"
+      [[languages.ca.cpd.webinar]]
+      name = "La máquina del tiempo traductora: cómo traducir lenguajes de otra época"
+      by = "Asetrad"
+      date = "setembre del 2020"
+      [[languages.ca.cpd.webinar]]
+      name = "La traducción de asistentes virtuales"
+      by = "Asetrad"
+      date = "setembre del 2020"
+      [[languages.ca.cpd.webinar]]
+      name = "Traducir neologismos: cómo adaptar (e inventar) palabros sin morir en el intento"
+      by = "Asetrad"
+      date = "juny del 2020"
+      [[languages.ca.cpd.webinar]]
+      name = "Localización para Android: el mundo en la palma de la mano"
+      by = "Asetrad"
+      date = "maig del 2020"
       [[languages.ca.cpd.webinar]]
       name = "Seminario de Subtitulado en soportes de tamaño reducido"
       by = "ATRAE"
@@ -865,7 +938,7 @@ theme = "airspace-hugo"
       title = "Associacions"
       [[languages.ca.associations.item]]
         weight = 1
-        image = "atrae_small.webp"
+        image = "logo_atrae_socia_prof.jpg"
         name = "Asociación de Traducción y Adaptación Audiovisual de España"
         url = "http://intranet.atrae.org/#/socios/Maite__Clausell_Menero"
       [[languages.ca.associations.item]]
@@ -875,7 +948,7 @@ theme = "airspace-hugo"
         url = "/docs/ITI-LRG_Interview.pdf"
       [[languages.ca.associations.item]]
         weight = 3
-        image = "logo_socio_prof.jpg"
+        image = "logo_socia_prof.jpg"
         name = "Asociación Española de Traductores, Correctores e Intérpretes"
         url = "https://asetrad.org/necesitas-un-traductor-corrector-o-interprete/buscador-de-socios/detalle?username=mclausell"
 
@@ -946,13 +1019,13 @@ theme = "airspace-hugo"
       url = "/portfolio/yokai_watch_3"
       image = "/img/portfolio/yokai_watch_3.png"
       description = "Yo-kai Watch 3 és un videojoc de rol per a Nintendo 3DS desenvolupat per Level 5."
-      [[languages.ca.portfolio.item]]
-      weight = 10
-      category = "Web"
-      name = "RUSTICMED"
-      url = "/portfolio/rusticmed"
-      image = "/img/portfolio/yokai_watch_3.png"
-      description = "RUSTICMED és un negoci familiar dedicat al sector turístic."
+      #[[languages.ca.portfolio.item]]
+      #weight = 10
+      #category = "Web"
+      #name = "RUSTICMED"
+      #url = "/portfolio/rusticmed"
+      #image = "/img/portfolio/yokai_watch_3.png"
+      #description = "RUSTICMED és un negoci familiar dedicat al sector turístic."
 
     [languages.ca.testimonial]
       enable = false
@@ -981,5 +1054,5 @@ theme = "airspace-hugo"
     [languages.ca.wrapper]
       enable = true
       title = "Quant a mi"
-      paragraph1 = """Sóc Maite Clausell Menero, traductora, subtituladora i localitzadora d'anglés a espanyol i català. Encara que vaig nàixer i em vaig criar a Espanya prop del mar Mediterrani, en 2013 vaig anar a viure a Londres per estudiar un màster en Traducció Audiovisual. En 2017 vaig ampliar el meu currículum amb un màster en Traducció i Noves Tecnologies: Traducció de Programari i Productes Multimèdia."""
+      paragraph1 = """Sóc Maite Clausell Menero, traductora, subtituladora i localitzadora d'anglés a espanyol i català. Encara que vaig nàixer i em vaig criar a Espanya prop del mar Mediterrani, en 2013 vaig anar a viure a Londres per estudiar un màster en Traducció Audiovisual. En 2017 vaig ampliar el meu currículum amb un màster en Traducció i Noves Tecnologies: Traducció de Programari i Productes Multimèdia. A principis de 2020, vaig decidir tornar a la meua terra natal, on resideix actualment."""
       paragraph2 = """Anteriorment, he treballat com a Language Lead d’espanyol per a la localització de l’aplicació d’un Assistent personal intel·ligent, coordinadora de projectes i com a tester i revisora de videojocs. A més a més, en el meu temps lliure m'agrada llegir, teixir, jugar a videojocs i crear subtítols per a una web sèrie espanyola i per a les conferències de TED Talks, el que em permet seguir formant-me i guanyar experiència."""
