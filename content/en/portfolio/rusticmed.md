@@ -5,7 +5,7 @@ type = "portfolio"
 image = "/img/portfolio/yokai_watch_blasters.png"
 +++
 
-[*RUSTICMED*](http://www.rusticmed.es/) is a family business working in the touristic sector run by Asun and Juan Arizo. They are located in Oropesa del Mar (Spain), close to the Mediterranean Sea.
+[RUSTICMED](http://www.rusticmed.es/) is a family business working in the touristic sector run by Asun and Juan Arizo. They are located in Oropesa del Mar (Spain), close to the Mediterranean Sea.
 
 The RUSTICMED brand, created by the siblings, offers holiday homes with hotel services in a relaxing and pleasant environment, where guests can enjoy both the tranquillity of the sea and the beauty of the mountains.
 

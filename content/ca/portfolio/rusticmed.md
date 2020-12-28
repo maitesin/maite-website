@@ -5,7 +5,7 @@ type = "portfolio"
 image = "/img/portfolio/yokai_watch_blasters.png"
 +++
 
-Asun i Juan Arizo regeixen [*RUSTICMED*](http://www.rusticmed.es/), un negoci familiar dedicat al sector turístic, ubicat a Orpesa del Mar (Espanya), prop del mar Mediterrani.
+Asun i Juan Arizo regeixen [RUSTICMED](http://www.rusticmed.es/), un negoci familiar dedicat al sector turístic, ubicat a Orpesa del Mar (Espanya), prop del mar Mediterrani.
 
 Aquests germans crearen la marca RUSTICMED que ofereix cases de vacances amb els serveis d’un hotel, on els hostes poden gaudir de la tranquil·litat del mar i la bellesa de les muntanyes.
 
