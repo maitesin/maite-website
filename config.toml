@@ -1,5 +1,5 @@
 title = "Maite Clausell"
-baseURL = "https://dev.maiteclausell.com/"
+baseURL = "https://maiteclausell.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
@@ -411,7 +411,7 @@ theme = "airspace-hugo"
       weight = 1
       name = "Aviso legal"
       url = "/es/legal"
-    
+
     [languages.es.cpd]
     enable = true
     coursesTitle = "Cursos"
@@ -458,7 +458,7 @@ theme = "airspace-hugo"
       by = "Universitat Jaume I"
       date = "febrero del 2011"
 
-      
+
       [[languages.es.cpd.webinar]]
       name = "Para, piensa, sigue: la puntuación y las comas"
       by = "XARXA"
@@ -717,7 +717,7 @@ theme = "airspace-hugo"
       title = "Acerca de mí"
       paragraph1 = """Soy Maite Clausell Menero, traductora, subtituladora y localizadora de inglés a español y catalán. A pesar de haber nacido y haberme criado en España, cerca del mar Mediterráneo, me mudé a Londres  en 2013 para estudiar un máster en Traducción Audiovisual. En 2017 amplié my curriculum con otro Máster en Traducción y Nuevas Tecnologías: Traducción de Software y Productos Multimedia. A principios de 2020 decicí volver a mi tierra natal, donde resido actualmente."""
       paragraph2 = """Anteriormente, he trabajado como Language Lead de español para la localización de una aplicación de un Asistente personal inteligente, coordinadora de proyectos, y como tester y revisora de videojuegos. Además, en mi tiempo libre me dedico a leer, tejer, jugar a videojuegos y a hacer trabajo voluntario creando subtítulos para una web serie española y las conferencias de TED Talks, lo que me permite seguir formándome y ganar experiencia."""
-     
+
 
   [languages.ca]
     languageName = "Catalan"
