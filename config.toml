@@ -365,14 +365,10 @@ theme = "airspace-hugo"
       url = "/work"
     [[languages.en.menu.header]]
       weight = 3
-      name = "Blog"
-      url = "/blog"
-    [[languages.en.menu.header]]
-      weight = 4
       name = "Services"
       url = "/service"
     [[languages.en.menu.header]]
-      weight = 5
+      weight = 4
       name = "CPD"
       url = "/cpd"
     [[languages.en.menu.footer]]
@@ -397,14 +393,10 @@ theme = "airspace-hugo"
       url = "/es/work"
     [[languages.es.menu.header]]
       weight = 3
-      name = "Blog"
-      url = "/es/blog"
-    [[languages.es.menu.header]]
-      weight = 4
       name = "Servicios"
       url = "/es/service"
     [[languages.es.menu.header]]
-      weight = 5
+      weight = 4
       name = "CPD"
       url = "/es/cpd"
     [[languages.es.menu.footer]]
@@ -736,14 +728,10 @@ theme = "airspace-hugo"
       url = "/ca/work"
     [[languages.ca.menu.header]]
       weight = 3
-      name = "Blog"
-      url = "/ca/blog"
-    [[languages.ca.menu.header]]
-      weight = 4
       name = "Serveis"
       url = "/ca/service"
     [[languages.ca.menu.header]]
-      weight = 5
+      weight = 4
       name = "CPD"
       url = "/ca/cpd"
     [[languages.ca.menu.footer]]
